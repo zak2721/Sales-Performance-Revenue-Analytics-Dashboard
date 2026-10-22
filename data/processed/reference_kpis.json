@@ -1,0 +1,934 @@
+{
+  "overall": {
+    "Total Sales": 9153710.61,
+    "Gross Sales": 9865038.8,
+    "Total Orders": 16472,
+    "Total Order Lines": 31952,
+    "Total Units Sold": 108420,
+    "Total Customers": 1251,
+    "Average Order Value": 555.71,
+    "Average Selling Price": 84.43,
+    "Total Cost": 6569034.11,
+    "Total Profit": 2584676.5,
+    "Profit Margin %": 0.2824,
+    "Average Profit per Order": 156.91,
+    "Discount Amount": 711328.19,
+    "Discount Rate %": 0.0721,
+    "List Margin %": 0.3341,
+    "Sales Target": 9381930,
+    "Target Achievement %": 0.9757
+  },
+  "by_year": {
+    "2023": {
+      "Total Sales": 2809863.46,
+      "Gross Sales": 3034427.4,
+      "Total Orders": 4969,
+      "Total Order Lines": 9759,
+      "Total Units Sold": 34160,
+      "Total Customers": 818,
+      "Average Order Value": 565.48,
+      "Average Selling Price": 82.26,
+      "Total Cost": 2017348.05,
+      "Total Profit": 792515.41,
+      "Profit Margin %": 0.282,
+      "Average Profit per Order": 159.49,
+      "Discount Amount": 224563.94,
+      "Discount Rate %": 0.074,
+      "List Margin %": 0.3352,
+      "Sales Target": 2773660,
+      "Target Achievement %": 1.0131,
+      "Remaining Sales to Target": 0.0,
+      "Repeat Customers": 631,
+      "Repeat Customer Rate %": 0.7714,
+      "New Customers": 818,
+      "Returning Customers": 0,
+      "Orders per Customer": 6.0746
+    },
+    "2024": {
+      "Total Sales": 3177112.97,
+      "Gross Sales": 3425229.04,
+      "Total Orders": 5681,
+      "Total Order Lines": 11052,
+      "Total Units Sold": 38096,
+      "Total Customers": 971,
+      "Average Order Value": 559.25,
+      "Average Selling Price": 83.4,
+      "Total Cost": 2283328.62,
+      "Total Profit": 893784.35,
+      "Profit Margin %": 0.2813,
+      "Average Profit per Order": 157.33,
+      "Discount Amount": 248116.07,
+      "Discount Rate %": 0.0724,
+      "List Margin %": 0.3334,
+      "Sales Target": 3117900,
+      "Target Achievement %": 1.019,
+      "Remaining Sales to Target": 0.0,
+      "Repeat Customers": 734,
+      "Repeat Customer Rate %": 0.7559,
+      "New Customers": 261,
+      "Returning Customers": 710,
+      "Orders per Customer": 5.8507,
+      "Sales Previous Year": 2809863.46,
+      "Sales YoY Growth %": 0.1307,
+      "Profit YoY Growth %": 0.1278,
+      "Orders YoY Growth %": 0.1433,
+      "AOV YoY Growth %": -0.011
+    },
+    "2025": {
+      "Total Sales": 3166734.18,
+      "Gross Sales": 3405382.36,
+      "Total Orders": 5822,
+      "Total Order Lines": 11141,
+      "Total Units Sold": 36164,
+      "Total Customers": 1075,
+      "Average Order Value": 543.93,
+      "Average Selling Price": 87.57,
+      "Total Cost": 2268357.44,
+      "Total Profit": 898376.74,
+      "Profit Margin %": 0.2837,
+      "Average Profit per Order": 154.31,
+      "Discount Amount": 238648.18,
+      "Discount Rate %": 0.0701,
+      "List Margin %": 0.3339,
+      "Sales Target": 3490370,
+      "Target Achievement %": 0.9073,
+      "Remaining Sales to Target": 323635.82,
+      "Repeat Customers": 815,
+      "Repeat Customer Rate %": 0.7581,
+      "New Customers": 172,
+      "Returning Customers": 903,
+      "Orders per Customer": 5.4158,
+      "Sales Previous Year": 3177112.97,
+      "Sales YoY Growth %": -0.0033,
+      "Profit YoY Growth %": 0.0051,
+      "Orders YoY Growth %": 0.0248,
+      "AOV YoY Growth %": -0.0274
+    }
+  },
+  "by_region": {
+    "Midwest": {
+      "Total Sales": 1432800.63,
+      "Total Profit": 399253.01,
+      "Profit Margin %": 0.2787,
+      "Discount Rate %": 0.0714,
+      "Total Orders": 2464,
+      "Sales Share %": 0.1565,
+      "Sales 2023": 518481.05,
+      "Sales 2024": 453631.37,
+      "Sales 2025": 460688.21,
+      "Target Achievement % 2023": 0.8661,
+      "Target Achievement % 2024": 0.7881,
+      "Target Achievement % 2025": 0.9244
+    },
+    "Northeast": {
+      "Total Sales": 2340133.34,
+      "Total Profit": 660470.85,
+      "Profit Margin %": 0.2822,
+      "Discount Rate %": 0.0767,
+      "Total Orders": 4023,
+      "Sales Share %": 0.2556,
+      "Sales 2023": 732192.01,
+      "Sales 2024": 806984.88,
+      "Sales 2025": 800956.45,
+      "Target Achievement % 2023": 0.944,
+      "Target Achievement % 2024": 0.9941,
+      "Target Achievement % 2025": 0.9004
+    },
+    "South": {
+      "Total Sales": 2585623.06,
+      "Total Profit": 738838.78,
+      "Profit Margin %": 0.2857,
+      "Discount Rate %": 0.0699,
+      "Total Orders": 4930,
+      "Sales Share %": 0.2825,
+      "Sales 2023": 764871.64,
+      "Sales 2024": 880232.22,
+      "Sales 2025": 940519.2,
+      "Target Achievement % 2023": 1.1103,
+      "Target Achievement % 2024": 1.0352,
+      "Target Achievement % 2025": 0.974
+    },
+    "West": {
+      "Total Sales": 2795153.58,
+      "Total Profit": 786113.86,
+      "Profit Margin %": 0.2812,
+      "Discount Rate %": 0.0707,
+      "Total Orders": 5055,
+      "Sales Share %": 0.3054,
+      "Sales 2023": 794318.76,
+      "Sales 2024": 1036264.5,
+      "Sales 2025": 964570.32,
+      "Target Achievement % 2023": 1.1179,
+      "Target Achievement % 2024": 1.1773,
+      "Target Achievement % 2025": 0.8484
+    }
+  },
+  "by_category": {
+    "Electronics": {
+      "Total Sales": 4413535.23,
+      "Total Profit": 851688.06,
+      "Profit Margin %": 0.193,
+      "Discount Rate %": 0.0503,
+      "Total Orders": 7168,
+      "Sales Share %": 0.4822,
+      "Sales 2023": 1340502.9,
+      "Sales 2024": 1520164.87,
+      "Sales 2025": 1552867.46,
+      "Target Achievement % 2023": 0.9926,
+      "Target Achievement % 2024": 1.0221,
+      "Target Achievement % 2025": 0.9307
+    },
+    "Furniture": {
+      "Total Sales": 2329376.07,
+      "Total Profit": 726538.44,
+      "Profit Margin %": 0.3119,
+      "Discount Rate %": 0.1154,
+      "Total Orders": 3728,
+      "Sales Share %": 0.2545,
+      "Sales 2023": 728742.91,
+      "Sales 2024": 803606.49,
+      "Sales 2025": 797026.67,
+      "Target Achievement % 2023": 1.0315,
+      "Target Achievement % 2024": 0.9949,
+      "Target Achievement % 2025": 0.9019
+    },
+    "Home & Kitchen": {
+      "Total Sales": 764841.92,
+      "Total Profit": 295988.51,
+      "Profit Margin %": 0.387,
+      "Discount Rate %": 0.0462,
+      "Total Orders": 5743,
+      "Sales Share %": 0.0836,
+      "Sales 2023": 229996.31,
+      "Sales 2024": 261573.29,
+      "Sales 2025": 273272.32,
+      "Target Achievement % 2023": 1.0101,
+      "Target Achievement % 2024": 1.029,
+      "Target Achievement % 2025": 0.9487
+    },
+    "Office Supplies": {
+      "Total Sales": 1645957.39,
+      "Total Profit": 710461.49,
+      "Profit Margin %": 0.4316,
+      "Discount Rate %": 0.0768,
+      "Total Orders": 9157,
+      "Sales Share %": 0.1798,
+      "Sales 2023": 510621.34,
+      "Sales 2024": 591768.32,
+      "Sales 2025": 543567.73,
+      "Target Achievement % 2023": 1.0442,
+      "Target Achievement % 2024": 1.0407,
+      "Target Achievement % 2025": 0.8361
+    }
+  },
+  "by_channel": {
+    "B2B Wholesale": {
+      "Total Sales": 4674200.14,
+      "Total Profit": 1347458.02,
+      "Profit Margin %": 0.2883,
+      "Discount Rate %": 0.0991,
+      "Total Orders": 4037,
+      "Sales Share %": 0.5106,
+      "Sales 2023": 1554372.13,
+      "Sales 2024": 1608432.52,
+      "Sales 2025": 1511395.49,
+      "Target Achievement % 2023": 1.053,
+      "Target Achievement % 2024": 0.9332,
+      "Target Achievement % 2025": 0.8545
+    },
+    "Marketplace": {
+      "Total Sales": 867621.59,
+      "Total Profit": 223461.79,
+      "Profit Margin %": 0.2576,
+      "Discount Rate %": 0.0587,
+      "Total Orders": 2485,
+      "Sales Share %": 0.0948,
+      "Sales 2023": 235664.06,
+      "Sales 2024": 288759.99,
+      "Sales 2025": 343197.54,
+      "Target Achievement % 2023": 0.9882,
+      "Target Achievement % 2024": 1.108,
+      "Target Achievement % 2025": 1.0813
+    },
+    "Online Store": {
+      "Total Sales": 2584124.81,
+      "Total Profit": 710445.13,
+      "Profit Margin %": 0.2749,
+      "Discount Rate %": 0.0379,
+      "Total Orders": 7164,
+      "Sales Share %": 0.2823,
+      "Sales 2023": 671732.75,
+      "Sales 2024": 927181.66,
+      "Sales 2025": 985210.4,
+      "Target Achievement % 2023": 1.0336,
+      "Target Achievement % 2024": 1.2416,
+      "Target Achievement % 2025": 0.9703
+    },
+    "Retail Stores": {
+      "Total Sales": 1027764.07,
+      "Total Profit": 303311.56,
+      "Profit Margin %": 0.2951,
+      "Discount Rate %": 0.0384,
+      "Total Orders": 2786,
+      "Sales Share %": 0.1123,
+      "Sales 2023": 348094.52,
+      "Sales 2024": 352738.8,
+      "Sales 2025": 326930.75,
+      "Target Achievement % 2023": 0.8508,
+      "Target Achievement % 2024": 0.9116,
+      "Target Achievement % 2025": 0.8407
+    }
+  },
+  "by_subcategory": {
+    "Accessories": {
+      "Total Sales": 712534.81,
+      "Total Profit": 290711.34,
+      "Profit Margin %": 0.408,
+      "Discount Rate %": 0.0658,
+      "Total Orders": 3003,
+      "Sales Share %": 0.0778,
+      "Sales 2023": 209850.91,
+      "Sales 2024": 238388.45,
+      "Sales 2025": 264295.45
+    },
+    "Audio": {
+      "Total Sales": 655759.73,
+      "Total Profit": 202795.73,
+      "Profit Margin %": 0.3093,
+      "Discount Rate %": 0.0623,
+      "Total Orders": 2285,
+      "Sales Share %": 0.0716,
+      "Sales 2023": 215180.93,
+      "Sales 2024": 214872.71,
+      "Sales 2025": 225706.09
+    },
+    "Cookware": {
+      "Total Sales": 385305.13,
+      "Total Profit": 154137.46,
+      "Profit Margin %": 0.4,
+      "Discount Rate %": 0.0467,
+      "Total Orders": 2295,
+      "Sales Share %": 0.0421,
+      "Sales 2023": 115531.02,
+      "Sales 2024": 126946.88,
+      "Sales 2025": 142827.23
+    },
+    "Desks": {
+      "Total Sales": 728956.62,
+      "Total Profit": 209393.89,
+      "Profit Margin %": 0.2873,
+      "Discount Rate %": 0.133,
+      "Total Orders": 829,
+      "Sales Share %": 0.0796,
+      "Sales 2023": 239693.51,
+      "Sales 2024": 235271.4,
+      "Sales 2025": 253991.71
+    },
+    "Home Decor": {
+      "Total Sales": 79736.12,
+      "Total Profit": 37836.7,
+      "Profit Margin %": 0.4745,
+      "Discount Rate %": 0.0439,
+      "Total Orders": 1425,
+      "Sales Share %": 0.0087,
+      "Sales 2023": 23687.72,
+      "Sales 2024": 28215.63,
+      "Sales 2025": 27832.77
+    },
+    "Laptops": {
+      "Total Sales": 2333024.01,
+      "Total Profit": 245202.85,
+      "Profit Margin %": 0.1051,
+      "Discount Rate %": 0.039,
+      "Total Orders": 1412,
+      "Sales Share %": 0.2549,
+      "Sales 2023": 713839.27,
+      "Sales 2024": 831863.38,
+      "Sales 2025": 787321.36
+    },
+    "Lighting": {
+      "Total Sales": 124928.6,
+      "Total Profit": 53714.35,
+      "Profit Margin %": 0.43,
+      "Discount Rate %": 0.0447,
+      "Total Orders": 1348,
+      "Sales Share %": 0.0136,
+      "Sales 2023": 35935.44,
+      "Sales 2024": 43942.42,
+      "Sales 2025": 45050.74
+    },
+    "Monitors": {
+      "Total Sales": 712216.68,
+      "Total Profit": 112978.14,
+      "Profit Margin %": 0.1586,
+      "Discount Rate %": 0.0595,
+      "Total Orders": 1500,
+      "Sales Share %": 0.0778,
+      "Sales 2023": 201631.79,
+      "Sales 2024": 235040.33,
+      "Sales 2025": 275544.56
+    },
+    "Office Chairs": {
+      "Total Sales": 1010174.39,
+      "Total Profit": 355944.78,
+      "Profit Margin %": 0.3524,
+      "Discount Rate %": 0.1084,
+      "Total Orders": 1550,
+      "Sales Share %": 0.1104,
+      "Sales 2023": 312342.45,
+      "Sales 2024": 362985.55,
+      "Sales 2025": 334846.39
+    },
+    "Organization": {
+      "Total Sales": 290774.05,
+      "Total Profit": 129646.35,
+      "Profit Margin %": 0.4459,
+      "Discount Rate %": 0.0769,
+      "Total Orders": 1627,
+      "Sales Share %": 0.0318,
+      "Sales 2023": 87042.5,
+      "Sales 2024": 105038.72,
+      "Sales 2025": 98692.83
+    },
+    "Paper & Notebooks": {
+      "Total Sales": 345978.45,
+      "Total Profit": 166207.52,
+      "Profit Margin %": 0.4804,
+      "Discount Rate %": 0.0779,
+      "Total Orders": 3759,
+      "Sales Share %": 0.0378,
+      "Sales 2023": 105886.58,
+      "Sales 2024": 117276.1,
+      "Sales 2025": 122815.77
+    },
+    "Printing Supplies": {
+      "Total Sales": 755859.22,
+      "Total Profit": 291021.46,
+      "Profit Margin %": 0.385,
+      "Discount Rate %": 0.0764,
+      "Total Orders": 1777,
+      "Sales Share %": 0.0826,
+      "Sales 2023": 239318.81,
+      "Sales 2024": 279127.42,
+      "Sales 2025": 237412.99
+    },
+    "Small Appliances": {
+      "Total Sales": 174872.07,
+      "Total Profit": 50300.0,
+      "Profit Margin %": 0.2876,
+      "Discount Rate %": 0.0471,
+      "Total Orders": 1363,
+      "Sales Share %": 0.0191,
+      "Sales 2023": 54842.13,
+      "Sales 2024": 62468.36,
+      "Sales 2025": 57561.58
+    },
+    "Storage": {
+      "Total Sales": 272487.87,
+      "Total Profit": 99220.48,
+      "Profit Margin %": 0.3641,
+      "Discount Rate %": 0.0639,
+      "Total Orders": 1082,
+      "Sales Share %": 0.0298,
+      "Sales 2023": 82996.26,
+      "Sales 2024": 94966.4,
+      "Sales 2025": 94525.21
+    },
+    "Tables": {
+      "Total Sales": 317757.19,
+      "Total Profit": 61979.29,
+      "Profit Margin %": 0.1951,
+      "Discount Rate %": 0.1374,
+      "Total Orders": 563,
+      "Sales Share %": 0.0347,
+      "Sales 2023": 93710.69,
+      "Sales 2024": 110383.14,
+      "Sales 2025": 113663.36
+    },
+    "Writing Instruments": {
+      "Total Sales": 253345.67,
+      "Total Profit": 123586.16,
+      "Profit Margin %": 0.4878,
+      "Discount Rate %": 0.0766,
+      "Total Orders": 4479,
+      "Sales Share %": 0.0277,
+      "Sales 2023": 78373.45,
+      "Sales 2024": 90326.08,
+      "Sales 2025": 84646.14
+    }
+  },
+  "by_segment": {
+    "Consumer": {
+      "Total Sales": 2005655.71,
+      "Total Profit": 560864.07,
+      "Profit Margin %": 0.2796,
+      "Discount Rate %": 0.0427,
+      "Total Orders": 5620,
+      "Sales Share %": 0.2191,
+      "Sales 2023": 558635.17,
+      "Sales 2024": 680843.71,
+      "Sales 2025": 766176.83
+    },
+    "Corporate": {
+      "Total Sales": 4223344.69,
+      "Total Profit": 1205966.28,
+      "Profit Margin %": 0.2855,
+      "Discount Rate %": 0.0867,
+      "Total Orders": 5404,
+      "Sales Share %": 0.4614,
+      "Sales 2023": 1352606.93,
+      "Sales 2024": 1428125.29,
+      "Sales 2025": 1442612.47
+    },
+    "Small Business": {
+      "Total Sales": 2924710.21,
+      "Total Profit": 817846.15,
+      "Profit Margin %": 0.2796,
+      "Discount Rate %": 0.0703,
+      "Total Orders": 5448,
+      "Sales Share %": 0.3195,
+      "Sales 2023": 898621.36,
+      "Sales 2024": 1068143.97,
+      "Sales 2025": 957944.88
+    }
+  },
+  "by_discount_band": {
+    "1-10%": {
+      "Total Sales": 2369817.14,
+      "Total Profit": 660370.27,
+      "Profit Margin %": 0.2787,
+      "Discount Rate %": 0.0908,
+      "Total Orders": 6605,
+      "Sales Share %": 0.2589,
+      "Sales 2023": 720073.44,
+      "Sales 2024": 841295.87,
+      "Sales 2025": 808447.83
+    },
+    "11-20%": {
+      "Total Sales": 1896393.73,
+      "Total Profit": 446774.35,
+      "Profit Margin %": 0.2356,
+      "Discount Rate %": 0.1707,
+      "Total Orders": 4658,
+      "Sales Share %": 0.2072,
+      "Sales 2023": 589127.94,
+      "Sales 2024": 666762.87,
+      "Sales 2025": 640502.92
+    },
+    "21-30%": {
+      "Total Sales": 97380.22,
+      "Total Profit": 12264.31,
+      "Profit Margin %": 0.1259,
+      "Discount Rate %": 0.3,
+      "Total Orders": 182,
+      "Sales Share %": 0.0106,
+      "Sales 2023": 35895.13,
+      "Sales 2024": 37076.74,
+      "Sales 2025": 24408.35
+    },
+    "31-40%": {
+      "Total Sales": 64074.02,
+      "Total Profit": -1503.11,
+      "Profit Margin %": -0.0235,
+      "Discount Rate %": 0.4,
+      "Total Orders": 140,
+      "Sales Share %": 0.007,
+      "Sales 2023": 23234.37,
+      "Sales 2024": 16369.28,
+      "Sales 2025": 24470.37
+    },
+    "No discount": {
+      "Total Sales": 4726045.5,
+      "Total Profit": 1466770.68,
+      "Profit Margin %": 0.3104,
+      "Discount Rate %": 0.0,
+      "Total Orders": 12126,
+      "Sales Share %": 0.5163,
+      "Sales 2023": 1441532.58,
+      "Sales 2024": 1615608.21,
+      "Sales 2025": 1668904.71
+    }
+  },
+  "by_state_top5": {
+    "California": {
+      "Total Sales": 1690196.35,
+      "Total Profit": 472647.59,
+      "Profit Margin %": 0.2796,
+      "Discount Rate %": 0.0704,
+      "Total Orders": 2972,
+      "Sales Share %": 0.1846,
+      "Sales 2023": 473006.95,
+      "Sales 2024": 629147.52,
+      "Sales 2025": 588041.88
+    },
+    "Texas": {
+      "Total Sales": 1124502.0,
+      "Total Profit": 319739.73,
+      "Profit Margin %": 0.2843,
+      "Discount Rate %": 0.0651,
+      "Total Orders": 2274,
+      "Sales Share %": 0.1228,
+      "Sales 2023": 323603.87,
+      "Sales 2024": 390358.9,
+      "Sales 2025": 410539.23
+    },
+    "Massachusetts": {
+      "Total Sales": 676569.7,
+      "Total Profit": 184764.36,
+      "Profit Margin %": 0.2731,
+      "Discount Rate %": 0.0832,
+      "Total Orders": 1047,
+      "Sales Share %": 0.0739,
+      "Sales 2023": 185825.71,
+      "Sales 2024": 235115.37,
+      "Sales 2025": 255628.62
+    },
+    "Florida": {
+      "Total Sales": 669023.58,
+      "Total Profit": 190731.88,
+      "Profit Margin %": 0.2851,
+      "Discount Rate %": 0.0741,
+      "Total Orders": 1253,
+      "Sales Share %": 0.0731,
+      "Sales 2023": 185873.45,
+      "Sales 2024": 250054.87,
+      "Sales 2025": 233095.26
+    },
+    "New York": {
+      "Total Sales": 658989.8,
+      "Total Profit": 186717.13,
+      "Profit Margin %": 0.2833,
+      "Discount Rate %": 0.0744,
+      "Total Orders": 1292,
+      "Sales Share %": 0.072,
+      "Sales 2023": 189988.8,
+      "Sales 2024": 232981.53,
+      "Sales 2025": 236019.47
+    }
+  },
+  "top10_products": [
+    {
+      "Product": "Nimbus 13 Air Laptop",
+      "Subcategory": "Laptops",
+      "Sales": 612913.04,
+      "Profit Margin %": 0.0761,
+      "Contribution %": 0.067
+    },
+    {
+      "Product": "Summit 14 Business Laptop",
+      "Subcategory": "Laptops",
+      "Sales": 564466.0,
+      "Profit Margin %": 0.1432,
+      "Contribution %": 0.0617
+    },
+    {
+      "Product": "Orion 16 Workstation Laptop",
+      "Subcategory": "Laptops",
+      "Sales": 509497.48,
+      "Profit Margin %": 0.1357,
+      "Contribution %": 0.0557
+    },
+    {
+      "Product": "Atlas Drafting Stool",
+      "Subcategory": "Office Chairs",
+      "Sales": 403733.74,
+      "Profit Margin %": 0.3364,
+      "Contribution %": 0.0441
+    },
+    {
+      "Product": "Vertex 15 Pro Laptop",
+      "Subcategory": "Laptops",
+      "Sales": 349274.18,
+      "Profit Margin %": 0.0901,
+      "Contribution %": 0.0382
+    },
+    {
+      "Product": "Vertex Photo Paper 50-Pack",
+      "Subcategory": "Printing Supplies",
+      "Sales": 346749.11,
+      "Profit Margin %": 0.4099,
+      "Contribution %": 0.0379
+    },
+    {
+      "Product": "Atlas Compact Desk",
+      "Subcategory": "Desks",
+      "Sales": 322689.08,
+      "Profit Margin %": 0.2683,
+      "Contribution %": 0.0353
+    },
+    {
+      "Product": "Aurora 14 Ultrabook",
+      "Subcategory": "Laptops",
+      "Sales": 296873.31,
+      "Profit Margin %": 0.0578,
+      "Contribution %": 0.0324
+    },
+    {
+      "Product": "Vertex Laser Toner High-Yield",
+      "Subcategory": "Printing Supplies",
+      "Sales": 278388.53,
+      "Profit Margin %": 0.3797,
+      "Contribution %": 0.0304
+    },
+    {
+      "Product": "Summit Mesh Executive Chair",
+      "Subcategory": "Office Chairs",
+      "Sales": 272854.96,
+      "Profit Margin %": 0.3689,
+      "Contribution %": 0.0298
+    }
+  ],
+  "bottom5_products_by_profit": [
+    {
+      "Product": "Halcyon Wall Clock",
+      "Sales": 3388.86,
+      "Profit": 1759.03,
+      "Profit Margin %": 0.5191
+    },
+    {
+      "Product": "Halcyon Framed Wall Art",
+      "Sales": 8924.29,
+      "Profit": 4083.06,
+      "Profit Margin %": 0.4575
+    },
+    {
+      "Product": "Halcyon Throw Pillow Set",
+      "Sales": 9566.93,
+      "Profit": 4742.01,
+      "Profit Margin %": 0.4957
+    },
+    {
+      "Product": "Lumen LED Desk Lamp",
+      "Sales": 13431.6,
+      "Profit": 6378.64,
+      "Profit Margin %": 0.4749
+    },
+    {
+      "Product": "Cedar Nonstick Fry Pan Set",
+      "Sales": 14659.61,
+      "Profit": 6476.32,
+      "Profit Margin %": 0.4418
+    }
+  ],
+  "lowest_margin_products": [
+    {
+      "Product": "Aurora 14 Ultrabook",
+      "Sales": 296873.31,
+      "Profit Margin %": 0.0578,
+      "Discount Rate %": 0.0458
+    },
+    {
+      "Product": "Nimbus 13 Air Laptop",
+      "Sales": 612913.04,
+      "Profit Margin %": 0.0761,
+      "Discount Rate %": 0.0414
+    },
+    {
+      "Product": "Vertex 15 Pro Laptop",
+      "Sales": 349274.18,
+      "Profit Margin %": 0.0901,
+      "Discount Rate %": 0.0444
+    },
+    {
+      "Product": "Orion 16 Workstation Laptop",
+      "Sales": 509497.48,
+      "Profit Margin %": 0.1357,
+      "Discount Rate %": 0.0319
+    },
+    {
+      "Product": "Summit 14 Business Laptop",
+      "Sales": 564466.0,
+      "Profit Margin %": 0.1432,
+      "Discount Rate %": 0.0358
+    }
+  ],
+  "top10_products_sales_share": 0.4323,
+  "products_with_negative_profit": 0,
+  "product_discount_margin_correlation": -0.1098,
+  "customers": {
+    "Total Customers": 1251,
+    "Top 10 Customers Sales Share %": 0.1363,
+    "Top 20% Customers Sales Share %": 0.7166,
+    "Repeat Customers (2023-2025)": 1120,
+    "Repeat Customer Rate % (2023-2025)": 0.8953,
+    "Customers in DimCustomer with no orders": 149,
+    "top5": [
+      {
+        "Customer": "Redwoodvalley Consulting LLC",
+        "Segment": "Corporate",
+        "Sales": 219256.78,
+        "Contribution %": 0.024
+      },
+      {
+        "Customer": "Maplefield Design Studio LLC",
+        "Segment": "Corporate",
+        "Sales": 210588.56,
+        "Contribution %": 0.023
+      },
+      {
+        "Customer": "Beaconstone Marketing LLC",
+        "Segment": "Corporate",
+        "Sales": 136450.22,
+        "Contribution %": 0.0149
+      },
+      {
+        "Customer": "Cobaltstone Marketing LLC",
+        "Segment": "Corporate",
+        "Sales": 122125.83,
+        "Contribution %": 0.0133
+      },
+      {
+        "Customer": "Silverworks Law Partners LLC",
+        "Segment": "Corporate",
+        "Sales": 111128.5,
+        "Contribution %": 0.0121
+      }
+    ],
+    "value_tier": {
+      "A - Top 10%": 0.553,
+      "B - Next 20%": 0.2637,
+      "C - Remaining 70%": 0.1834
+    },
+    "value_tier_customers": {
+      "C - Remaining 70%": 876,
+      "B - Next 20%": 250,
+      "No purchases": 149,
+      "A - Top 10%": 125
+    },
+    "purchase_frequency_customers": {
+      "Frequent (10+)": 477,
+      "Repeat (4-9)": 385,
+      "Occasional (2-3)": 258,
+      "No purchases": 149,
+      "One-time (1)": 131
+    }
+  },
+  "profitability": {
+    "Discounted Sales Share %": 0.4837,
+    "Profit Margin % (Full-Price Lines)": 0.3104,
+    "Profit Margin % (Discounted Lines)": 0.2525,
+    "Margin Erosion from Discounts": 0.0517,
+    "Loss-Making Lines": 228,
+    "Loss-Making Sales": 240166.59,
+    "Loss on Loss-Making Lines": -13275.33,
+    "Loss-making lines by subcategory": {
+      "Laptops": 114,
+      "Tables": 52,
+      "Desks": 34,
+      "Monitors": 28
+    }
+  },
+  "monthly_sales": {
+    "2023-01": 173766.65,
+    "2023-02": 167194.2,
+    "2023-03": 207006.76,
+    "2023-04": 236337.74,
+    "2023-05": 288692.85,
+    "2023-06": 230666.84,
+    "2023-07": 241356.44,
+    "2023-08": 252900.9,
+    "2023-09": 203970.33,
+    "2023-10": 220648.59,
+    "2023-11": 276829.44,
+    "2023-12": 310492.72,
+    "2024-01": 257472.69,
+    "2024-02": 205210.62,
+    "2024-03": 222959.82,
+    "2024-04": 240643.05,
+    "2024-05": 279572.0,
+    "2024-06": 243052.97,
+    "2024-07": 268776.4,
+    "2024-08": 282400.05,
+    "2024-09": 261455.51,
+    "2024-10": 248611.02,
+    "2024-11": 309608.39,
+    "2024-12": 357350.45,
+    "2025-01": 230004.14,
+    "2025-02": 213390.47,
+    "2025-03": 241884.86,
+    "2025-04": 256979.29,
+    "2025-05": 239437.42,
+    "2025-06": 239893.69,
+    "2025-07": 221518.04,
+    "2025-08": 311885.75,
+    "2025-09": 251385.87,
+    "2025-10": 283227.13,
+    "2025-11": 322498.82,
+    "2025-12": 354628.7
+  },
+  "time": {
+    "Sales Dec 2025": 354628.7,
+    "Sales Previous Month (Dec 2025 context)": 322498.82,
+    "Sales MoM Growth % (Dec 2025)": 0.0996,
+    "Sales Rolling 3M Avg (Dec 2025)": 320118.22,
+    "Sales YTD at Jun 2025": 1421589.87,
+    "Sales PYTD at Jun 2025": 1448911.15,
+    "Profit YTD 2025 (full year)": 898376.74
+  },
+  "seasonality": {
+    "monthly share of annual sales by year": {
+      "2023": {
+        "1": 0.0618,
+        "2": 0.0595,
+        "3": 0.0737,
+        "4": 0.0841,
+        "5": 0.1027,
+        "6": 0.0821,
+        "7": 0.0859,
+        "8": 0.09,
+        "9": 0.0726,
+        "10": 0.0785,
+        "11": 0.0985,
+        "12": 0.1105
+      },
+      "2024": {
+        "1": 0.081,
+        "2": 0.0646,
+        "3": 0.0702,
+        "4": 0.0757,
+        "5": 0.088,
+        "6": 0.0765,
+        "7": 0.0846,
+        "8": 0.0889,
+        "9": 0.0823,
+        "10": 0.0783,
+        "11": 0.0974,
+        "12": 0.1125
+      },
+      "2025": {
+        "1": 0.0726,
+        "2": 0.0674,
+        "3": 0.0764,
+        "4": 0.0811,
+        "5": 0.0756,
+        "6": 0.0758,
+        "7": 0.07,
+        "8": 0.0985,
+        "9": 0.0794,
+        "10": 0.0894,
+        "11": 0.1018,
+        "12": 0.112
+      }
+    },
+    "Q4 share by year": {
+      "2023": 0.2875,
+      "2024": 0.2882,
+      "2025": 0.3033
+    },
+    "Nov+Dec share by year": {
+      "2023": 0.209,
+      "2024": 0.2099,
+      "2025": 0.2138
+    }
+  },
+  "operations": {
+    "Open Orders": 70,
+    "Average Days to Ship": 3.6684,
+    "Average Days to Ship by channel": {
+      "B2B Wholesale": 6.4782,
+      "Marketplace": 4.5401,
+      "Online Store": 3.0226,
+      "Retail Stores": 0.5018
+    }
+  }
+}

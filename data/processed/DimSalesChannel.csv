@@ -1,0 +1,5 @@
+ChannelKey,ChannelCode,ChannelName,ChannelType
+1,ONL,Online Store,Direct - Digital
+2,RTL,Retail Stores,Direct - Physical
+3,MKT,Marketplace,Third-Party
+4,B2B,B2B Wholesale,Wholesale

@@ -1,0 +1,83 @@
+{
+  "row_counts": {
+    "FactSales": 31952,
+    "FactSalesTarget": 2304,
+    "DimDate": 1096,
+    "DimProduct": 71,
+    "DimCustomer": 1400,
+    "DimGeography": 29,
+    "DimSalesChannel": 4
+  },
+  "steps": [
+    {
+      "step": "load",
+      "rows_affected": 32117,
+      "detail": "Raw order-line export rows loaded as text"
+    },
+    {
+      "step": "remove_exact_duplicates",
+      "rows_affected": 159,
+      "detail": "Identical rows re-sent by the export were removed"
+    },
+    {
+      "step": "remove_test_accounts",
+      "rows_affected": 6,
+      "detail": "Internal test-account lines (C-TEST-*) removed"
+    },
+    {
+      "step": "standardise_category_text",
+      "rows_affected": 452,
+      "detail": "Category casing variants (e.g. 'FURNITURE', 'electronics') mapped to conformed names after trimming"
+    },
+    {
+      "step": "standardise_region_text",
+      "rows_affected": 319,
+      "detail": "Region casing variants mapped to conformed names after trimming"
+    },
+    {
+      "step": "standardise_channel_names",
+      "rows_affected": 958,
+      "detail": "Legacy channel names (e.g. 'Web Store', 'Wholesale') mapped to 4 conformed channels"
+    },
+    {
+      "step": "conform_product_attributes",
+      "rows_affected": 0,
+      "detail": "Lines whose product name/category disagreed with the product master"
+    },
+    {
+      "step": "convert_types",
+      "rows_affected": 31952,
+      "detail": "Parsed US dates (MM/DD/YYYY), currency text ($1,234.56) and percent text (15%)"
+    },
+    {
+      "step": "open_orders_blank_ship_date",
+      "rows_affected": 138,
+      "detail": "Blank ship dates kept as blank: orders still open at the 2025-12-31 extract (not imputed)"
+    },
+    {
+      "step": "recompute_line_totals",
+      "rows_affected": 40,
+      "detail": "Reported Line Total did not equal Qty x Price x (1 - Discount); replaced by recomputed net sales (overstatement removed: $2,367.57)"
+    },
+    {
+      "step": "customers_without_orders",
+      "rows_affected": 149,
+      "detail": "Customers in the CRM with no 2023-2025 orders kept in DimCustomer (ValueTier = 'No purchases')"
+    },
+    {
+      "step": "load_targets",
+      "rows_affected": 2304,
+      "detail": "Finance target rows loaded from Excel"
+    },
+    {
+      "step": "standardise_target_regions",
+      "rows_affected": 162,
+      "detail": "Legacy region spelling 'Mid-West' mapped to 'Midwest'"
+    },
+    {
+      "step": "write_outputs",
+      "rows_affected": 31952,
+      "detail": "Fact rows written; tables: FactSales, FactSalesTarget, DimDate, DimProduct, DimCustomer, DimGeography, DimSalesChannel"
+    }
+  ]
+}

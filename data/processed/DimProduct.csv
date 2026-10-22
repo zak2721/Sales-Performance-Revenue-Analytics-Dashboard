@@ -1,0 +1,72 @@
+ProductKey,ProductID,ProductName,Category,Subcategory,Brand,ListPrice,StandardCost,PriceBand,PriceBandOrder
+1,ELE-ACC-001,Keystone Wireless Mouse,Electronics,Accessories,Keystone,40.99,22.27,Under $50,1
+2,ELE-ACC-002,Keystone Mechanical Keyboard,Electronics,Accessories,Keystone,48.99,26.85,Under $50,1
+3,ELE-ACC-003,Atlas USB-C Hub,Electronics,Accessories,Atlas,72.99,38.76,$50-$199,2
+4,ELE-ACC-004,Cedar Laptop Sleeve 15in,Electronics,Accessories,Cedar,81.99,45.88,$50-$199,2
+5,ELE-ACC-005,Atlas 65W USB-C Charger,Electronics,Accessories,Atlas,84.99,48.38,$50-$199,2
+6,ELE-AUD-001,Halcyon Wireless Earbuds,Electronics,Audio,Halcyon,55.99,37.26,$50-$199,2
+7,ELE-AUD-002,Halcyon Over-Ear Headphones,Electronics,Audio,Halcyon,87.99,55.57,$50-$199,2
+8,ELE-AUD-003,Cedar Bluetooth Speaker,Electronics,Audio,Cedar,237.99,155.5,$200-$499,3
+9,ELE-AUD-004,Atlas Conference Speakerphone,Electronics,Audio,Atlas,254.99,172.04,$200-$499,3
+10,ELE-AUD-005,Nimbus USB Headset,Electronics,Audio,Nimbus,317.99,199.6,$200-$499,3
+11,ELE-LAP-001,Aurora 14 Ultrabook,Electronics,Laptops,Aurora,906.99,815.47,$500+,4
+12,ELE-LAP-002,Vertex 15 Pro Laptop,Electronics,Laptops,Vertex,1227.99,1067.74,$500+,4
+13,ELE-LAP-003,Nimbus 13 Air Laptop,Electronics,Laptops,Nimbus,1466.99,1299.17,$500+,4
+14,ELE-LAP-004,Orion 16 Workstation Laptop,Electronics,Laptops,Orion,1537.99,1286.84,$500+,4
+15,ELE-LAP-005,Summit 14 Business Laptop,Electronics,Laptops,Summit,1616.99,1335.96,$500+,4
+16,ELE-MON-001,Lumen 24in FHD Monitor,Electronics,Monitors,Lumen,215.99,168.8,$200-$499,3
+17,ELE-MON-002,Lumen 27in QHD Monitor,Electronics,Monitors,Lumen,263.99,211.3,$200-$499,3
+18,ELE-MON-003,Vertex 32in 4K Monitor,Electronics,Monitors,Vertex,359.99,282.45,$200-$499,3
+19,ELE-MON-004,Orion 34in Ultrawide Monitor,Electronics,Monitors,Orion,440.99,348.65,$200-$499,3
+20,FUR-CHR-001,Summit Ergonomic Task Chair,Furniture,Office Chairs,Summit,219.99,129.79,$200-$499,3
+21,FUR-CHR-002,Summit Mesh Executive Chair,Furniture,Office Chairs,Summit,394.99,222.14,$200-$499,3
+22,FUR-CHR-003,Cedar Guest Chair,Furniture,Office Chairs,Cedar,441.99,245.83,$200-$499,3
+23,FUR-CHR-004,Atlas Drafting Stool,Furniture,Office Chairs,Atlas,491.99,292.19,$200-$499,3
+24,FUR-DSK-001,Keystone Sit-Stand Desk,Furniture,Desks,Keystone,313.99,190.0,$200-$499,3
+25,FUR-DSK-002,Cedar Writing Desk,Furniture,Desks,Cedar,439.99,263.69,$200-$499,3
+26,FUR-DSK-003,Summit L-Shaped Desk,Furniture,Desks,Summit,562.99,346.35,$500+,4
+27,FUR-DSK-004,Atlas Compact Desk,Furniture,Desks,Atlas,878.99,553.15,$500+,4
+28,FUR-STO-001,Keystone 2-Drawer File Cabinet,Furniture,Storage,Keystone,93.99,55.02,$50-$199,2
+29,FUR-STO-002,Cedar 5-Shelf Bookcase,Furniture,Storage,Cedar,113.99,68.35,$50-$199,2
+30,FUR-STO-003,Atlas Mobile Pedestal,Furniture,Storage,Atlas,136.99,80.36,$50-$199,2
+31,FUR-STO-004,Keystone Storage Cabinet,Furniture,Storage,Keystone,300.99,181.5,$200-$499,3
+32,FUR-TBL-001,Summit Conference Table 8ft,Furniture,Tables,Summit,265.99,194.15,$200-$499,3
+33,FUR-TBL-002,Cedar Round Meeting Table,Furniture,Tables,Cedar,283.99,206.52,$200-$499,3
+34,FUR-TBL-003,Atlas Folding Training Table,Furniture,Tables,Atlas,415.99,274.97,$200-$499,3
+35,FUR-TBL-004,Cedar Coffee Table,Furniture,Tables,Cedar,562.99,381.65,$500+,4
+36,HOM-APL-001,Cedar Drip Coffee Maker,Home & Kitchen,Small Appliances,Cedar,51.99,36.11,$50-$199,2
+37,HOM-APL-002,Cedar Electric Kettle,Home & Kitchen,Small Appliances,Cedar,96.99,67.61,$50-$199,2
+38,HOM-APL-003,Lumen Air Fryer,Home & Kitchen,Small Appliances,Lumen,127.99,84.28,$50-$199,2
+39,HOM-APL-004,Halcyon Countertop Blender,Home & Kitchen,Small Appliances,Halcyon,170.99,114.77,$50-$199,2
+40,HOM-CKW-001,Cedar Nonstick Fry Pan Set,Home & Kitchen,Cookware,Cedar,34.99,18.64,Under $50,1
+41,HOM-CKW-002,Cedar Stainless Cookware 10-Piece,Home & Kitchen,Cookware,Cedar,55.99,32.68,$50-$199,2
+42,HOM-CKW-003,Atlas Cast Iron Skillet,Home & Kitchen,Cookware,Atlas,101.99,55.16,$50-$199,2
+43,HOM-CKW-004,Cedar Chef Knife Set,Home & Kitchen,Cookware,Cedar,178.99,106.02,$50-$199,2
+44,HOM-CKW-005,Atlas Bakeware Set,Home & Kitchen,Cookware,Atlas,194.99,110.58,$50-$199,2
+45,HOM-DEC-001,Halcyon Wall Clock,Home & Kitchen,Home Decor,Halcyon,18.99,8.75,Under $50,1
+46,HOM-DEC-002,Halcyon Throw Pillow Set,Home & Kitchen,Home Decor,Halcyon,31.99,15.4,Under $50,1
+47,HOM-DEC-003,Halcyon Framed Wall Art,Home & Kitchen,Home Decor,Halcyon,32.99,17.04,Under $50,1
+48,HOM-DEC-004,Halcyon Ceramic Vase,Home & Kitchen,Home Decor,Halcyon,42.99,21.07,Under $50,1
+49,HOM-DEC-005,Halcyon Area Rug 5x7,Home & Kitchen,Home Decor,Halcyon,74.99,38.98,$50-$199,2
+50,HOM-LGT-001,Lumen LED Desk Lamp,Home & Kitchen,Lighting,Lumen,38.99,19.43,Under $50,1
+51,HOM-LGT-002,Lumen Floor Lamp,Home & Kitchen,Lighting,Lumen,55.99,31.44,$50-$199,2
+52,HOM-LGT-003,Lumen Smart Bulb 4-Pack,Home & Kitchen,Lighting,Lumen,58.99,34.4,$50-$199,2
+53,HOM-LGT-004,Lumen Pendant Light,Home & Kitchen,Lighting,Lumen,154.99,82.25,$50-$199,2
+54,OFF-ORG-001,Keystone Desk Organizer,Office Supplies,Organization,Keystone,15.99,6.92,Under $50,1
+55,OFF-ORG-002,Keystone Hanging File Folders 25-Pack,Office Supplies,Organization,Keystone,37.99,20.88,Under $50,1
+56,OFF-ORG-003,Keystone Label Maker,Office Supplies,Organization,Keystone,37.99,19.45,Under $50,1
+57,OFF-ORG-004,Keystone Binder Set,Office Supplies,Organization,Keystone,53.99,28.75,$50-$199,2
+58,OFF-PAP-001,Meridian Copy Paper (Ream),Office Supplies,Paper & Notebooks,Meridian,8.99,4.38,Under $50,1
+59,OFF-PAP-002,Meridian Spiral Notebook 3-Pack,Office Supplies,Paper & Notebooks,Meridian,10.99,5.69,Under $50,1
+60,OFF-PAP-003,Meridian Sticky Notes 12-Pack,Office Supplies,Paper & Notebooks,Meridian,13.99,6.96,Under $50,1
+61,OFF-PAP-004,Meridian Legal Pads 6-Pack,Office Supplies,Paper & Notebooks,Meridian,17.99,8.87,Under $50,1
+62,OFF-PAP-005,Meridian Hardcover Journal,Office Supplies,Paper & Notebooks,Meridian,29.99,13.55,Under $50,1
+63,OFF-PRT-001,Vertex Black Toner Cartridge,Office Supplies,Printing Supplies,Vertex,24.99,15.77,Under $50,1
+64,OFF-PRT-002,Vertex Color Ink Combo,Office Supplies,Printing Supplies,Vertex,37.99,23.35,Under $50,1
+65,OFF-PRT-003,Vertex Photo Paper 50-Pack,Office Supplies,Printing Supplies,Vertex,111.99,61.26,$50-$199,2
+66,OFF-PRT-004,Vertex Laser Toner High-Yield,Office Supplies,Printing Supplies,Vertex,119.99,68.45,$50-$199,2
+67,OFF-WRT-001,Meridian Gel Pens 12-Pack,Office Supplies,Writing Instruments,Meridian,4.99,2.19,Under $50,1
+68,OFF-WRT-002,Meridian Ballpoint Pens 24-Pack,Office Supplies,Writing Instruments,Meridian,5.99,2.91,Under $50,1
+69,OFF-WRT-003,Meridian Highlighters 8-Pack,Office Supplies,Writing Instruments,Meridian,12.99,6.21,Under $50,1
+70,OFF-WRT-004,Meridian Whiteboard Markers 6-Pack,Office Supplies,Writing Instruments,Meridian,14.99,7.36,Under $50,1
+71,OFF-WRT-005,Meridian Mechanical Pencils 10-Pack,Office Supplies,Writing Instruments,Meridian,15.99,7.3,Under $50,1

@@ -1,0 +1,540 @@
+createOrReplace
+
+	ref table _Measures
+
+		/// Net sales (revenue after line discounts). The 'Sales' figure used everywhere in the report.
+		measure 'Total Sales' = SUM ( FactSales[SalesAmount] )
+			formatString: \$#,0;(\$#,0);\$#,0
+			displayFolder: 01 Sales
+
+		/// Sales at list price before discounts (Quantity x UnitPrice).
+		measure 'Gross Sales' = SUM ( FactSales[GrossSales] )
+			formatString: \$#,0;(\$#,0);\$#,0
+			displayFolder: 01 Sales
+
+		/// Number of distinct orders.
+		measure 'Total Orders' = DISTINCTCOUNT ( FactSales[OrderID] )
+			formatString: #,0
+			displayFolder: 01 Sales
+
+		/// Number of order lines (fact rows).
+		measure 'Total Order Lines' = COUNTROWS ( FactSales )
+			formatString: #,0
+			displayFolder: 01 Sales
+
+		/// Units sold.
+		measure 'Total Units Sold' = SUM ( FactSales[Quantity] )
+			formatString: #,0
+			displayFolder: 01 Sales
+
+		/// Distinct customers who placed at least one order in the current filter context.
+		measure 'Total Customers' = DISTINCTCOUNT ( FactSales[CustomerKey] )
+			formatString: #,0
+			displayFolder: 01 Sales
+
+		/// Net sales per order.
+		measure 'Average Order Value' = DIVIDE ( [Total Sales], [Total Orders] )
+			formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+			displayFolder: 01 Sales
+
+		/// Net sales per unit (after discount).
+		measure 'Average Selling Price' = DIVIDE ( [Total Sales], [Total Units Sold] )
+			formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+			displayFolder: 01 Sales
+
+		/// Net sales per active customer.
+		measure 'Sales per Customer' = DIVIDE ( [Total Sales], [Total Customers] )
+			formatString: \$#,0;(\$#,0);\$#,0
+			displayFolder: 01 Sales
+
+		/// Cost of goods sold (Quantity x UnitCost).
+		measure 'Total Cost' = SUM ( FactSales[CostAmount] )
+			formatString: \$#,0;(\$#,0);\$#,0
+			displayFolder: 02 Profitability
+
+		/// Gross profit after discounts = Net sales - Cost. Excludes overheads, shipping and returns (not in the data).
+		measure 'Total Profit' = SUM ( FactSales[Profit] )
+			formatString: \$#,0;(\$#,0);\$#,0
+			displayFolder: 02 Profitability
+
+		/// Total Profit / Total Sales (ratio of sums, never an average of line margins).
+		measure 'Profit Margin %' = DIVIDE ( [Total Profit], [Total Sales] )
+			formatString: 0.0%;-0.0%;0.0%
+			displayFolder: 02 Profitability
+
+		/// Gross profit per order.
+		measure 'Average Profit per Order' = DIVIDE ( [Total Profit], [Total Orders] )
+			formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+			displayFolder: 02 Profitability
+
+		/// Value of discounts given (Gross Sales - Net Sales).
+		measure 'Discount Amount' = SUM ( FactSales[DiscountAmount] )
+			formatString: \$#,0;(\$#,0);\$#,0
+			displayFolder: 02 Profitability
+
+		/// Discount Amount / Gross Sales. Effective discount rate on list-price sales.
+		measure 'Discount Rate %' = DIVIDE ( [Discount Amount], [Gross Sales] )
+			formatString: 0.0%;-0.0%;0.0%
+			displayFolder: 02 Profitability
+
+		/// Margin the same sales would have earned at list price: (Gross Sales - Cost) / Gross Sales.
+		measure 'List Margin %' = DIVIDE ( [Gross Sales] - [Total Cost], [Gross Sales] )
+			formatString: 0.0%;-0.0%;0.0%
+			displayFolder: 02 Profitability
+
+		/// List Margin % minus Profit Margin %, in percentage points. Arithmetic effect of discounts on margin, holding volume constant - not an estimate of what would have sold without the discount.
+		measure 'Margin Erosion from Discounts' = IF ( NOT ISBLANK ( [Total Sales] ), [List Margin %] - [Profit Margin %] )
+			formatString: 0.0%;-0.0%;0.0%
+			displayFolder: 02 Profitability
+
+		/// Share of net sales that came from discounted lines.
+		measure 'Discounted Sales Share %' = DIVIDE ( CALCULATE ( [Total Sales], FactSales[DiscountPct] > 0 ), [Total Sales] )
+			formatString: 0.0%;-0.0%;0.0%
+			displayFolder: 02 Profitability
+
+		/// Profit margin on lines sold without a discount.
+		measure 'Profit Margin % (Full-Price Lines)' = CALCULATE ( [Profit Margin %], FactSales[DiscountPct] = 0 )
+			formatString: 0.0%;-0.0%;0.0%
+			displayFolder: 02 Profitability
+
+		/// Profit margin on lines sold with any discount.
+		measure 'Profit Margin % (Discounted Lines)' = CALCULATE ( [Profit Margin %], FactSales[DiscountPct] > 0 )
+			formatString: 0.0%;-0.0%;0.0%
+			displayFolder: 02 Profitability
+
+		/// Order lines with negative profit.
+		measure 'Loss-Making Lines' = CALCULATE ( COUNTROWS ( FactSales ), FactSales[Profit] < 0 )
+			formatString: #,0
+			displayFolder: 02 Profitability
+
+		/// Net sales on order lines with negative profit.
+		measure 'Loss-Making Sales' = CALCULATE ( [Total Sales], FactSales[Profit] < 0 )
+			formatString: \$#,0;(\$#,0);\$#,0
+			displayFolder: 02 Profitability
+
+		/// Total (negative) profit on loss-making order lines.
+		measure 'Loss on Loss-Making Lines' = CALCULATE ( [Total Profit], FactSales[Profit] < 0 )
+			formatString: \$#,0;(\$#,0);\$#,0
+			displayFolder: 02 Profitability
+
+		/// Number of products whose total profit is negative in the current context.
+		measure 'Products with Negative Profit' = COUNTROWS ( FILTER ( VALUES ( DimProduct[ProductKey] ), [Total Profit] < 0 ) )
+			formatString: #,0
+			displayFolder: 02 Profitability
+
+		/// Margin band used for conditional formatting and tooltips. Thresholds: <0% Loss, <15% Low, <30% Moderate, otherwise Healthy.
+		measure 'Margin Status' =
+				VAR m = [Profit Margin %]
+				RETURN
+				    SWITCH (
+				        TRUE (),
+				        ISBLANK ( m ), BLANK (),
+				        m < 0, "Loss",
+				        m < 0.15, "Low (<15%)",
+				        m < 0.30, "Moderate (15-30%)",
+				        "Healthy (30%+)"
+				    )
+			displayFolder: 02 Profitability
+
+		/// Hex colour for conditional formatting (Format > Conditional formatting > Field value).
+		measure 'Margin Status Color' =
+				VAR m = [Profit Margin %]
+				RETURN
+				    SWITCH (
+				        TRUE (),
+				        ISBLANK ( m ), BLANK (),
+				        m < 0, "#C0392B",
+				        m < 0.15, "#E08E0B",
+				        m < 0.30, "#94A3B8",
+				        "#0F9D8A"
+				    )
+			displayFolder: 02 Profitability
+
+		/// Net sales in the previous month. Returns blank unless exactly one month is in context.
+		measure 'Sales Previous Month' =
+				IF (
+				    HASONEVALUE ( DimDate[YearMonth] ),
+				    CALCULATE ( [Total Sales], DATEADD ( DimDate[Date], -1, MONTH ) )
+				)
+			formatString: \$#,0;(\$#,0);\$#,0
+			displayFolder: 03 Time Intelligence
+
+		/// Net sales minus previous month. Blank when either month has no data (e.g. Jan 2023).
+		measure 'Sales MoM Change' =
+				VAR CurrentSales = [Total Sales]
+				VAR PreviousSales = [Sales Previous Month]
+				RETURN
+				    IF ( NOT ISBLANK ( CurrentSales ) && NOT ISBLANK ( PreviousSales ), CurrentSales - PreviousSales )
+			formatString: \$#,0;(\$#,0);\$#,0
+			displayFolder: 03 Time Intelligence
+
+		/// Month-over-month growth in net sales.
+		measure 'Sales MoM Growth %' = DIVIDE ( [Sales MoM Change], [Sales Previous Month] )
+			formatString: 0.0%;-0.0%;0.0%
+			displayFolder: 03 Time Intelligence
+
+		/// Net sales in the same period one year earlier.
+		measure 'Sales Previous Year' = CALCULATE ( [Total Sales], SAMEPERIODLASTYEAR ( DimDate[Date] ) )
+			formatString: \$#,0;(\$#,0);\$#,0
+			displayFolder: 03 Time Intelligence
+
+		/// Net sales minus the same period last year. Blank when there is no prior-year data (all of 2023).
+		measure 'Sales YoY Change' =
+				VAR CurrentSales = [Total Sales]
+				VAR PriorSales = [Sales Previous Year]
+				RETURN
+				    IF ( NOT ISBLANK ( CurrentSales ) && NOT ISBLANK ( PriorSales ), CurrentSales - PriorSales )
+			formatString: \$#,0;(\$#,0);\$#,0
+			displayFolder: 03 Time Intelligence
+
+		/// Year-over-year growth in net sales.
+		measure 'Sales YoY Growth %' = DIVIDE ( [Sales YoY Change], [Sales Previous Year] )
+			formatString: 0.0%;-0.0%;0.0%
+			displayFolder: 03 Time Intelligence
+
+		/// Year-to-date net sales (calendar year) up to the last date in context.
+		measure 'Sales YTD' = CALCULATE ( [Total Sales], DATESYTD ( DimDate[Date] ) )
+			formatString: \$#,0;(\$#,0);\$#,0
+			displayFolder: 03 Time Intelligence
+
+		/// Prior-year-to-date net sales (same calendar dates one year earlier).
+		measure 'Sales PYTD' = CALCULATE ( [Sales YTD], SAMEPERIODLASTYEAR ( DimDate[Date] ) )
+			formatString: \$#,0;(\$#,0);\$#,0
+			displayFolder: 03 Time Intelligence
+
+		/// YTD net sales vs prior YTD.
+		measure 'Sales YTD Growth %' =
+				VAR ytd = [Sales YTD]
+				VAR pytd = [Sales PYTD]
+				RETURN
+				    IF ( NOT ISBLANK ( ytd ) && NOT ISBLANK ( pytd ), DIVIDE ( ytd - pytd, pytd ) )
+			formatString: 0.0%;-0.0%;0.0%
+			displayFolder: 03 Time Intelligence
+
+		/// Year-to-date gross profit.
+		measure 'Profit YTD' = CALCULATE ( [Total Profit], DATESYTD ( DimDate[Date] ) )
+			formatString: \$#,0;(\$#,0);\$#,0
+			displayFolder: 03 Time Intelligence
+
+		/// Gross profit in the same period one year earlier.
+		measure 'Profit Previous Year' = CALCULATE ( [Total Profit], SAMEPERIODLASTYEAR ( DimDate[Date] ) )
+			formatString: \$#,0;(\$#,0);\$#,0
+			displayFolder: 03 Time Intelligence
+
+		/// Year-over-year growth in gross profit.
+		measure 'Profit YoY Growth %' =
+				VAR CurrentProfit = [Total Profit]
+				VAR PriorProfit = [Profit Previous Year]
+				RETURN
+				    IF ( NOT ISBLANK ( CurrentProfit ) && NOT ISBLANK ( PriorProfit ), DIVIDE ( CurrentProfit - PriorProfit, ABS ( PriorProfit ) ) )
+			formatString: 0.0%;-0.0%;0.0%
+			displayFolder: 03 Time Intelligence
+
+		/// Year-over-year growth in order count.
+		measure 'Orders YoY Growth %' =
+				VAR CurrentOrders = [Total Orders]
+				VAR PriorOrders = CALCULATE ( [Total Orders], SAMEPERIODLASTYEAR ( DimDate[Date] ) )
+				RETURN
+				    IF ( NOT ISBLANK ( CurrentOrders ) && NOT ISBLANK ( PriorOrders ), DIVIDE ( CurrentOrders - PriorOrders, PriorOrders ) )
+			formatString: 0.0%;-0.0%;0.0%
+			displayFolder: 03 Time Intelligence
+
+		/// Year-over-year change in average order value.
+		measure 'AOV YoY Growth %' =
+				VAR CurrentAOV = [Average Order Value]
+				VAR PriorAOV = CALCULATE ( [Average Order Value], SAMEPERIODLASTYEAR ( DimDate[Date] ) )
+				RETURN
+				    IF ( NOT ISBLANK ( CurrentAOV ) && NOT ISBLANK ( PriorAOV ), DIVIDE ( CurrentAOV - PriorAOV, PriorAOV ) )
+			formatString: 0.0%;-0.0%;0.0%
+			displayFolder: 03 Time Intelligence
+
+		/// Average monthly net sales over the 3 months ending at the last date in context. Blank until 3 full months exist.
+		measure 'Sales Rolling 3M Avg' =
+				VAR LastDate = MAX ( DimDate[Date] )
+				VAR Period = DATESINPERIOD ( DimDate[Date], LastDate, -3, MONTH )
+				VAR MonthsInPeriod = CALCULATE ( DISTINCTCOUNT ( DimDate[YearMonth] ), Period )
+				RETURN
+				    IF ( MonthsInPeriod = 3, DIVIDE ( CALCULATE ( [Total Sales], Period ), 3 ) )
+			formatString: \$#,0;(\$#,0);\$#,0
+			displayFolder: 03 Time Intelligence
+
+		/// Net-sales target from the finance plan. Targets exist at Month x Region x Category x Channel. Region and Category are applied with TREATAS; month and channel through physical relationships. Returns blank when the report is filtered below target grain (state/city, subcategory/product/brand/price band, or any customer attribute) because no target exists at that level.
+		measure 'Sales Target' =
+				VAR VisibleProducts = COUNTROWS ( VALUES ( DimProduct[ProductKey] ) )
+				VAR ProductsInVisibleCategories =
+				    CALCULATE ( COUNTROWS ( DimProduct ), REMOVEFILTERS ( DimProduct ), VALUES ( DimProduct[Category] ) )
+				VAR VisibleCities = COUNTROWS ( VALUES ( DimGeography[GeographyKey] ) )
+				VAR CitiesInVisibleRegions =
+				    CALCULATE ( COUNTROWS ( DimGeography ), REMOVEFILTERS ( DimGeography ), VALUES ( DimGeography[Region] ) )
+				VAR IsTargetGrain =
+				    VisibleProducts = ProductsInVisibleCategories
+				        && VisibleCities = CitiesInVisibleRegions
+				        && NOT ISCROSSFILTERED ( DimCustomer )
+				RETURN
+				    IF (
+				        IsTargetGrain,
+				        CALCULATE (
+				            SUM ( FactSalesTarget[TargetAmount] ),
+				            TREATAS ( VALUES ( DimProduct[Category] ), FactSalesTarget[Category] ),
+				            TREATAS ( VALUES ( DimGeography[Region] ), FactSalesTarget[Region] )
+				        )
+				    )
+			formatString: \$#,0;(\$#,0);\$#,0
+			displayFolder: 04 Targets
+
+		/// Net sales minus target (positive = ahead of target).
+		measure 'Sales vs Target' =
+				VAR TargetValue = [Sales Target]
+				RETURN
+				    IF ( NOT ISBLANK ( TargetValue ), [Total Sales] - TargetValue )
+			formatString: \$#,0;(\$#,0);\$#,0
+			displayFolder: 04 Targets
+
+		/// Net sales / target.
+		measure 'Target Achievement %' = DIVIDE ( [Total Sales], [Sales Target] )
+			formatString: 0.0%;-0.0%;0.0%
+			displayFolder: 04 Targets
+
+		/// Sales still needed to reach target; zero once the target is met.
+		measure 'Remaining Sales to Target' =
+				VAR TargetValue = [Sales Target]
+				RETURN
+				    IF ( NOT ISBLANK ( TargetValue ), MAX ( 0, TargetValue - [Total Sales] ) )
+			formatString: \$#,0;(\$#,0);\$#,0
+			displayFolder: 04 Targets
+
+		/// Year-to-date target.
+		measure 'Sales Target YTD' = CALCULATE ( [Sales Target], DATESYTD ( DimDate[Date] ) )
+			formatString: \$#,0;(\$#,0);\$#,0
+			displayFolder: 04 Targets
+
+		/// YTD net sales / YTD target.
+		measure 'Target Achievement % YTD' = DIVIDE ( [Sales YTD], [Sales Target YTD] )
+			formatString: 0.0%;-0.0%;0.0%
+			displayFolder: 04 Targets
+
+		/// On target (>=100%), Near target (95-99.9%), Below target (<95%).
+		measure 'Target Status' =
+				VAR a = [Target Achievement %]
+				RETURN
+				    SWITCH ( TRUE (), ISBLANK ( a ), BLANK (), a >= 1, "On target", a >= 0.95, "Near target", "Below target" )
+			displayFolder: 04 Targets
+
+		/// Hex colour for conditional formatting of target achievement.
+		measure 'Target Status Color' =
+				VAR a = [Target Achievement %]
+				RETURN
+				    SWITCH ( TRUE (), ISBLANK ( a ), BLANK (), a >= 1, "#0F9D8A", a >= 0.95, "#E08E0B", "#C0392B" )
+			displayFolder: 04 Targets
+
+		/// Share of net sales within the products selected by slicers (ALLSELECTED). In a product table, rows sum to 100%.
+		measure 'Product Sales Contribution %' = DIVIDE ( [Total Sales], CALCULATE ( [Total Sales], ALLSELECTED ( DimProduct ) ) )
+			formatString: 0.0%;-0.0%;0.0%
+			displayFolder: 05 Product & Customer
+
+		/// Share of the current row's category in selected net sales. At subcategory/product level it returns the parent category's share.
+		measure 'Category Sales Contribution %' =
+				VAR CategorySales =
+				    CALCULATE ( [Total Sales], ALLSELECTED ( DimProduct ), VALUES ( DimProduct[Category] ) )
+				VAR SelectedSales = CALCULATE ( [Total Sales], ALLSELECTED ( DimProduct ) )
+				RETURN
+				    DIVIDE ( CategorySales, SelectedSales )
+			formatString: 0.0%;-0.0%;0.0%
+			displayFolder: 05 Product & Customer
+
+		/// Share of net sales within the customers selected by slicers.
+		measure 'Customer Sales Contribution %' = DIVIDE ( [Total Sales], CALCULATE ( [Total Sales], ALLSELECTED ( DimCustomer ) ) )
+			formatString: 0.0%;-0.0%;0.0%
+			displayFolder: 05 Product & Customer
+
+		/// Rank of a product by net sales among selected products (1 = highest). Use with a Top N visual filter.
+		measure 'Product Sales Rank' =
+				IF (
+				    ISINSCOPE ( DimProduct[ProductName] ) && NOT ISBLANK ( [Total Sales] ),
+				    RANKX ( ALLSELECTED ( DimProduct[ProductName] ), [Total Sales], , DESC, DENSE )
+				)
+			formatString: #,0
+			displayFolder: 05 Product & Customer
+
+		/// Rank of products by profit, lowest first, ignoring products with no sales. Use to list bottom performers.
+		measure 'Product Profit Rank (Lowest First)' =
+				IF (
+				    ISINSCOPE ( DimProduct[ProductName] ) && NOT ISBLANK ( [Total Sales] ),
+				    RANKX (
+				        FILTER ( ALLSELECTED ( DimProduct[ProductName] ), NOT ISBLANK ( [Total Sales] ) ),
+				        [Total Profit], , ASC, DENSE
+				    )
+				)
+			formatString: #,0
+			displayFolder: 05 Product & Customer
+
+		/// Rank of a customer by net sales among selected customers.
+		measure 'Customer Sales Rank' =
+				IF (
+				    ISINSCOPE ( DimCustomer[CustomerName] ) && NOT ISBLANK ( [Total Sales] ),
+				    RANKX ( ALLSELECTED ( DimCustomer[CustomerName] ), [Total Sales], , DESC, DENSE )
+				)
+			formatString: #,0
+			displayFolder: 05 Product & Customer
+
+		/// Name of the highest-selling product in the current context (for cards and titles).
+		measure 'Top Product by Sales' =
+				VAR TopProduct = TOPN ( 1, VALUES ( DimProduct[ProductName] ), [Total Sales], DESC )
+				RETURN
+				    IF ( NOT ISBLANK ( [Total Sales] ), CONCATENATEX ( TopProduct, DimProduct[ProductName], ", " ) )
+			displayFolder: 05 Product & Customer
+
+		/// Name of the highest-spending customer in the current context.
+		measure 'Top Customer by Sales' =
+				VAR TopCustomer = TOPN ( 1, VALUES ( DimCustomer[CustomerName] ), [Total Sales], DESC )
+				RETURN
+				    IF ( NOT ISBLANK ( [Total Sales] ), CONCATENATEX ( TopCustomer, DimCustomer[CustomerName], ", " ) )
+			displayFolder: 05 Product & Customer
+
+		/// Share of net sales generated by the 10 highest-selling products in the current context (concentration).
+		measure 'Top 10 Products Sales Share %' =
+				VAR Top10 = TOPN ( 10, VALUES ( DimProduct[ProductName] ), [Total Sales], DESC )
+				RETURN
+				    DIVIDE ( CALCULATE ( [Total Sales], Top10 ), [Total Sales] )
+			formatString: 0.0%;-0.0%;0.0%
+			displayFolder: 05 Product & Customer
+
+		/// Share of net sales from the 10 highest-spending customers in the current context.
+		measure 'Top 10 Customers Sales Share %' =
+				VAR Top10 = TOPN ( 10, VALUES ( DimCustomer[CustomerKey] ), [Total Sales], DESC )
+				RETURN
+				    DIVIDE ( CALCULATE ( [Total Sales], Top10 ), [Total Sales] )
+			formatString: 0.0%;-0.0%;0.0%
+			displayFolder: 05 Product & Customer
+
+		/// Share of net sales from the top 20% of purchasing customers (Pareto check).
+		measure 'Top 20% Customers Sales Share %' =
+				VAR Buyers = FILTER ( VALUES ( DimCustomer[CustomerKey] ), NOT ISBLANK ( [Total Sales] ) )
+				VAR TopCount = ROUNDUP ( COUNTROWS ( Buyers ) * 0.2, 0 )
+				VAR TopCustomers = TOPN ( TopCount, Buyers, [Total Sales], DESC )
+				RETURN
+				    DIVIDE ( CALCULATE ( [Total Sales], TopCustomers ), [Total Sales] )
+			formatString: 0.0%;-0.0%;0.0%
+			displayFolder: 05 Product & Customer
+
+		/// Customers with 2 or more orders within the current filter context (period, channel, etc.).
+		measure 'Repeat Customers' =
+				COUNTROWS (
+				    FILTER ( VALUES ( FactSales[CustomerKey] ), CALCULATE ( DISTINCTCOUNT ( FactSales[OrderID] ) ) >= 2 )
+				)
+			formatString: #,0
+			displayFolder: 05 Product & Customer
+
+		/// Repeat Customers / Total Customers in the current context.
+		measure 'Repeat Customer Rate %' = DIVIDE ( [Repeat Customers], [Total Customers] )
+			formatString: 0.0%;-0.0%;0.0%
+			displayFolder: 05 Product & Customer
+
+		/// Average orders per active customer.
+		measure 'Orders per Customer' = DIVIDE ( [Total Orders], [Total Customers] )
+			formatString: #,0.0
+			displayFolder: 05 Product & Customer
+
+		/// Active customers whose first order in the dataset (DimCustomer[FirstOrderDate]) falls inside the selected dates. Data starts in Jan 2023, so 2023 counts include customers who may have bought before 2023.
+		measure 'New Customers' =
+				VAR PeriodStart = MIN ( DimDate[Date] )
+				VAR PeriodEnd = MAX ( DimDate[Date] )
+				RETURN
+				    CALCULATE (
+				        [Total Customers],
+				        KEEPFILTERS ( DimCustomer[FirstOrderDate] >= PeriodStart && DimCustomer[FirstOrderDate] <= PeriodEnd )
+				    )
+			formatString: #,0
+			displayFolder: 05 Product & Customer
+
+		/// Active customers in the period who had ordered before the period started.
+		measure 'Returning Customers' = [Total Customers] - [New Customers]
+			formatString: #,0
+			displayFolder: 05 Product & Customer
+
+		/// Orders not yet shipped at the 2025-12-31 extract.
+		measure 'Open Orders' = CALCULATE ( DISTINCTCOUNT ( FactSales[OrderID] ), FactSales[OrderStatus] = "Open" )
+			formatString: #,0
+			displayFolder: 06 Operations
+
+		/// Average order-to-ship days per shipped order (order-level average; open orders excluded).
+		measure 'Average Days to Ship' = AVERAGEX ( VALUES ( FactSales[OrderID] ), CALCULATE ( MAX ( FactSales[DaysToShip] ) ) )
+			formatString: #,0.0
+			displayFolder: 06 Operations
+
+		/// Net sales attributed to the ship date via the inactive ShipDate relationship.
+		measure 'Sales by Ship Date' = CALCULATE ( [Total Sales], USERELATIONSHIP ( FactSales[ShipDate], DimDate[Date] ) )
+			formatString: \$#,0;(\$#,0);\$#,0
+			displayFolder: 06 Operations
+
+		/// Selected date range for page subtitles.
+		measure 'Report Period Label' =
+				VAR StartDate = MIN ( DimDate[Date] )
+				VAR EndDate = MAX ( DimDate[Date] )
+				RETURN
+				    "Period: " & FORMAT ( StartDate, "mmm yyyy" ) & " to " & FORMAT ( EndDate, "mmm yyyy" )
+			displayFolder: 07 Labels & UX
+
+		/// Data freshness label for the page header.
+		measure 'Data Through Label' =
+				"Data through " & FORMAT ( CALCULATE ( MAX ( FactSales[OrderDate] ), REMOVEFILTERS () ), "d mmm yyyy" )
+				    & "  |  Synthetic data for demonstration"
+			displayFolder: 07 Labels & UX
+
+		/// Regions currently selected, or 'All regions'.
+		measure 'Selected Region Label' =
+				IF (
+				    ISFILTERED ( DimGeography[Region] ),
+				    CONCATENATEX ( VALUES ( DimGeography[Region] ), DimGeography[Region], ", ", DimGeography[Region], ASC ),
+				    "All regions"
+				)
+			displayFolder: 07 Labels & UX
+
+		/// Channels currently selected, or 'All channels'.
+		measure 'Selected Channel Label' =
+				IF (
+				    ISFILTERED ( DimSalesChannel[ChannelName] ),
+				    CONCATENATEX ( VALUES ( DimSalesChannel[ChannelName] ), DimSalesChannel[ChannelName], ", ", DimSalesChannel[ChannelName], ASC ),
+				    "All channels"
+				)
+			displayFolder: 07 Labels & UX
+
+		/// Categories currently selected, or 'All categories'.
+		measure 'Selected Category Label' =
+				IF (
+				    ISFILTERED ( DimProduct[Category] ),
+				    CONCATENATEX ( VALUES ( DimProduct[Category] ), DimProduct[Category], ", ", DimProduct[Category], ASC ),
+				    "All categories"
+				)
+			displayFolder: 07 Labels & UX
+
+		/// One-line summary of the active slicers for page headers.
+		measure 'Filter Context Summary' = [Selected Region Label] & "  |  " & [Selected Channel Label] & "  |  " & [Selected Category Label]
+			displayFolder: 07 Labels & UX
+
+		/// Dynamic title for the monthly trend visual.
+		measure 'Title Monthly Sales Trend' = "Monthly net sales vs target - " & [Selected Region Label]
+			displayFolder: 07 Labels & UX
+
+		/// Subtitle for the Total Sales card showing YoY change.
+		measure 'KPI Sales Subtitle' =
+				VAR g = [Sales YoY Growth %]
+				RETURN
+				    IF ( ISBLANK ( g ), "No prior-year comparison", FORMAT ( g, "+0.0%;-0.0%" ) & " vs prior year" )
+			displayFolder: 07 Labels & UX
+
+		/// Explains why the target is blank at a finer filter level.
+		measure 'Target Availability Note' =
+				IF (
+				    ISBLANK ( [Sales Target] ) && NOT ISBLANK ( [Total Sales] ),
+				    "Targets are set by month, region, category and channel - not available at the current filter level.",
+				    ""
+				)
+			displayFolder: 07 Labels & UX
+
+		/// Teal for growth, red for decline (conditional formatting on YoY visuals).
+		measure 'Growth Color' =
+				VAR g = [Sales YoY Growth %]
+				RETURN
+				    SWITCH ( TRUE (), ISBLANK ( g ), BLANK (), g < 0, "#C0392B", "#0F9D8A" )
+			displayFolder: 07 Labels & UX

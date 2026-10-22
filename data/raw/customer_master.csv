@@ -1,0 +1,1401 @@
+CustomerID,CustomerName,Segment,City,State,Region,CustomerSince
+C-10001,Luis Hill,Consumer,Boston,Massachusetts,Northeast,2018-02-07
+C-10002,Granitepeak Health Clinic Co.,Corporate,Portland,Oregon,West,2020-09-07
+C-10003,Richard Ramirez,Consumer,Minneapolis,Minnesota,Midwest,2018-09-18
+C-10004,Ashley Allen,Consumer,Chicago,Illinois,Midwest,2020-02-25
+C-10005,Priya Novak,Consumer,Houston,Texas,South,2024-08-26
+C-10006,Pinefield Software LLC,Small Business,Miami,Florida,South,2024-01-01
+C-10007,Thomas White,Consumer,Denver,Colorado,West,2023-02-16
+C-10008,Mark Williams,Consumer,Chicago,Illinois,Midwest,2020-12-23
+C-10009,Bluegate Academy Group,Small Business,Portland,Oregon,West,2019-06-03
+C-10010,Steven Thomas,Consumer,New York,New York,Northeast,2018-12-03
+C-10011,Samuel Taylor,Consumer,Dallas,Texas,South,2024-01-06
+C-10012,Grace Hill,Consumer,Miami,Florida,South,2024-05-27
+C-10013,Anthony Hill,Consumer,Buffalo,New York,Northeast,2020-10-22
+C-10014,Linda Jones,Consumer,Boston,Massachusetts,Northeast,2022-11-23
+C-10015,Crescentfield Logistics LLC,Small Business,Indianapolis,Indiana,Midwest,2020-06-30
+C-10016,Bluebridge Health Clinic Inc.,Small Business,Denver,Colorado,West,2020-02-02
+C-10017,Sterlingpath Realty Partners,Small Business,Atlanta,Georgia,South,2019-11-27
+C-10018,Harborpeak Accounting Inc.,Corporate,Portland,Oregon,West,2023-06-27
+C-10019,Brian Anderson,Consumer,Los Angeles,California,West,2024-02-17
+C-10020,Aisha Allen,Consumer,Houston,Texas,South,2022-09-25
+C-10021,Lakesidevalley Academy Partners,Corporate,Los Angeles,California,West,2021-09-25
+C-10022,Diego Williams,Consumer,New York,New York,Northeast,2020-12-05
+C-10023,Pineridge Engineering Partners,Small Business,Boston,Massachusetts,Northeast,2022-07-23
+C-10024,Copperbridge Marketing Co.,Small Business,San Francisco,California,West,2021-11-28
+C-10025,Sarah Williams,Consumer,Los Angeles,California,West,2023-02-14
+C-10026,Thomas Johnson,Consumer,Newark,New Jersey,Northeast,2022-02-12
+C-10027,Matthew Haile,Consumer,Dallas,Texas,South,2020-08-28
+C-10028,Steven Hernandez,Consumer,Atlanta,Georgia,South,2023-03-17
+C-10029,Kevin Rodriguez,Consumer,San Diego,California,West,2025-02-24
+C-10030,Amanda Garcia,Consumer,Atlanta,Georgia,South,2025-07-13
+C-10031,Sterlingfield Law Partners Group,Small Business,Minneapolis,Minnesota,Midwest,2025-02-18
+C-10032,Prairiepath Architects Group,Corporate,Cleveland,Ohio,Midwest,2025-04-03
+C-10033,Pinefield Realty Inc.,Small Business,Indianapolis,Indiana,Midwest,2021-03-27
+C-10034,Olivia Williams,Consumer,Miami,Florida,South,2023-06-16
+C-10035,Linda Brown,Consumer,San Diego,California,West,2018-12-05
+C-10036,Patricia Okafor,Consumer,Milwaukee,Wisconsin,Midwest,2024-04-03
+C-10037,Richard Hill,Consumer,Hartford,Connecticut,Northeast,2022-01-09
+C-10038,Cobaltbridge Realty Inc.,Corporate,Hartford,Connecticut,Northeast,2024-03-22
+C-10039,Carlos Taylor,Consumer,Los Angeles,California,West,2025-02-24
+C-10040,Joseph Harris,Consumer,San Francisco,California,West,2025-03-31
+C-10041,Harborworks Logistics Co.,Small Business,Buffalo,New York,Northeast,2021-07-04
+C-10042,Priya Thompson,Consumer,New York,New York,Northeast,2018-02-26
+C-10043,Michael Moore,Consumer,Atlanta,Georgia,South,2021-02-22
+C-10044,Noah Patel,Consumer,Boston,Massachusetts,Northeast,2023-02-28
+C-10045,Silverstone Law Partners Co.,Small Business,San Francisco,California,West,2018-11-10
+C-10046,Lakesidevalley Dental Group Inc.,Small Business,Chicago,Illinois,Midwest,2021-06-27
+C-10047,Michelle Lewis,Consumer,Boston,Massachusetts,Northeast,2023-10-16
+C-10048,Sterlingfield Logistics Inc.,Corporate,Portland,Oregon,West,2018-04-16
+C-10049,Northworks Accounting LLC,Small Business,Philadelphia,Pennsylvania,Northeast,2019-11-15
+C-10050,Copperpoint Accounting Partners,Small Business,Chicago,Illinois,Midwest,2021-07-19
+C-10051,Nancy Martin,Consumer,Philadelphia,Pennsylvania,Northeast,2020-11-18
+C-10052,Matthew Nguyen,Consumer,Boston,Massachusetts,Northeast,2025-06-09
+C-10053,Sterlingpeak Law Partners Co.,Small Business,New York,New York,Northeast,2018-08-07
+C-10054,Lisa Murphy,Consumer,New York,New York,Northeast,2019-04-21
+C-10055,Riverpoint Builders Partners,Small Business,Philadelphia,Pennsylvania,Northeast,2024-03-14
+C-10056,Northridge Design Studio Inc.,Small Business,New York,New York,Northeast,2022-06-06
+C-10057,Michael Novak,Consumer,Atlanta,Georgia,South,2025-07-17
+C-10058,Summitpath Accounting Partners,Small Business,Orlando,Florida,South,2023-10-18
+C-10059,Beaconworks Marketing Inc.,Corporate,Minneapolis,Minnesota,Midwest,2024-09-05
+C-10060,Cobaltbridge Software Group,Small Business,Detroit,Michigan,Midwest,2018-12-07
+C-10061,David Hill,Consumer,Houston,Texas,South,2023-12-08
+C-10062,Sterlingpath Software LLC,Small Business,San Diego,California,West,2023-12-01
+C-10063,Carlos Flores,Consumer,San Francisco,California,West,2021-06-20
+C-10064,Ironbridge Academy Inc.,Small Business,New York,New York,Northeast,2019-11-24
+C-10065,Ironpeak Realty Co.,Small Business,Philadelphia,Pennsylvania,Northeast,2018-06-13
+C-10066,Cobaltvalley Software Co.,Small Business,Hartford,Connecticut,Northeast,2022-01-29
+C-10067,Joshua Gonzalez,Consumer,Chicago,Illinois,Midwest,2022-07-07
+C-10068,Grace Jones,Consumer,Austin,Texas,South,2025-04-19
+C-10069,Patricia Walker,Consumer,Indianapolis,Indiana,Midwest,2018-11-21
+C-10070,Brian Rodriguez,Consumer,New York,New York,Northeast,2021-11-14
+C-10071,Mary Murphy,Consumer,Cleveland,Ohio,Midwest,2024-05-14
+C-10072,Noah Martinez,Consumer,Dallas,Texas,South,2024-07-23
+C-10073,Carlos Perez,Consumer,Buffalo,New York,Northeast,2025-07-09
+C-10074,Northpeak Accounting Inc.,Small Business,San Francisco,California,West,2024-08-02
+C-10075,Copperridge Logistics Partners,Corporate,New York,New York,Northeast,2023-04-17
+C-10076,Wei Taylor,Consumer,Portland,Oregon,West,2024-01-26
+C-10077,Prairiepeak Academy Partners,Small Business,Buffalo,New York,Northeast,2022-12-03
+C-10078,Brightpoint Engineering LLC,Small Business,San Francisco,California,West,2023-04-24
+C-10079,Richard Rossi,Consumer,Seattle,Washington,West,2018-10-28
+C-10080,Lisa Robinson,Consumer,Phoenix,Arizona,West,2018-11-03
+C-10081,Northfield Realty LLC,Small Business,Los Angeles,California,West,2020-04-17
+C-10082,Oakgate Accounting Group,Corporate,Los Angeles,California,West,2019-03-30
+C-10083,Silverfield Builders Inc.,Small Business,Miami,Florida,South,2019-02-12
+C-10084,Bluevalley Health Clinic Partners,Corporate,Los Angeles,California,West,2022-03-06
+C-10085,Northpeak Design Studio Group,Corporate,Boston,Massachusetts,Northeast,2018-11-28
+C-10086,Wei Hernandez,Consumer,Dallas,Texas,South,2025-03-25
+C-10087,Rivervalley Engineering Group,Small Business,Dallas,Texas,South,2024-11-10
+C-10088,Wei Novak,Consumer,San Diego,California,West,2023-08-25
+C-10089,Ironbridge Law Partners Co.,Corporate,Houston,Texas,South,2024-07-23
+C-10090,Joseph Patel,Consumer,Cleveland,Ohio,Midwest,2020-04-01
+C-10091,Joshua Chen,Consumer,Miami,Florida,South,2023-05-28
+C-10092,Harborstone Builders Co.,Small Business,Chicago,Illinois,Midwest,2018-02-02
+C-10093,Karen Flores,Consumer,Boston,Massachusetts,Northeast,2022-10-29
+C-10094,Bluegate Health Clinic LLC,Small Business,Houston,Texas,South,2019-12-13
+C-10095,Olivia Robinson,Consumer,Indianapolis,Indiana,Midwest,2019-07-08
+C-10096,Copperpeak Law Partners Inc.,Corporate,Newark,New Jersey,Northeast,2022-09-08
+C-10097,Pinefield Health Clinic Partners,Corporate,Cleveland,Ohio,Midwest,2025-05-22
+C-10098,Luis Wright,Consumer,Columbus,Ohio,Midwest,2022-08-05
+C-10099,Sterlingpoint Architects Inc.,Small Business,Detroit,Michigan,Midwest,2024-04-28
+C-10100,Amanda Jones,Consumer,Cleveland,Ohio,Midwest,2021-02-14
+C-10101,Pinefield Software Inc.,Small Business,Orlando,Florida,South,2023-06-01
+C-10102,Mapleworks Software LLC,Small Business,Chicago,Illinois,Midwest,2020-01-21
+C-10103,Ironstone Law Partners Inc.,Small Business,Denver,Colorado,West,2020-09-18
+C-10104,Thomas Jones,Consumer,Seattle,Washington,West,2021-10-03
+C-10105,Richard Hernandez,Consumer,Houston,Texas,South,2019-05-29
+C-10106,Oakpoint Engineering Inc.,Small Business,Detroit,Michigan,Midwest,2018-12-26
+C-10107,Linda Rodriguez,Consumer,Dallas,Texas,South,2022-05-14
+C-10108,Sandra Patel,Consumer,San Francisco,California,West,2018-04-23
+C-10109,Susan Wright,Consumer,Miami,Florida,South,2020-08-03
+C-10110,Melissa Torres,Consumer,Los Angeles,California,West,2023-02-03
+C-10111,Brightridge Logistics Partners,Small Business,Dallas,Texas,South,2020-02-01
+C-10112,Linda Murphy,Consumer,Miami,Florida,South,2024-07-15
+C-10113,Karen Hill,Consumer,Chicago,Illinois,Midwest,2022-04-19
+C-10114,Prairiepath Software LLC,Corporate,Nashville,Tennessee,South,2019-04-28
+C-10115,Joshua Rossi,Consumer,Pittsburgh,Pennsylvania,Northeast,2025-09-02
+C-10116,Bluegate Consulting Co.,Small Business,Charlotte,North Carolina,South,2018-08-28
+C-10117,Joshua Jackson,Consumer,San Diego,California,West,2018-12-23
+C-10118,Copperworks Realty Inc.,Small Business,Boston,Massachusetts,Northeast,2024-07-25
+C-10119,Prairiepoint Logistics LLC,Small Business,Atlanta,Georgia,South,2023-06-12
+C-10120,Pineworks Consulting Group,Corporate,Buffalo,New York,Northeast,2024-02-06
+C-10121,Nancy Wilson,Consumer,Nashville,Tennessee,South,2020-12-10
+C-10122,Grace Torres,Consumer,New York,New York,Northeast,2022-12-07
+C-10123,Copperridge Consulting LLC,Small Business,Portland,Oregon,West,2019-08-11
+C-10124,Diego Rodriguez,Consumer,Boston,Massachusetts,Northeast,2018-01-25
+C-10125,Samuel Rodriguez,Consumer,Denver,Colorado,West,2021-03-15
+C-10126,Lisa Martinez,Consumer,Los Angeles,California,West,2025-10-19
+C-10127,Ironpeak Health Clinic LLC,Corporate,Atlanta,Georgia,South,2021-10-03
+C-10128,Harborfield Consulting Inc.,Small Business,Los Angeles,California,West,2023-10-19
+C-10129,Redwoodstone Logistics Partners,Small Business,Los Angeles,California,West,2025-06-18
+C-10130,Coppergate Health Clinic Group,Small Business,Denver,Colorado,West,2024-06-28
+C-10131,Patricia Flores,Consumer,Chicago,Illinois,Midwest,2025-05-27
+C-10132,William Williams,Consumer,Atlanta,Georgia,South,2025-02-04
+C-10133,Michael Jones,Consumer,Buffalo,New York,Northeast,2020-02-09
+C-10134,Crescentpath Design Studio LLC,Small Business,Atlanta,Georgia,South,2021-07-25
+C-10135,James Rossi,Consumer,Philadelphia,Pennsylvania,Northeast,2023-07-25
+C-10136,Oakfield Builders Group,Corporate,Austin,Texas,South,2018-05-18
+C-10137,Ironstone Health Clinic Group,Small Business,Austin,Texas,South,2019-11-27
+C-10138,Jessica Haile,Consumer,Houston,Texas,South,2020-12-19
+C-10139,Nancy Okafor,Consumer,Dallas,Texas,South,2020-06-29
+C-10140,Richard Thomas,Consumer,Los Angeles,California,West,2020-09-08
+C-10141,Maplefield Academy LLC,Corporate,Los Angeles,California,West,2019-05-14
+C-10142,Copperstone Health Clinic Inc.,Corporate,Houston,Texas,South,2022-06-10
+C-10143,Beaconridge Dental Group Co.,Corporate,Atlanta,Georgia,South,2020-04-23
+C-10144,Linda Robinson,Consumer,Portland,Oregon,West,2023-02-17
+C-10145,Amanda Clark,Consumer,Boston,Massachusetts,Northeast,2024-12-30
+C-10146,Brian Taylor,Consumer,Boston,Massachusetts,Northeast,2020-06-26
+C-10147,Jennifer Young,Consumer,New York,New York,Northeast,2025-11-27
+C-10148,David Thompson,Consumer,Miami,Florida,South,2024-01-21
+C-10149,Linda Young,Consumer,Indianapolis,Indiana,Midwest,2025-05-25
+C-10150,Riverstone Accounting LLC,Corporate,Los Angeles,California,West,2020-10-14
+C-10151,Samuel Thomas,Consumer,Orlando,Florida,South,2021-05-15
+C-10152,Elizabeth Haile,Consumer,Detroit,Michigan,Midwest,2018-08-29
+C-10153,Summitworks Academy Co.,Small Business,Seattle,Washington,West,2024-12-02
+C-10154,Daniel Kim,Consumer,Los Angeles,California,West,2022-06-03
+C-10155,Summitfield Architects Group,Small Business,Chicago,Illinois,Midwest,2022-01-09
+C-10156,Lakesideridge Logistics Partners,Small Business,Columbus,Ohio,Midwest,2023-01-24
+C-10157,Bluebridge Realty Co.,Corporate,Detroit,Michigan,Midwest,2022-01-24
+C-10158,Maplefield Consulting Partners,Small Business,Philadelphia,Pennsylvania,Northeast,2023-05-27
+C-10159,Wei King,Consumer,Boston,Massachusetts,Northeast,2021-05-19
+C-10160,Summitpath Consulting Inc.,Small Business,Portland,Oregon,West,2023-11-16
+C-10161,Sarah Lopez,Consumer,Milwaukee,Wisconsin,Midwest,2019-04-04
+C-10162,Hannah Thomas,Consumer,Cleveland,Ohio,Midwest,2019-09-01
+C-10163,Thomas Anderson,Consumer,Nashville,Tennessee,South,2022-11-10
+C-10164,Linda Gonzalez,Consumer,Dallas,Texas,South,2025-05-09
+C-10165,Oakfield Dental Group Partners,Small Business,Portland,Oregon,West,2018-03-02
+C-10166,Andrew King,Consumer,Los Angeles,California,West,2025-01-06
+C-10167,Brian Martinez,Consumer,Houston,Texas,South,2019-08-20
+C-10168,Hannah Patel,Consumer,Cleveland,Ohio,Midwest,2021-11-05
+C-10169,Brightworks Academy Inc.,Small Business,Phoenix,Arizona,West,2021-11-26
+C-10170,Michael Robinson,Consumer,Nashville,Tennessee,South,2023-10-13
+C-10171,Crescentvalley Design Studio Co.,Small Business,Denver,Colorado,West,2025-01-08
+C-10172,Crescentbridge Law Partners Partners,Small Business,Boston,Massachusetts,Northeast,2019-01-14
+C-10173,Matthew Silva,Consumer,San Francisco,California,West,2021-01-31
+C-10174,Maplebridge Realty Partners,Small Business,Miami,Florida,South,2019-06-14
+C-10175,Andrew Flores,Consumer,Boston,Massachusetts,Northeast,2020-10-22
+C-10176,Emily Novak,Consumer,Atlanta,Georgia,South,2022-07-06
+C-10177,Maplepeak Builders LLC,Small Business,Orlando,Florida,South,2023-10-19
+C-10178,Riverbridge Realty Partners,Corporate,New York,New York,Northeast,2023-07-23
+C-10179,Mark Anderson,Consumer,Milwaukee,Wisconsin,Midwest,2018-04-23
+C-10180,Mark Ramirez,Consumer,San Francisco,California,West,2023-08-12
+C-10181,Patricia Williams,Consumer,Chicago,Illinois,Midwest,2020-01-03
+C-10182,Emily Anderson,Consumer,Houston,Texas,South,2019-01-25
+C-10183,Summitvalley Design Studio Inc.,Small Business,Milwaukee,Wisconsin,Midwest,2023-07-05
+C-10184,Riverpeak Builders Inc.,Small Business,Chicago,Illinois,Midwest,2024-12-17
+C-10185,Graniteworks Software Group,Small Business,Seattle,Washington,West,2022-06-27
+C-10186,Michelle Thompson,Consumer,Los Angeles,California,West,2023-04-05
+C-10187,Copperpeak Dental Group Group,Small Business,Boston,Massachusetts,Northeast,2024-12-11
+C-10188,Beaconpeak Law Partners Group,Small Business,Phoenix,Arizona,West,2024-04-22
+C-10189,Graniteridge Health Clinic Inc.,Small Business,San Diego,California,West,2020-12-17
+C-10190,Lisa Cohen,Consumer,Chicago,Illinois,Midwest,2020-03-24
+C-10191,Omar Garcia,Consumer,San Francisco,California,West,2020-03-27
+C-10192,Melissa Harris,Consumer,Buffalo,New York,Northeast,2021-09-23
+C-10193,David Martin,Consumer,Phoenix,Arizona,West,2021-06-02
+C-10194,Priya Williams,Consumer,Orlando,Florida,South,2020-05-29
+C-10195,Olivia Perez,Consumer,Miami,Florida,South,2024-04-25
+C-10196,Sterlingworks Logistics Co.,Small Business,Buffalo,New York,Northeast,2022-06-13
+C-10197,Elizabeth Jackson,Consumer,Seattle,Washington,West,2022-11-24
+C-10198,Sterlingfield Accounting Partners,Small Business,New York,New York,Northeast,2018-09-21
+C-10199,Priya Flores,Consumer,Hartford,Connecticut,Northeast,2024-07-12
+C-10200,Lakesidebridge Consulting Inc.,Small Business,Boston,Massachusetts,Northeast,2019-10-18
+C-10201,Robert Hernandez,Consumer,Los Angeles,California,West,2017-12-04
+C-10202,Kevin Robinson,Consumer,Pittsburgh,Pennsylvania,Northeast,2018-05-01
+C-10203,Crescentworks Software Group,Small Business,Seattle,Washington,West,2019-07-30
+C-10204,Beaconpeak Engineering Inc.,Corporate,Miami,Florida,South,2019-11-05
+C-10205,Emily Rodriguez,Consumer,New York,New York,Northeast,2025-11-02
+C-10206,Joseph Nguyen,Consumer,New York,New York,Northeast,2022-12-17
+C-10207,Redwoodworks Engineering Inc.,Small Business,New York,New York,Northeast,2024-11-15
+C-10208,Lakesidebridge Academy Co.,Small Business,Atlanta,Georgia,South,2018-07-28
+C-10209,James Allen,Consumer,Los Angeles,California,West,2024-02-17
+C-10210,Elizabeth Garcia,Consumer,Hartford,Connecticut,Northeast,2023-08-15
+C-10211,Diego Jones,Consumer,San Francisco,California,West,2021-06-30
+C-10212,Copperworks Dental Group Group,Corporate,New York,New York,Northeast,2025-01-10
+C-10213,David Miller,Consumer,Los Angeles,California,West,2025-08-18
+C-10214,Amanda Chen,Consumer,Portland,Oregon,West,2019-07-17
+C-10215,Graniteridge Logistics Partners,Corporate,Los Angeles,California,West,2021-08-31
+C-10216,John Lee,Consumer,Charlotte,North Carolina,South,2024-11-14
+C-10217,Matthew Kim,Consumer,San Francisco,California,West,2018-10-18
+C-10218,Robert Ramirez,Consumer,New York,New York,Northeast,2018-10-24
+C-10219,Thomas Murphy,Consumer,Pittsburgh,Pennsylvania,Northeast,2018-01-16
+C-10220,Kevin Lee,Consumer,Boston,Massachusetts,Northeast,2024-11-01
+C-10221,Elizabeth Lopez,Consumer,Houston,Texas,South,2017-11-28
+C-10222,Sterlingpoint Design Studio Group,Small Business,Los Angeles,California,West,2020-08-04
+C-10223,Granitepeak Builders Partners,Small Business,Miami,Florida,South,2018-09-13
+C-10224,Wei Allen,Consumer,San Francisco,California,West,2022-12-02
+C-10225,Daniel Novak,Consumer,Philadelphia,Pennsylvania,Northeast,2025-11-22
+C-10226,Linda Wilson,Consumer,Nashville,Tennessee,South,2024-02-27
+C-10227,Harborpeak Design Studio Partners,Corporate,Pittsburgh,Pennsylvania,Northeast,2018-11-26
+C-10228,Linda Novak,Consumer,Chicago,Illinois,Midwest,2019-06-16
+C-10229,Granitepath Dental Group Inc.,Small Business,Charlotte,North Carolina,South,2024-07-03
+C-10230,Mary Allen,Consumer,Phoenix,Arizona,West,2018-06-11
+C-10231,Prairiegate Accounting Co.,Small Business,Atlanta,Georgia,South,2024-05-24
+C-10232,Patricia Rossi,Consumer,New York,New York,Northeast,2024-07-24
+C-10233,Sterlingridge Software Inc.,Small Business,Atlanta,Georgia,South,2025-05-10
+C-10234,Mary Anderson,Consumer,New York,New York,Northeast,2023-11-20
+C-10235,Prairiepoint Logistics Inc.,Corporate,San Diego,California,West,2023-12-19
+C-10236,Andrew Nguyen,Consumer,Charlotte,North Carolina,South,2019-12-08
+C-10237,Blueridge Accounting LLC,Small Business,Philadelphia,Pennsylvania,Northeast,2022-06-13
+C-10238,Brightvalley Law Partners Partners,Small Business,Buffalo,New York,Northeast,2018-08-12
+C-10239,Summitpath Marketing Partners,Corporate,Philadelphia,Pennsylvania,Northeast,2022-01-30
+C-10240,Andrew Kim,Consumer,Phoenix,Arizona,West,2018-12-01
+C-10241,Linda Okafor,Consumer,Houston,Texas,South,2018-07-14
+C-10242,Richard Taylor,Consumer,Los Angeles,California,West,2025-05-22
+C-10243,Barbara Wright,Consumer,Miami,Florida,South,2019-01-27
+C-10244,Carlos Torres,Consumer,Austin,Texas,South,2018-06-01
+C-10245,Graniteworks Software LLC,Corporate,Boston,Massachusetts,Northeast,2022-05-24
+C-10246,Summitbridge Architects LLC,Corporate,Denver,Colorado,West,2018-12-14
+C-10247,Priya Patel,Consumer,Chicago,Illinois,Midwest,2025-08-09
+C-10248,Prairieworks Logistics Group,Small Business,Austin,Texas,South,2020-07-22
+C-10249,Harborworks Design Studio LLC,Small Business,Charlotte,North Carolina,South,2019-05-28
+C-10250,Ironpath Engineering Group,Corporate,Miami,Florida,South,2019-08-16
+C-10251,Andrew Wright,Consumer,Portland,Oregon,West,2023-08-15
+C-10252,Wei Walker,Consumer,Philadelphia,Pennsylvania,Northeast,2025-11-16
+C-10253,Copperworks Accounting Group,Small Business,Houston,Texas,South,2018-07-31
+C-10254,Thomas Nguyen,Consumer,Minneapolis,Minnesota,Midwest,2023-12-07
+C-10255,Wei Brown,Consumer,Houston,Texas,South,2022-07-26
+C-10256,Coppervalley Realty Co.,Corporate,Boston,Massachusetts,Northeast,2023-05-24
+C-10257,Silvergate Marketing Inc.,Corporate,Boston,Massachusetts,Northeast,2024-01-21
+C-10258,Brightstone Engineering Group,Corporate,Chicago,Illinois,Midwest,2023-01-29
+C-10259,Summitvalley Logistics LLC,Small Business,Chicago,Illinois,Midwest,2024-10-05
+C-10260,Anthony Davis,Consumer,Indianapolis,Indiana,Midwest,2025-11-02
+C-10261,Brian Gonzalez,Consumer,Atlanta,Georgia,South,2022-10-22
+C-10262,Sandra Flores,Consumer,Miami,Florida,South,2020-05-08
+C-10263,Amanda Kim,Consumer,Minneapolis,Minnesota,Midwest,2020-07-31
+C-10264,Michelle Ramirez,Consumer,Minneapolis,Minnesota,Midwest,2024-11-03
+C-10265,Cobaltworks Builders Co.,Small Business,Newark,New Jersey,Northeast,2018-05-12
+C-10266,Carlos Rossi,Consumer,Atlanta,Georgia,South,2020-07-31
+C-10267,Ironbridge Dental Group Co.,Small Business,Detroit,Michigan,Midwest,2021-07-01
+C-10268,Diego Okafor,Consumer,New York,New York,Northeast,2021-01-14
+C-10269,Noah Flores,Consumer,Indianapolis,Indiana,Midwest,2023-11-12
+C-10270,Omar Okafor,Consumer,Houston,Texas,South,2024-09-04
+C-10271,Noah Gonzalez,Consumer,Newark,New Jersey,Northeast,2020-03-16
+C-10272,Blueworks Health Clinic Group,Small Business,Austin,Texas,South,2019-11-08
+C-10273,Samuel Gonzalez,Consumer,Austin,Texas,South,2020-01-11
+C-10274,Andrew Anderson,Consumer,Charlotte,North Carolina,South,2019-04-28
+C-10275,Sterlingpeak Health Clinic Inc.,Small Business,Miami,Florida,South,2023-05-09
+C-10276,Nancy Scott,Consumer,Miami,Florida,South,2022-12-25
+C-10277,William Martinez,Consumer,Detroit,Michigan,Midwest,2022-08-09
+C-10278,Ashley Anderson,Consumer,Los Angeles,California,West,2024-12-02
+C-10279,Nancy Davis,Consumer,Dallas,Texas,South,2025-05-17
+C-10280,Harborstone Engineering Group,Small Business,Indianapolis,Indiana,Midwest,2025-01-05
+C-10281,Mary Scott,Consumer,Atlanta,Georgia,South,2024-01-12
+C-10282,William Thomas,Consumer,Columbus,Ohio,Midwest,2024-11-01
+C-10283,Anthony Flores,Consumer,Dallas,Texas,South,2019-01-20
+C-10284,Fatima Martin,Consumer,Nashville,Tennessee,South,2022-02-05
+C-10285,Robert White,Consumer,Seattle,Washington,West,2021-04-14
+C-10286,Sterlingridge Logistics Partners,Small Business,Portland,Oregon,West,2018-07-05
+C-10287,Emily Clark,Consumer,Houston,Texas,South,2024-07-14
+C-10288,Redwoodpeak Design Studio Inc.,Small Business,Dallas,Texas,South,2025-11-16
+C-10289,Jennifer Thompson,Consumer,Los Angeles,California,West,2019-10-17
+C-10290,William Kim,Consumer,Detroit,Michigan,Midwest,2019-09-30
+C-10291,Mary Flores,Consumer,San Francisco,California,West,2018-09-17
+C-10292,Northworks Engineering Group,Small Business,Houston,Texas,South,2023-01-28
+C-10293,Maplefield Design Studio LLC,Corporate,Boston,Massachusetts,Northeast,2019-01-10
+C-10294,Noah Ramirez,Consumer,New York,New York,Northeast,2025-03-09
+C-10295,Mark Young,Consumer,San Francisco,California,West,2022-05-22
+C-10296,Northpeak Academy Partners,Corporate,New York,New York,Northeast,2022-08-18
+C-10297,Wei Gonzalez,Consumer,Chicago,Illinois,Midwest,2024-03-16
+C-10298,Joseph Scott,Consumer,Detroit,Michigan,Midwest,2021-11-19
+C-10299,Grace Thomas,Consumer,Philadelphia,Pennsylvania,Northeast,2020-09-01
+C-10300,Maplebridge Academy Group,Small Business,Detroit,Michigan,Midwest,2024-12-15
+C-10301,Redwoodfield Consulting LLC,Small Business,Los Angeles,California,West,2017-12-05
+C-10302,Omar Thomas,Consumer,New York,New York,Northeast,2019-07-09
+C-10303,Silverfield Engineering LLC,Corporate,San Francisco,California,West,2020-12-15
+C-10304,Michelle Allen,Consumer,San Diego,California,West,2018-01-13
+C-10305,Grace Young,Consumer,Cleveland,Ohio,Midwest,2019-07-13
+C-10306,Carlos Patel,Consumer,Philadelphia,Pennsylvania,Northeast,2024-04-03
+C-10307,David Williams,Consumer,Atlanta,Georgia,South,2023-12-18
+C-10308,Mark Jackson,Consumer,Boston,Massachusetts,Northeast,2023-03-10
+C-10309,Mei Moore,Consumer,Columbus,Ohio,Midwest,2022-05-04
+C-10310,Sandra Thompson,Consumer,Denver,Colorado,West,2018-07-28
+C-10311,Bluefield Health Clinic Partners,Small Business,Phoenix,Arizona,West,2025-03-27
+C-10312,Ashley Perez,Consumer,Los Angeles,California,West,2022-08-21
+C-10313,Amanda Okafor,Consumer,Chicago,Illinois,Midwest,2021-11-11
+C-10314,Sterlingstone Dental Group Inc.,Small Business,Orlando,Florida,South,2023-06-05
+C-10315,Silverfield Logistics Group,Small Business,Charlotte,North Carolina,South,2021-05-15
+C-10316,Northpeak Academy Inc.,Small Business,Minneapolis,Minnesota,Midwest,2020-05-15
+C-10317,Lakesidebridge Realty Partners,Small Business,Miami,Florida,South,2021-03-15
+C-10318,Sterlingpeak Design Studio Inc.,Small Business,New York,New York,Northeast,2020-07-13
+C-10319,James King,Consumer,Pittsburgh,Pennsylvania,Northeast,2018-04-10
+C-10320,Sandra Gonzalez,Consumer,Dallas,Texas,South,2025-03-20
+C-10321,Redwoodpeak Accounting Group,Small Business,Philadelphia,Pennsylvania,Northeast,2025-08-04
+C-10322,Carlos Lee,Consumer,Philadelphia,Pennsylvania,Northeast,2020-05-26
+C-10323,Fatima Harris,Consumer,San Francisco,California,West,2025-04-07
+C-10324,Anthony Wright,Consumer,Phoenix,Arizona,West,2019-03-05
+C-10325,Noah Cohen,Consumer,Dallas,Texas,South,2024-04-24
+C-10326,Steven Hill,Consumer,San Francisco,California,West,2019-08-02
+C-10327,Sarah Patel,Consumer,Phoenix,Arizona,West,2019-11-17
+C-10328,Summitbridge Consulting LLC,Small Business,Boston,Massachusetts,Northeast,2024-08-27
+C-10329,Summitpath Academy Inc.,Corporate,Milwaukee,Wisconsin,Midwest,2024-08-05
+C-10330,Priya Martin,Consumer,Minneapolis,Minnesota,Midwest,2025-02-04
+C-10331,Prairiepath Consulting LLC,Corporate,New York,New York,Northeast,2025-09-14
+C-10332,Michelle Scott,Consumer,Los Angeles,California,West,2025-04-30
+C-10333,Granitestone Academy Co.,Corporate,Indianapolis,Indiana,Midwest,2018-12-05
+C-10334,Summitpath Engineering Partners,Corporate,Houston,Texas,South,2018-12-22
+C-10335,Michael Miller,Consumer,Philadelphia,Pennsylvania,Northeast,2018-07-19
+C-10336,Prairiepoint Design Studio LLC,Small Business,Philadelphia,Pennsylvania,Northeast,2019-08-20
+C-10337,Cobaltstone Marketing LLC,Corporate,Seattle,Washington,West,2020-02-01
+C-10338,Cobaltpath Marketing Partners,Corporate,New York,New York,Northeast,2025-01-04
+C-10339,Pinefield Design Studio Inc.,Corporate,Newark,New Jersey,Northeast,2018-08-10
+C-10340,Lisa Flores,Consumer,Chicago,Illinois,Midwest,2023-12-25
+C-10341,James Kim,Consumer,Houston,Texas,South,2023-09-01
+C-10342,Sterlingstone Marketing Partners,Small Business,Atlanta,Georgia,South,2025-07-29
+C-10343,Oakgate Architects Co.,Small Business,Houston,Texas,South,2022-04-14
+C-10344,Copperpoint Engineering LLC,Small Business,New York,New York,Northeast,2018-07-03
+C-10345,Susan Johnson,Consumer,Hartford,Connecticut,Northeast,2020-06-15
+C-10346,Steven Lopez,Consumer,San Francisco,California,West,2025-06-17
+C-10347,Luis Nguyen,Consumer,Miami,Florida,South,2025-05-03
+C-10348,Ironfield Dental Group Partners,Small Business,Miami,Florida,South,2020-04-21
+C-10349,Fatima Okafor,Consumer,Orlando,Florida,South,2020-09-06
+C-10350,Summitridge Law Partners Co.,Small Business,Los Angeles,California,West,2023-12-12
+C-10351,Harborridge Consulting Co.,Small Business,New York,New York,Northeast,2025-10-20
+C-10352,James Garcia,Consumer,Columbus,Ohio,Midwest,2018-08-29
+C-10353,Melissa Young,Consumer,Dallas,Texas,South,2019-04-16
+C-10354,Sarah Garcia,Consumer,Detroit,Michigan,Midwest,2022-10-17
+C-10355,Beaconpoint Consulting LLC,Corporate,San Francisco,California,West,2019-08-14
+C-10356,Cobaltridge Accounting Partners,Small Business,Houston,Texas,South,2022-10-30
+C-10357,Jennifer Gonzalez,Consumer,Los Angeles,California,West,2018-07-01
+C-10358,Sarah Wright,Consumer,San Francisco,California,West,2025-10-30
+C-10359,Andrew Miller,Consumer,Houston,Texas,South,2019-06-24
+C-10360,Brian Jackson,Consumer,Seattle,Washington,West,2020-03-12
+C-10361,Harborbridge Engineering Group,Corporate,Atlanta,Georgia,South,2022-11-04
+C-10362,Pinefield Academy Group,Small Business,San Francisco,California,West,2022-09-17
+C-10363,Lisa Lopez,Consumer,Columbus,Ohio,Midwest,2025-08-02
+C-10364,Sterlingridge Marketing Partners,Small Business,Houston,Texas,South,2019-07-04
+C-10365,Sandra Martin,Consumer,Dallas,Texas,South,2022-01-19
+C-10366,Silverpath Engineering Co.,Small Business,Buffalo,New York,Northeast,2023-07-23
+C-10367,Amanda Miller,Consumer,Minneapolis,Minnesota,Midwest,2023-10-12
+C-10368,Summitridge Architects LLC,Small Business,Seattle,Washington,West,2019-11-28
+C-10369,Oakpoint Law Partners Partners,Corporate,Miami,Florida,South,2023-04-30
+C-10370,Patricia Sanchez,Consumer,Philadelphia,Pennsylvania,Northeast,2025-08-12
+C-10371,Silverpath Engineering LLC,Small Business,Detroit,Michigan,Midwest,2024-07-09
+C-10372,Harborgate Health Clinic Inc.,Corporate,Pittsburgh,Pennsylvania,Northeast,2019-01-02
+C-10373,Susan Taylor,Consumer,New York,New York,Northeast,2018-07-20
+C-10374,Richard Allen,Consumer,Portland,Oregon,West,2021-02-25
+C-10375,Pinestone Accounting LLC,Small Business,Milwaukee,Wisconsin,Midwest,2023-06-07
+C-10376,Priya Jones,Consumer,Chicago,Illinois,Midwest,2024-09-27
+C-10377,Susan Walker,Consumer,Atlanta,Georgia,South,2019-02-24
+C-10378,Joshua Torres,Consumer,New York,New York,Northeast,2023-04-06
+C-10379,Brightworks Design Studio Group,Small Business,Chicago,Illinois,Midwest,2025-09-02
+C-10380,Luis Martinez,Consumer,Charlotte,North Carolina,South,2020-06-24
+C-10381,Omar Perez,Consumer,Miami,Florida,South,2021-01-28
+C-10382,Granitebridge Consulting Inc.,Small Business,Phoenix,Arizona,West,2022-11-08
+C-10383,James Davis,Consumer,Atlanta,Georgia,South,2024-10-23
+C-10384,Crescentpath Law Partners LLC,Small Business,Houston,Texas,South,2019-08-17
+C-10385,Omar Allen,Consumer,Los Angeles,California,West,2022-05-31
+C-10386,Lakesidestone Software Inc.,Corporate,Seattle,Washington,West,2025-10-23
+C-10387,Crescentpath Marketing Co.,Small Business,Nashville,Tennessee,South,2022-08-07
+C-10388,Priya Perez,Consumer,Denver,Colorado,West,2025-05-20
+C-10389,Silverpath Engineering Group,Corporate,Los Angeles,California,West,2023-09-09
+C-10390,Noah Jackson,Consumer,San Diego,California,West,2023-03-11
+C-10391,Mary Johnson,Consumer,Boston,Massachusetts,Northeast,2018-01-01
+C-10392,Mark Walker,Consumer,Nashville,Tennessee,South,2024-08-23
+C-10393,Crescentridge Design Studio LLC,Small Business,Milwaukee,Wisconsin,Midwest,2019-01-10
+C-10394,Priya Walker,Consumer,Dallas,Texas,South,2023-10-30
+C-10395,William Miller,Consumer,Miami,Florida,South,2018-05-21
+C-10396,Elizabeth Hill,Consumer,Phoenix,Arizona,West,2023-04-08
+C-10397,Linda Cohen,Consumer,Phoenix,Arizona,West,2020-01-26
+C-10398,Robert Sanchez,Consumer,Chicago,Illinois,Midwest,2020-03-22
+C-10399,Anthony Harris,Consumer,Nashville,Tennessee,South,2021-03-04
+C-10400,Omar King,Consumer,Los Angeles,California,West,2022-07-14
+C-10401,Patricia Anderson,Consumer,Columbus,Ohio,Midwest,2023-11-12
+C-10402,Harborworks Engineering LLC,Small Business,Boston,Massachusetts,Northeast,2019-12-14
+C-10403,Aisha Young,Consumer,New York,New York,Northeast,2024-03-06
+C-10404,Maplefield Dental Group Group,Small Business,Los Angeles,California,West,2023-10-01
+C-10405,Elizabeth Clark,Consumer,Houston,Texas,South,2020-03-01
+C-10406,Mei Hernandez,Consumer,Phoenix,Arizona,West,2024-01-03
+C-10407,Robert Davis,Consumer,Houston,Texas,South,2019-08-23
+C-10408,Sandra Chen,Consumer,Phoenix,Arizona,West,2019-12-20
+C-10409,Barbara Thompson,Consumer,Minneapolis,Minnesota,Midwest,2024-07-15
+C-10410,Summitpath Software Co.,Small Business,Los Angeles,California,West,2018-01-17
+C-10411,Luis Perez,Consumer,New York,New York,Northeast,2024-12-13
+C-10412,Sarah Young,Consumer,Dallas,Texas,South,2024-07-02
+C-10413,Lisa Jones,Consumer,Los Angeles,California,West,2025-08-10
+C-10414,Grace Cohen,Consumer,Portland,Oregon,West,2025-07-10
+C-10415,Joshua Perez,Consumer,San Francisco,California,West,2023-12-26
+C-10416,Mary Davis,Consumer,New York,New York,Northeast,2022-06-06
+C-10417,David Gonzalez,Consumer,Cleveland,Ohio,Midwest,2018-02-23
+C-10418,Sarah Walker,Consumer,New York,New York,Northeast,2020-12-17
+C-10419,Oakpoint Dental Group Co.,Small Business,Boston,Massachusetts,Northeast,2023-02-01
+C-10420,Riverfield Builders Co.,Corporate,Orlando,Florida,South,2018-03-21
+C-10421,Grace Garcia,Consumer,Charlotte,North Carolina,South,2018-02-06
+C-10422,Summitridge Builders Co.,Small Business,Los Angeles,California,West,2021-05-13
+C-10423,Summitvalley Design Studio Co.,Small Business,San Diego,California,West,2023-11-13
+C-10424,Elizabeth Brown,Consumer,Nashville,Tennessee,South,2021-04-16
+C-10425,Redwoodpoint Consulting Partners,Small Business,Los Angeles,California,West,2020-01-24
+C-10426,Ironbridge Academy LLC,Small Business,New York,New York,Northeast,2021-08-22
+C-10427,Bluepeak Dental Group Group,Corporate,Hartford,Connecticut,Northeast,2019-04-13
+C-10428,Oakvalley Accounting Inc.,Corporate,Atlanta,Georgia,South,2023-01-26
+C-10429,Nancy Jones,Consumer,San Diego,California,West,2017-11-28
+C-10430,Grace Flores,Consumer,New York,New York,Northeast,2023-10-02
+C-10431,Sandra Wilson,Consumer,Dallas,Texas,South,2024-06-10
+C-10432,Thomas Sanchez,Consumer,Orlando,Florida,South,2019-01-10
+C-10433,Omar Novak,Consumer,New York,New York,Northeast,2024-02-02
+C-10434,Ironpoint Logistics Group,Corporate,Minneapolis,Minnesota,Midwest,2023-01-23
+C-10435,Samuel Allen,Consumer,Seattle,Washington,West,2024-10-03
+C-10436,Luis Hernandez,Consumer,Orlando,Florida,South,2018-02-25
+C-10437,Summitpeak Dental Group Inc.,Small Business,Hartford,Connecticut,Northeast,2019-01-05
+C-10438,Patricia Wright,Consumer,San Francisco,California,West,2022-03-17
+C-10439,Patricia Moore,Consumer,Columbus,Ohio,Midwest,2025-05-04
+C-10440,Beaconpoint Law Partners Partners,Corporate,San Francisco,California,West,2023-05-02
+C-10441,Diego Davis,Consumer,Chicago,Illinois,Midwest,2022-04-05
+C-10442,James Sanchez,Consumer,Atlanta,Georgia,South,2021-08-28
+C-10443,Mark Haile,Consumer,Minneapolis,Minnesota,Midwest,2022-09-03
+C-10444,Summitpath Architects Inc.,Corporate,Chicago,Illinois,Midwest,2022-09-09
+C-10445,Carlos Wilson,Consumer,Seattle,Washington,West,2025-11-01
+C-10446,Jennifer Jackson,Consumer,Philadelphia,Pennsylvania,Northeast,2021-03-07
+C-10447,Aisha Lewis,Consumer,New York,New York,Northeast,2020-11-13
+C-10448,Daniel Wilson,Consumer,Columbus,Ohio,Midwest,2022-10-14
+C-10449,Copperworks Design Studio Partners,Corporate,Nashville,Tennessee,South,2022-06-27
+C-10450,Carlos Lewis,Consumer,Los Angeles,California,West,2022-01-02
+C-10451,Brightbridge Accounting Co.,Corporate,Phoenix,Arizona,West,2018-05-29
+C-10452,John Haile,Consumer,Chicago,Illinois,Midwest,2020-07-30
+C-10453,Matthew Okafor,Consumer,Minneapolis,Minnesota,Midwest,2023-09-13
+C-10454,Ironstone Design Studio Co.,Small Business,Boston,Massachusetts,Northeast,2019-12-06
+C-10455,Mei Hill,Consumer,Austin,Texas,South,2019-06-02
+C-10456,Mei Martin,Consumer,Phoenix,Arizona,West,2023-01-26
+C-10457,Riverworks Realty Inc.,Small Business,Charlotte,North Carolina,South,2020-08-07
+C-10458,Jennifer Sanchez,Consumer,Atlanta,Georgia,South,2025-11-23
+C-10459,Steven Moore,Consumer,Minneapolis,Minnesota,Midwest,2021-05-16
+C-10460,Ironstone Logistics Partners,Corporate,Seattle,Washington,West,2025-08-06
+C-10461,Hannah Young,Consumer,Houston,Texas,South,2022-10-02
+C-10462,Lisa Martin,Consumer,Boston,Massachusetts,Northeast,2022-11-04
+C-10463,Ashley Thomas,Consumer,Columbus,Ohio,Midwest,2024-12-09
+C-10464,Noah Chen,Consumer,New York,New York,Northeast,2020-10-11
+C-10465,Carlos Anderson,Consumer,Pittsburgh,Pennsylvania,Northeast,2025-04-28
+C-10466,Northfield Academy Co.,Small Business,New York,New York,Northeast,2023-10-26
+C-10467,Michael Okafor,Consumer,Milwaukee,Wisconsin,Midwest,2022-10-15
+C-10468,Rivervalley Health Clinic LLC,Small Business,Miami,Florida,South,2025-04-22
+C-10469,Linda Miller,Consumer,Columbus,Ohio,Midwest,2024-02-27
+C-10470,Karen Hernandez,Consumer,Indianapolis,Indiana,Midwest,2025-02-21
+C-10471,Ashley Young,Consumer,Denver,Colorado,West,2023-10-09
+C-10472,Pinepoint Marketing Group,Small Business,Los Angeles,California,West,2021-08-27
+C-10473,Aisha White,Consumer,Dallas,Texas,South,2024-08-31
+C-10474,Linda Clark,Consumer,Chicago,Illinois,Midwest,2022-06-27
+C-10475,Redwoodgate Dental Group LLC,Small Business,Seattle,Washington,West,2021-11-29
+C-10476,Linda Martinez,Consumer,Hartford,Connecticut,Northeast,2023-08-19
+C-10477,Michelle Cohen,Consumer,Detroit,Michigan,Midwest,2025-02-05
+C-10478,Summitpeak Logistics Inc.,Corporate,Seattle,Washington,West,2020-03-23
+C-10479,James Clark,Consumer,Dallas,Texas,South,2023-08-06
+C-10480,Lisa Clark,Consumer,Los Angeles,California,West,2025-06-15
+C-10481,Mark Jones,Consumer,Atlanta,Georgia,South,2022-06-08
+C-10482,Matthew Garcia,Consumer,Miami,Florida,South,2018-05-22
+C-10483,Jennifer Moore,Consumer,Chicago,Illinois,Midwest,2025-11-21
+C-10484,Crescentpeak Marketing Group,Small Business,Hartford,Connecticut,Northeast,2020-11-16
+C-10485,John Anderson,Consumer,Detroit,Michigan,Midwest,2023-10-07
+C-10486,Harborpoint Realty Partners,Small Business,Philadelphia,Pennsylvania,Northeast,2021-05-16
+C-10487,Maplestone Law Partners LLC,Corporate,San Diego,California,West,2023-02-18
+C-10488,Copperbridge Accounting Inc.,Small Business,Chicago,Illinois,Midwest,2024-09-08
+C-10489,Beacongate Builders Partners,Small Business,Austin,Texas,South,2025-03-21
+C-10490,Lakesidestone Accounting Partners,Small Business,Los Angeles,California,West,2025-08-03
+C-10491,Redwoodworks Academy Inc.,Corporate,Los Angeles,California,West,2023-08-07
+C-10492,Richard Wright,Consumer,Milwaukee,Wisconsin,Midwest,2023-10-13
+C-10493,James Wright,Consumer,Houston,Texas,South,2020-06-15
+C-10494,Wei Williams,Consumer,Phoenix,Arizona,West,2022-04-29
+C-10495,Joseph Perez,Consumer,Orlando,Florida,South,2023-09-19
+C-10496,Susan Murphy,Consumer,Los Angeles,California,West,2024-04-08
+C-10497,Lakesideridge Design Studio Partners,Small Business,Seattle,Washington,West,2022-05-30
+C-10498,Sandra Rossi,Consumer,Los Angeles,California,West,2023-08-08
+C-10499,Silvergate Design Studio Group,Corporate,Philadelphia,Pennsylvania,Northeast,2024-07-06
+C-10500,Susan Lee,Consumer,Austin,Texas,South,2025-03-05
+C-10501,Omar Flores,Consumer,Buffalo,New York,Northeast,2018-06-08
+C-10502,Wei Murphy,Consumer,Miami,Florida,South,2023-05-02
+C-10503,Steven Garcia,Consumer,Denver,Colorado,West,2023-07-15
+C-10504,Susan Perez,Consumer,Dallas,Texas,South,2025-06-05
+C-10505,Lisa Moore,Consumer,Indianapolis,Indiana,Midwest,2024-09-18
+C-10506,John White,Consumer,New York,New York,Northeast,2017-12-06
+C-10507,Hannah Smith,Consumer,Denver,Colorado,West,2018-01-01
+C-10508,Mei Gonzalez,Consumer,Buffalo,New York,Northeast,2022-08-14
+C-10509,Matthew Johnson,Consumer,New York,New York,Northeast,2020-10-30
+C-10510,Olivia Allen,Consumer,Hartford,Connecticut,Northeast,2019-03-31
+C-10511,Thomas Chen,Consumer,New York,New York,Northeast,2021-07-24
+C-10512,James Gonzalez,Consumer,Milwaukee,Wisconsin,Midwest,2022-02-19
+C-10513,Nancy Lopez,Consumer,Dallas,Texas,South,2025-05-10
+C-10514,Emily Brown,Consumer,Chicago,Illinois,Midwest,2020-08-09
+C-10515,Copperworks Builders Group,Small Business,New York,New York,Northeast,2021-02-13
+C-10516,Bluefield Consulting Group,Corporate,Boston,Massachusetts,Northeast,2024-08-01
+C-10517,Maplevalley Academy LLC,Corporate,Cleveland,Ohio,Midwest,2021-04-28
+C-10518,William Nguyen,Consumer,New York,New York,Northeast,2022-07-23
+C-10519,James White,Consumer,Charlotte,North Carolina,South,2022-02-24
+C-10520,Mei Allen,Consumer,Pittsburgh,Pennsylvania,Northeast,2018-11-17
+C-10521,Silverridge Software Inc.,Small Business,Chicago,Illinois,Midwest,2023-08-08
+C-10522,Riverpath Architects LLC,Small Business,Minneapolis,Minnesota,Midwest,2020-07-17
+C-10523,Northridge Consulting Co.,Small Business,Indianapolis,Indiana,Midwest,2020-12-25
+C-10524,Granitestone Software Inc.,Corporate,New York,New York,Northeast,2022-04-21
+C-10525,Melissa Sanchez,Consumer,Boston,Massachusetts,Northeast,2025-02-02
+C-10526,Riverstone Logistics Partners,Small Business,San Diego,California,West,2025-06-04
+C-10527,Maplepath Design Studio Inc.,Small Business,New York,New York,Northeast,2018-05-01
+C-10528,Linda Rossi,Consumer,Houston,Texas,South,2019-01-14
+C-10529,Copperridge Academy Partners,Corporate,Houston,Texas,South,2025-09-05
+C-10530,Mary Williams,Consumer,Detroit,Michigan,Midwest,2022-03-08
+C-10531,Lakesidefield Builders Inc.,Corporate,Indianapolis,Indiana,Midwest,2023-05-05
+C-10532,Silverpath Logistics Partners,Small Business,Los Angeles,California,West,2021-04-11
+C-10533,Lisa Chen,Consumer,San Francisco,California,West,2023-05-01
+C-10534,Mapleworks Accounting Inc.,Small Business,Chicago,Illinois,Midwest,2024-11-20
+C-10535,Nancy Moore,Consumer,Detroit,Michigan,Midwest,2025-01-12
+C-10536,Copperpath Health Clinic Co.,Small Business,Hartford,Connecticut,Northeast,2018-03-05
+C-10537,Crescentvalley Engineering Group,Small Business,Houston,Texas,South,2023-04-17
+C-10538,Ironfield Accounting LLC,Small Business,Orlando,Florida,South,2019-10-12
+C-10539,Northpeak Marketing Co.,Small Business,Newark,New Jersey,Northeast,2022-02-04
+C-10540,Samuel Nguyen,Consumer,Detroit,Michigan,Midwest,2023-02-13
+C-10541,James Silva,Consumer,Portland,Oregon,West,2023-02-06
+C-10542,Fatima Walker,Consumer,New York,New York,Northeast,2023-10-10
+C-10543,Barbara Rodriguez,Consumer,Houston,Texas,South,2023-08-26
+C-10544,Aisha Gonzalez,Consumer,Charlotte,North Carolina,South,2025-05-09
+C-10545,Mary Cohen,Consumer,Philadelphia,Pennsylvania,Northeast,2025-01-11
+C-10546,Amanda Gonzalez,Consumer,New York,New York,Northeast,2024-11-07
+C-10547,Daniel Perez,Consumer,Boston,Massachusetts,Northeast,2020-09-07
+C-10548,Redwoodworks Architects Co.,Small Business,Seattle,Washington,West,2023-11-06
+C-10549,John Ramirez,Consumer,New York,New York,Northeast,2024-11-09
+C-10550,Bluepath Architects Inc.,Corporate,Philadelphia,Pennsylvania,Northeast,2022-12-16
+C-10551,Jennifer Walker,Consumer,New York,New York,Northeast,2023-08-31
+C-10552,Hannah Ramirez,Consumer,Boston,Massachusetts,Northeast,2024-11-05
+C-10553,Jennifer Harris,Consumer,Atlanta,Georgia,South,2019-01-16
+C-10554,Lisa Sanchez,Consumer,Hartford,Connecticut,Northeast,2025-05-06
+C-10555,Elizabeth Murphy,Consumer,Austin,Texas,South,2019-01-05
+C-10556,Michael Martinez,Consumer,Atlanta,Georgia,South,2018-06-30
+C-10557,James Wilson,Consumer,San Francisco,California,West,2019-07-30
+C-10558,Luis Gonzalez,Consumer,New York,New York,Northeast,2021-11-28
+C-10559,Andrew Smith,Consumer,San Francisco,California,West,2021-02-11
+C-10560,Mei Clark,Consumer,Atlanta,Georgia,South,2023-07-27
+C-10561,Maplegate Accounting Group,Small Business,Philadelphia,Pennsylvania,Northeast,2019-03-13
+C-10562,Michelle Haile,Consumer,Los Angeles,California,West,2023-11-16
+C-10563,Silvervalley Realty Inc.,Corporate,San Diego,California,West,2019-12-13
+C-10564,Harborgate Academy LLC,Small Business,Chicago,Illinois,Midwest,2024-01-21
+C-10565,Oakvalley Academy Co.,Corporate,Seattle,Washington,West,2025-06-24
+C-10566,Silvervalley Health Clinic LLC,Small Business,Milwaukee,Wisconsin,Midwest,2021-07-09
+C-10567,Joseph Johnson,Consumer,Atlanta,Georgia,South,2023-11-15
+C-10568,David Thomas,Consumer,Phoenix,Arizona,West,2025-10-29
+C-10569,Emily Murphy,Consumer,Columbus,Ohio,Midwest,2025-11-02
+C-10570,Copperbridge Law Partners Co.,Small Business,Los Angeles,California,West,2018-03-24
+C-10571,Fatima Ramirez,Consumer,Detroit,Michigan,Midwest,2024-12-27
+C-10572,Priya Lee,Consumer,Los Angeles,California,West,2023-05-05
+C-10573,Brightgate Logistics Partners,Corporate,Atlanta,Georgia,South,2018-07-03
+C-10574,Melissa Scott,Consumer,Newark,New Jersey,Northeast,2023-06-19
+C-10575,Fatima White,Consumer,Minneapolis,Minnesota,Midwest,2021-08-13
+C-10576,Pineridge Marketing Inc.,Small Business,Detroit,Michigan,Midwest,2022-07-11
+C-10577,Thomas Harris,Consumer,New York,New York,Northeast,2020-03-03
+C-10578,Robert Miller,Consumer,New York,New York,Northeast,2020-07-19
+C-10579,Riverpeak Consulting LLC,Small Business,Columbus,Ohio,Midwest,2025-03-09
+C-10580,Matthew Davis,Consumer,New York,New York,Northeast,2022-05-04
+C-10581,Diego Johnson,Consumer,Philadelphia,Pennsylvania,Northeast,2023-12-18
+C-10582,Sarah Johnson,Consumer,Nashville,Tennessee,South,2023-09-04
+C-10583,Cobaltgate Engineering Co.,Small Business,Charlotte,North Carolina,South,2020-01-04
+C-10584,Diego Patel,Consumer,Nashville,Tennessee,South,2020-06-08
+C-10585,Summitvalley Law Partners Co.,Corporate,Detroit,Michigan,Midwest,2021-06-04
+C-10586,Maplebridge Builders Inc.,Corporate,Seattle,Washington,West,2023-05-11
+C-10587,Anthony Cohen,Consumer,Atlanta,Georgia,South,2021-09-06
+C-10588,Michael Haile,Consumer,Boston,Massachusetts,Northeast,2025-02-08
+C-10589,Anthony Perez,Consumer,Boston,Massachusetts,Northeast,2019-10-13
+C-10590,Riverpoint Dental Group LLC,Small Business,Charlotte,North Carolina,South,2019-06-07
+C-10591,Omar Brown,Consumer,Philadelphia,Pennsylvania,Northeast,2019-05-21
+C-10592,Karen Kim,Consumer,Houston,Texas,South,2019-05-28
+C-10593,Brian Clark,Consumer,Phoenix,Arizona,West,2019-05-28
+C-10594,Redwoodgate Consulting Inc.,Corporate,New York,New York,Northeast,2025-07-12
+C-10595,Patricia Miller,Consumer,New York,New York,Northeast,2020-08-13
+C-10596,Rivergate Consulting Inc.,Small Business,Phoenix,Arizona,West,2024-03-21
+C-10597,Susan Brown,Consumer,Austin,Texas,South,2022-04-02
+C-10598,Maplebridge Engineering Group,Corporate,Boston,Massachusetts,Northeast,2022-10-05
+C-10599,Omar White,Consumer,Seattle,Washington,West,2025-04-30
+C-10600,John Davis,Consumer,San Diego,California,West,2021-11-11
+C-10601,Silvervalley Marketing Inc.,Corporate,Dallas,Texas,South,2020-10-02
+C-10602,Maplegate Consulting Group,Corporate,Atlanta,Georgia,South,2021-11-20
+C-10603,Sarah Jones,Consumer,Chicago,Illinois,Midwest,2022-03-24
+C-10604,John Clark,Consumer,New York,New York,Northeast,2023-12-26
+C-10605,Jennifer Wright,Consumer,Atlanta,Georgia,South,2021-03-03
+C-10606,James Johnson,Consumer,Chicago,Illinois,Midwest,2022-08-01
+C-10607,Wei Harris,Consumer,Miami,Florida,South,2023-08-22
+C-10608,Rivergate Academy Inc.,Corporate,San Francisco,California,West,2023-10-01
+C-10609,Diego Haile,Consumer,New York,New York,Northeast,2022-09-24
+C-10610,Silverfield Health Clinic Co.,Small Business,Atlanta,Georgia,South,2024-02-16
+C-10611,Jessica Patel,Consumer,Newark,New Jersey,Northeast,2024-12-03
+C-10612,Joshua Moore,Consumer,San Diego,California,West,2023-01-18
+C-10613,Summitfield Marketing LLC,Small Business,Chicago,Illinois,Midwest,2020-07-08
+C-10614,Diego White,Consumer,Atlanta,Georgia,South,2018-04-02
+C-10615,Sterlingbridge Marketing Partners,Small Business,Dallas,Texas,South,2025-01-10
+C-10616,Sarah Sanchez,Consumer,Minneapolis,Minnesota,Midwest,2022-04-11
+C-10617,Lakesideridge Marketing Co.,Corporate,Orlando,Florida,South,2019-06-10
+C-10618,Maplepeak Logistics Co.,Small Business,Nashville,Tennessee,South,2023-04-27
+C-10619,Ironvalley Accounting Group,Small Business,Austin,Texas,South,2020-12-13
+C-10620,Melissa King,Consumer,Los Angeles,California,West,2025-02-24
+C-10621,Emily Martinez,Consumer,Phoenix,Arizona,West,2019-09-08
+C-10622,Jennifer Ramirez,Consumer,Indianapolis,Indiana,Midwest,2023-01-06
+C-10623,Anthony Lee,Consumer,Dallas,Texas,South,2022-03-27
+C-10624,Omar Jackson,Consumer,New York,New York,Northeast,2021-11-01
+C-10625,Diego Hill,Consumer,Los Angeles,California,West,2019-10-21
+C-10626,Kevin Perez,Consumer,Dallas,Texas,South,2023-08-10
+C-10627,Wei Rodriguez,Consumer,Minneapolis,Minnesota,Midwest,2019-05-17
+C-10628,Joseph Garcia,Consumer,Buffalo,New York,Northeast,2021-06-30
+C-10629,Karen Martinez,Consumer,Seattle,Washington,West,2023-07-31
+C-10630,Carlos Allen,Consumer,Minneapolis,Minnesota,Midwest,2017-12-20
+C-10631,Cobaltstone Consulting Group,Small Business,Orlando,Florida,South,2019-08-11
+C-10632,Brian Smith,Consumer,Philadelphia,Pennsylvania,Northeast,2019-04-28
+C-10633,Hannah Jones,Consumer,Denver,Colorado,West,2024-07-01
+C-10634,Aisha Robinson,Consumer,Philadelphia,Pennsylvania,Northeast,2019-06-07
+C-10635,Prairiepath Architects Co.,Small Business,Pittsburgh,Pennsylvania,Northeast,2018-03-28
+C-10636,David Lopez,Consumer,San Diego,California,West,2019-05-12
+C-10637,Brian Scott,Consumer,Seattle,Washington,West,2019-11-14
+C-10638,Sterlingpoint Law Partners Inc.,Corporate,Newark,New Jersey,Northeast,2019-07-03
+C-10639,Patricia Lee,Consumer,Houston,Texas,South,2019-08-01
+C-10640,Silvergate Software Partners,Corporate,Nashville,Tennessee,South,2020-06-05
+C-10641,Summitstone Law Partners LLC,Small Business,San Diego,California,West,2021-10-27
+C-10642,Thomas Rodriguez,Consumer,Cleveland,Ohio,Midwest,2022-03-12
+C-10643,Thomas Lopez,Consumer,Dallas,Texas,South,2021-06-20
+C-10644,Redwoodpath Marketing LLC,Small Business,Los Angeles,California,West,2021-07-27
+C-10645,Brightgate Law Partners Inc.,Corporate,Nashville,Tennessee,South,2023-02-23
+C-10646,Sandra White,Consumer,Los Angeles,California,West,2024-07-01
+C-10647,Joshua Clark,Consumer,Austin,Texas,South,2024-04-21
+C-10648,Kevin Thomas,Consumer,Buffalo,New York,Northeast,2020-02-28
+C-10649,Linda Lopez,Consumer,Seattle,Washington,West,2020-03-26
+C-10650,Copperworks Law Partners Group,Small Business,San Diego,California,West,2019-03-12
+C-10651,Noah Brown,Consumer,Los Angeles,California,West,2018-05-23
+C-10652,Crescentridge Academy Group,Small Business,Buffalo,New York,Northeast,2018-02-24
+C-10653,Beaconstone Accounting Inc.,Small Business,Pittsburgh,Pennsylvania,Northeast,2023-06-07
+C-10654,Riverpeak Architects Group,Small Business,Los Angeles,California,West,2020-01-05
+C-10655,Brightvalley Dental Group Inc.,Small Business,New York,New York,Northeast,2024-02-28
+C-10656,Pineworks Builders Co.,Small Business,Phoenix,Arizona,West,2021-11-12
+C-10657,Copperpath Marketing Inc.,Small Business,Cleveland,Ohio,Midwest,2018-10-13
+C-10658,Copperworks Law Partners LLC,Small Business,Nashville,Tennessee,South,2022-02-22
+C-10659,Aisha Kim,Consumer,Seattle,Washington,West,2024-01-22
+C-10660,Luis King,Consumer,Minneapolis,Minnesota,Midwest,2020-06-06
+C-10661,Barbara Walker,Consumer,Detroit,Michigan,Midwest,2024-04-13
+C-10662,Rivervalley Logistics Group,Small Business,Atlanta,Georgia,South,2018-08-27
+C-10663,Beaconridge Accounting LLC,Small Business,Austin,Texas,South,2020-10-16
+C-10664,David Flores,Consumer,Minneapolis,Minnesota,Midwest,2025-05-27
+C-10665,Nancy Sanchez,Consumer,Atlanta,Georgia,South,2019-09-15
+C-10666,Thomas Moore,Consumer,Portland,Oregon,West,2020-11-15
+C-10667,Harborgate Consulting Partners,Small Business,Houston,Texas,South,2025-08-08
+C-10668,Daniel Torres,Consumer,Pittsburgh,Pennsylvania,Northeast,2018-01-25
+C-10669,Steven Wright,Consumer,Cleveland,Ohio,Midwest,2019-05-01
+C-10670,Bluepath Builders Co.,Corporate,Minneapolis,Minnesota,Midwest,2019-04-28
+C-10671,Granitefield Accounting Partners,Small Business,Boston,Massachusetts,Northeast,2022-02-12
+C-10672,Anthony Anderson,Consumer,Philadelphia,Pennsylvania,Northeast,2023-06-05
+C-10673,Emily Hill,Consumer,Orlando,Florida,South,2018-10-22
+C-10674,Cobaltvalley Software Group,Corporate,Detroit,Michigan,Midwest,2018-07-21
+C-10675,Beaconvalley Software Inc.,Small Business,Denver,Colorado,West,2025-03-11
+C-10676,Harborstone Design Studio LLC,Small Business,Hartford,Connecticut,Northeast,2020-01-01
+C-10677,Linda Jackson,Consumer,Buffalo,New York,Northeast,2022-10-31
+C-10678,Joseph Moore,Consumer,Los Angeles,California,West,2024-02-19
+C-10679,Priya Lewis,Consumer,San Diego,California,West,2020-02-29
+C-10680,Oakpath Engineering Inc.,Small Business,Chicago,Illinois,Midwest,2019-10-04
+C-10681,Mark Robinson,Consumer,Pittsburgh,Pennsylvania,Northeast,2018-08-30
+C-10682,Steven Haile,Consumer,Philadelphia,Pennsylvania,Northeast,2020-06-19
+C-10683,Redwoodpath Law Partners Co.,Small Business,Dallas,Texas,South,2018-08-12
+C-10684,Blueworks Dental Group Group,Corporate,Houston,Texas,South,2022-04-04
+C-10685,Prairiepeak Software LLC,Small Business,Chicago,Illinois,Midwest,2018-01-13
+C-10686,Olivia Thomas,Consumer,New York,New York,Northeast,2025-08-25
+C-10687,Elizabeth Robinson,Consumer,Houston,Texas,South,2023-04-06
+C-10688,Patricia Smith,Consumer,Denver,Colorado,West,2019-08-17
+C-10689,Robert Brown,Consumer,Miami,Florida,South,2020-11-19
+C-10690,Richard Sanchez,Consumer,Houston,Texas,South,2018-10-22
+C-10691,Priya Okafor,Consumer,Boston,Massachusetts,Northeast,2023-11-20
+C-10692,Brian Haile,Consumer,Chicago,Illinois,Midwest,2018-06-12
+C-10693,Oakvalley Logistics Partners,Corporate,Chicago,Illinois,Midwest,2025-03-31
+C-10694,Pinebridge Consulting Partners,Corporate,Los Angeles,California,West,2023-12-27
+C-10695,Grace Patel,Consumer,San Diego,California,West,2022-08-19
+C-10696,Richard Smith,Consumer,Seattle,Washington,West,2023-09-19
+C-10697,Mark Brown,Consumer,Phoenix,Arizona,West,2024-08-25
+C-10698,Emily Smith,Consumer,Phoenix,Arizona,West,2023-01-25
+C-10699,Mark Johnson,Consumer,Denver,Colorado,West,2024-02-08
+C-10700,Mary Ramirez,Consumer,New York,New York,Northeast,2024-07-31
+C-10701,Copperpath Academy Inc.,Small Business,Boston,Massachusetts,Northeast,2022-05-02
+C-10702,Emily Garcia,Consumer,Chicago,Illinois,Midwest,2024-03-25
+C-10703,Northbridge Logistics Inc.,Corporate,Dallas,Texas,South,2024-11-20
+C-10704,Olivia Haile,Consumer,Buffalo,New York,Northeast,2022-11-03
+C-10705,Andrew Lopez,Consumer,San Francisco,California,West,2024-02-24
+C-10706,Matthew Miller,Consumer,Atlanta,Georgia,South,2024-10-11
+C-10707,Sandra Young,Consumer,Dallas,Texas,South,2021-03-13
+C-10708,Jennifer Wilson,Consumer,Philadelphia,Pennsylvania,Northeast,2024-07-10
+C-10709,Beaconpoint Accounting LLC,Corporate,Chicago,Illinois,Midwest,2023-01-07
+C-10710,Elizabeth Jones,Consumer,Philadelphia,Pennsylvania,Northeast,2023-07-23
+C-10711,Noah Davis,Consumer,San Francisco,California,West,2020-05-20
+C-10712,Daniel Sanchez,Consumer,Austin,Texas,South,2022-01-07
+C-10713,Mary Miller,Consumer,Nashville,Tennessee,South,2022-01-25
+C-10714,Jessica Chen,Consumer,Chicago,Illinois,Midwest,2023-10-01
+C-10715,Fatima Robinson,Consumer,Cleveland,Ohio,Midwest,2025-09-20
+C-10716,Riverpoint Builders LLC,Small Business,Minneapolis,Minnesota,Midwest,2022-01-09
+C-10717,Karen Jackson,Consumer,Los Angeles,California,West,2025-02-01
+C-10718,Diego Scott,Consumer,Los Angeles,California,West,2019-10-27
+C-10719,Cobaltridge Accounting LLC,Small Business,Pittsburgh,Pennsylvania,Northeast,2023-12-01
+C-10720,Crescentpeak Law Partners Inc.,Small Business,Denver,Colorado,West,2019-10-16
+C-10721,Karen White,Consumer,Boston,Massachusetts,Northeast,2023-11-01
+C-10722,Matthew Murphy,Consumer,Seattle,Washington,West,2022-04-28
+C-10723,Joseph Silva,Consumer,Buffalo,New York,Northeast,2018-11-13
+C-10724,Luis Martin,Consumer,Chicago,Illinois,Midwest,2018-09-21
+C-10725,Samuel Young,Consumer,San Francisco,California,West,2018-12-24
+C-10726,Prairiefield Architects LLC,Small Business,Philadelphia,Pennsylvania,Northeast,2024-07-26
+C-10727,Elizabeth Martin,Consumer,Minneapolis,Minnesota,Midwest,2024-02-28
+C-10728,Summitbridge Academy Co.,Small Business,Milwaukee,Wisconsin,Midwest,2018-10-29
+C-10729,Mary Wilson,Consumer,Hartford,Connecticut,Northeast,2024-07-21
+C-10730,Northgate Logistics Inc.,Small Business,Charlotte,North Carolina,South,2018-10-09
+C-10731,Blueworks Architects Partners,Small Business,San Francisco,California,West,2025-08-13
+C-10732,Steven Flores,Consumer,San Diego,California,West,2020-10-31
+C-10733,Fatima Allen,Consumer,Detroit,Michigan,Midwest,2017-12-22
+C-10734,Steven Perez,Consumer,Dallas,Texas,South,2021-04-30
+C-10735,Maplebridge Accounting Group,Small Business,Hartford,Connecticut,Northeast,2023-07-23
+C-10736,Wei Patel,Consumer,Hartford,Connecticut,Northeast,2025-10-14
+C-10737,Emily Martin,Consumer,Philadelphia,Pennsylvania,Northeast,2025-09-20
+C-10738,Diego Lopez,Consumer,Portland,Oregon,West,2025-05-26
+C-10739,Prairiegate Accounting LLC,Small Business,Seattle,Washington,West,2020-09-30
+C-10740,Fatima Hernandez,Consumer,Los Angeles,California,West,2020-10-01
+C-10741,Luis Thompson,Consumer,Dallas,Texas,South,2018-07-11
+C-10742,Beaconpath Realty Co.,Corporate,Houston,Texas,South,2024-12-07
+C-10743,Amanda Murphy,Consumer,Dallas,Texas,South,2020-03-22
+C-10744,Summitpeak Engineering LLC,Small Business,Dallas,Texas,South,2022-07-15
+C-10745,Susan Scott,Consumer,Indianapolis,Indiana,Midwest,2018-09-09
+C-10746,Linda Taylor,Consumer,Boston,Massachusetts,Northeast,2019-01-20
+C-10747,Riverridge Academy Partners,Corporate,Boston,Massachusetts,Northeast,2019-08-28
+C-10748,Lakesidegate Design Studio Inc.,Small Business,Denver,Colorado,West,2018-12-28
+C-10749,Silverbridge Logistics Group,Small Business,Houston,Texas,South,2025-03-11
+C-10750,Grace Lewis,Consumer,Denver,Colorado,West,2022-01-25
+C-10751,Linda Nguyen,Consumer,Philadelphia,Pennsylvania,Northeast,2020-05-27
+C-10752,Omar Thompson,Consumer,Dallas,Texas,South,2023-01-28
+C-10753,Emily Moore,Consumer,Pittsburgh,Pennsylvania,Northeast,2025-08-24
+C-10754,Matthew Perez,Consumer,Chicago,Illinois,Midwest,2025-09-28
+C-10755,Priya Brown,Consumer,New York,New York,Northeast,2023-12-20
+C-10756,Daniel Allen,Consumer,Boston,Massachusetts,Northeast,2023-03-28
+C-10757,Elizabeth White,Consumer,Seattle,Washington,West,2022-11-30
+C-10758,Ashley Rodriguez,Consumer,Detroit,Michigan,Midwest,2022-09-17
+C-10759,Brian Kim,Consumer,Atlanta,Georgia,South,2025-11-29
+C-10760,Oakgate Logistics Partners,Small Business,Houston,Texas,South,2022-09-26
+C-10761,Sterlingbridge Law Partners Co.,Small Business,Minneapolis,Minnesota,Midwest,2020-11-17
+C-10762,Karen Wright,Consumer,Dallas,Texas,South,2023-11-17
+C-10763,Silverridge Consulting Co.,Small Business,Philadelphia,Pennsylvania,Northeast,2024-08-29
+C-10764,Irongate Law Partners LLC,Small Business,Phoenix,Arizona,West,2019-08-27
+C-10765,Joshua White,Consumer,San Francisco,California,West,2024-03-08
+C-10766,Anthony Martin,Consumer,Los Angeles,California,West,2024-12-19
+C-10767,Michael Lee,Consumer,Houston,Texas,South,2018-05-13
+C-10768,Priya Wright,Consumer,Philadelphia,Pennsylvania,Northeast,2023-09-17
+C-10769,Beaconridge Engineering Partners,Small Business,Portland,Oregon,West,2022-08-14
+C-10770,Sterlingstone Health Clinic Co.,Corporate,Columbus,Ohio,Midwest,2022-10-26
+C-10771,Steven Sanchez,Consumer,New York,New York,Northeast,2017-12-24
+C-10772,Prairiepath Health Clinic Co.,Small Business,Columbus,Ohio,Midwest,2018-08-22
+C-10773,Mei Wright,Consumer,Los Angeles,California,West,2023-03-29
+C-10774,Samuel Wilson,Consumer,Atlanta,Georgia,South,2021-03-02
+C-10775,Pinestone Dental Group LLC,Small Business,Los Angeles,California,West,2019-10-25
+C-10776,Sandra Allen,Consumer,Los Angeles,California,West,2019-01-30
+C-10777,Jennifer Lopez,Consumer,Newark,New Jersey,Northeast,2020-08-20
+C-10778,Priya Murphy,Consumer,Portland,Oregon,West,2024-11-09
+C-10779,Granitefield Design Studio LLC,Corporate,Milwaukee,Wisconsin,Midwest,2022-04-24
+C-10780,Emily Flores,Consumer,Miami,Florida,South,2023-08-08
+C-10781,Grace Harris,Consumer,New York,New York,Northeast,2024-11-09
+C-10782,Fatima Lewis,Consumer,Phoenix,Arizona,West,2021-07-03
+C-10783,Joseph King,Consumer,Chicago,Illinois,Midwest,2018-08-15
+C-10784,Melissa Murphy,Consumer,New York,New York,Northeast,2021-05-07
+C-10785,Beaconworks Academy Partners,Small Business,Houston,Texas,South,2019-07-03
+C-10786,Copperbridge Law Partners Partners,Small Business,Boston,Massachusetts,Northeast,2020-06-26
+C-10787,Ironpeak Consulting Inc.,Corporate,Philadelphia,Pennsylvania,Northeast,2020-02-12
+C-10788,Beaconvalley Law Partners LLC,Small Business,Miami,Florida,South,2018-11-18
+C-10789,Diego Rossi,Consumer,Minneapolis,Minnesota,Midwest,2019-09-21
+C-10790,Linda Williams,Consumer,Portland,Oregon,West,2024-08-31
+C-10791,Thomas Young,Consumer,Detroit,Michigan,Midwest,2025-05-21
+C-10792,Kevin Moore,Consumer,Nashville,Tennessee,South,2023-12-28
+C-10793,Maplepath Law Partners LLC,Corporate,Houston,Texas,South,2023-07-09
+C-10794,Redwoodvalley Architects Group,Small Business,Miami,Florida,South,2025-09-07
+C-10795,Oakpeak Engineering Group,Corporate,Atlanta,Georgia,South,2020-01-02
+C-10796,Brian Williams,Consumer,Houston,Texas,South,2023-09-05
+C-10797,John Hill,Consumer,Denver,Colorado,West,2021-05-21
+C-10798,David Novak,Consumer,Columbus,Ohio,Midwest,2020-07-09
+C-10799,Priya Taylor,Consumer,Philadelphia,Pennsylvania,Northeast,2019-08-11
+C-10800,William Wilson,Consumer,Orlando,Florida,South,2021-05-26
+C-10801,Grace Clark,Consumer,San Francisco,California,West,2019-04-28
+C-10802,Joshua Wright,Consumer,New York,New York,Northeast,2023-12-17
+C-10803,Ironpath Marketing Group,Corporate,Milwaukee,Wisconsin,Midwest,2025-11-30
+C-10804,Jennifer Okafor,Consumer,Seattle,Washington,West,2024-02-13
+C-10805,Sarah Clark,Consumer,Los Angeles,California,West,2025-07-15
+C-10806,Blueridge Academy Group,Small Business,Phoenix,Arizona,West,2024-02-29
+C-10807,Barbara Martin,Consumer,Dallas,Texas,South,2019-09-04
+C-10808,Northvalley Health Clinic Inc.,Corporate,Miami,Florida,South,2024-10-18
+C-10809,Brightworks Builders LLC,Small Business,Chicago,Illinois,Midwest,2023-10-05
+C-10810,Noah King,Consumer,Denver,Colorado,West,2020-08-09
+C-10811,Lakesideridge Realty Inc.,Small Business,Columbus,Ohio,Midwest,2018-01-10
+C-10812,Cobaltbridge Law Partners LLC,Small Business,Nashville,Tennessee,South,2024-08-08
+C-10813,Sterlingpoint Architects Group,Small Business,Minneapolis,Minnesota,Midwest,2023-06-22
+C-10814,Riverridge Builders Co.,Small Business,Austin,Texas,South,2024-10-03
+C-10815,Oakbridge Marketing Partners,Small Business,Nashville,Tennessee,South,2025-11-03
+C-10816,Mei Cohen,Consumer,Dallas,Texas,South,2019-12-16
+C-10817,Amanda Novak,Consumer,Seattle,Washington,West,2023-02-27
+C-10818,Summitfield Health Clinic Partners,Small Business,Indianapolis,Indiana,Midwest,2020-12-16
+C-10819,Granitevalley Engineering LLC,Corporate,Miami,Florida,South,2020-07-21
+C-10820,Steven Wilson,Consumer,Columbus,Ohio,Midwest,2022-09-13
+C-10821,Graniteridge Health Clinic LLC,Small Business,Minneapolis,Minnesota,Midwest,2019-08-12
+C-10822,Fatima Garcia,Consumer,Milwaukee,Wisconsin,Midwest,2023-08-16
+C-10823,Summitworks Accounting Inc.,Small Business,Boston,Massachusetts,Northeast,2021-05-09
+C-10824,Brightpeak Health Clinic Co.,Corporate,Buffalo,New York,Northeast,2025-01-30
+C-10825,Melissa Haile,Consumer,Orlando,Florida,South,2025-01-25
+C-10826,Fatima Rodriguez,Consumer,Miami,Florida,South,2025-07-23
+C-10827,Lisa Novak,Consumer,Miami,Florida,South,2022-09-22
+C-10828,Robert Chen,Consumer,New York,New York,Northeast,2024-04-28
+C-10829,Patricia Kim,Consumer,Detroit,Michigan,Midwest,2022-05-22
+C-10830,Joshua Davis,Consumer,Pittsburgh,Pennsylvania,Northeast,2023-03-05
+C-10831,Fatima Silva,Consumer,Los Angeles,California,West,2022-02-28
+C-10832,Daniel Moore,Consumer,San Diego,California,West,2019-09-25
+C-10833,Patricia Clark,Consumer,Hartford,Connecticut,Northeast,2021-06-10
+C-10834,Riverbridge Design Studio LLC,Small Business,Orlando,Florida,South,2019-12-30
+C-10835,Bluepoint Architects Inc.,Small Business,Boston,Massachusetts,Northeast,2018-12-13
+C-10836,Sterlingworks Realty Inc.,Small Business,Chicago,Illinois,Midwest,2019-04-23
+C-10837,Brightgate Architects LLC,Small Business,Boston,Massachusetts,Northeast,2020-08-17
+C-10838,Silverbridge Academy LLC,Small Business,Chicago,Illinois,Midwest,2025-03-27
+C-10839,Mei Robinson,Consumer,Orlando,Florida,South,2019-10-29
+C-10840,Silverfield Design Studio Group,Small Business,Seattle,Washington,West,2022-04-16
+C-10841,John Young,Consumer,Pittsburgh,Pennsylvania,Northeast,2019-04-10
+C-10842,Matthew Hernandez,Consumer,Dallas,Texas,South,2022-01-16
+C-10843,Melissa White,Consumer,Charlotte,North Carolina,South,2021-01-29
+C-10844,Granitebridge Dental Group LLC,Small Business,Denver,Colorado,West,2022-06-25
+C-10845,Northpoint Design Studio Co.,Small Business,Atlanta,Georgia,South,2021-03-03
+C-10846,Jessica Robinson,Consumer,Chicago,Illinois,Midwest,2022-08-12
+C-10847,Samuel Kim,Consumer,Atlanta,Georgia,South,2019-08-11
+C-10848,Joshua Young,Consumer,Detroit,Michigan,Midwest,2025-06-10
+C-10849,Harborstone Realty Partners,Small Business,Phoenix,Arizona,West,2021-07-24
+C-10850,Granitefield Marketing Partners,Small Business,Minneapolis,Minnesota,Midwest,2023-08-31
+C-10851,Brian Patel,Consumer,Orlando,Florida,South,2018-06-27
+C-10852,Robert Torres,Consumer,New York,New York,Northeast,2023-01-29
+C-10853,Carlos Robinson,Consumer,Minneapolis,Minnesota,Midwest,2024-09-14
+C-10854,Nancy Clark,Consumer,San Diego,California,West,2020-12-15
+C-10855,Northstone Logistics Group,Small Business,Atlanta,Georgia,South,2018-12-20
+C-10856,Sterlingbridge Design Studio Group,Small Business,Milwaukee,Wisconsin,Midwest,2018-09-03
+C-10857,Sarah Allen,Consumer,Portland,Oregon,West,2019-09-25
+C-10858,Anthony Nguyen,Consumer,San Francisco,California,West,2023-03-08
+C-10859,Mary Lewis,Consumer,Detroit,Michigan,Midwest,2018-02-01
+C-10860,Kevin Hernandez,Consumer,Dallas,Texas,South,2021-11-18
+C-10861,Elizabeth Wilson,Consumer,Houston,Texas,South,2022-06-19
+C-10862,Luis Jackson,Consumer,Miami,Florida,South,2020-07-01
+C-10863,Oakgate Realty Co.,Corporate,Detroit,Michigan,Midwest,2021-10-05
+C-10864,Anthony Moore,Consumer,Hartford,Connecticut,Northeast,2022-07-15
+C-10865,Mei Johnson,Consumer,Seattle,Washington,West,2024-12-05
+C-10866,Ashley Jackson,Consumer,Portland,Oregon,West,2025-01-13
+C-10867,Joseph Martin,Consumer,San Francisco,California,West,2022-02-19
+C-10868,Northstone Dental Group LLC,Small Business,Phoenix,Arizona,West,2022-10-16
+C-10869,Mary Thompson,Consumer,Los Angeles,California,West,2017-11-24
+C-10870,Granitepoint Consulting Partners,Small Business,Los Angeles,California,West,2024-11-11
+C-10871,Cobaltgate Design Studio Co.,Small Business,Los Angeles,California,West,2022-04-16
+C-10872,Nancy Johnson,Consumer,Houston,Texas,South,2025-02-25
+C-10873,Maplevalley Health Clinic LLC,Small Business,Houston,Texas,South,2020-06-11
+C-10874,Riverpeak Design Studio Inc.,Corporate,Hartford,Connecticut,Northeast,2018-01-15
+C-10875,Mary Robinson,Consumer,Miami,Florida,South,2025-05-19
+C-10876,Melissa Ramirez,Consumer,Chicago,Illinois,Midwest,2022-05-05
+C-10877,Crescentpeak Realty Group,Corporate,Chicago,Illinois,Midwest,2022-07-05
+C-10878,Blueworks Realty Group,Corporate,Atlanta,Georgia,South,2025-09-19
+C-10879,Michelle Smith,Consumer,Minneapolis,Minnesota,Midwest,2024-01-13
+C-10880,Ashley Moore,Consumer,Newark,New Jersey,Northeast,2021-10-11
+C-10881,Nancy Anderson,Consumer,Los Angeles,California,West,2021-02-27
+C-10882,Maplevalley Accounting Group,Small Business,San Diego,California,West,2019-01-16
+C-10883,Jennifer Hill,Consumer,Philadelphia,Pennsylvania,Northeast,2021-07-27
+C-10884,Kevin Williams,Consumer,New York,New York,Northeast,2020-11-19
+C-10885,Brightpeak Engineering Inc.,Small Business,Detroit,Michigan,Midwest,2024-02-28
+C-10886,Redwoodfield Architects Co.,Corporate,Los Angeles,California,West,2023-02-03
+C-10887,Cobaltfield Accounting Inc.,Small Business,San Francisco,California,West,2025-02-28
+C-10888,Noah Novak,Consumer,Boston,Massachusetts,Northeast,2020-09-10
+C-10889,Susan Williams,Consumer,Los Angeles,California,West,2022-06-26
+C-10890,Crescentridge Law Partners Partners,Corporate,Boston,Massachusetts,Northeast,2025-06-21
+C-10891,Crescentfield Health Clinic Inc.,Corporate,Minneapolis,Minnesota,Midwest,2023-02-11
+C-10892,Hannah Novak,Consumer,Phoenix,Arizona,West,2023-01-24
+C-10893,Coppergate Health Clinic Partners,Small Business,Pittsburgh,Pennsylvania,Northeast,2025-08-31
+C-10894,Diego Novak,Consumer,Philadelphia,Pennsylvania,Northeast,2025-01-13
+C-10895,Robert Perez,Consumer,Indianapolis,Indiana,Midwest,2025-05-14
+C-10896,Samuel Johnson,Consumer,Atlanta,Georgia,South,2024-08-04
+C-10897,Daniel Cohen,Consumer,Portland,Oregon,West,2021-06-18
+C-10898,Joshua Walker,Consumer,Phoenix,Arizona,West,2021-08-13
+C-10899,Blueridge Builders Partners,Small Business,New York,New York,Northeast,2019-10-06
+C-10900,Mei Scott,Consumer,Boston,Massachusetts,Northeast,2023-02-24
+C-10901,Omar Lewis,Consumer,Los Angeles,California,West,2023-07-24
+C-10902,David Lee,Consumer,Chicago,Illinois,Midwest,2022-12-07
+C-10903,Ashley Johnson,Consumer,Seattle,Washington,West,2021-05-02
+C-10904,Brian Walker,Consumer,Miami,Florida,South,2020-08-15
+C-10905,Lisa Young,Consumer,Boston,Massachusetts,Northeast,2025-08-06
+C-10906,Andrew Silva,Consumer,San Francisco,California,West,2018-05-07
+C-10907,Coppervalley Engineering Co.,Small Business,Philadelphia,Pennsylvania,Northeast,2023-05-15
+C-10908,Bluepath Logistics Partners,Corporate,Indianapolis,Indiana,Midwest,2021-10-11
+C-10909,Sandra Perez,Consumer,Dallas,Texas,South,2024-01-28
+C-10910,Beaconpeak Design Studio LLC,Corporate,Houston,Texas,South,2022-12-16
+C-10911,Granitevalley Builders Co.,Corporate,Orlando,Florida,South,2024-01-16
+C-10912,Prairieridge Accounting Inc.,Small Business,Miami,Florida,South,2020-04-01
+C-10913,Beaconworks Law Partners Inc.,Small Business,Phoenix,Arizona,West,2022-12-14
+C-10914,Pinevalley Software Partners,Small Business,Phoenix,Arizona,West,2024-04-15
+C-10915,Brightvalley Realty LLC,Small Business,Dallas,Texas,South,2024-10-09
+C-10916,Sterlingstone Law Partners LLC,Small Business,Buffalo,New York,Northeast,2024-01-13
+C-10917,Mark Novak,Consumer,Nashville,Tennessee,South,2018-01-27
+C-10918,Bluestone Engineering Co.,Corporate,Phoenix,Arizona,West,2024-03-03
+C-10919,Steven Jackson,Consumer,Detroit,Michigan,Midwest,2021-06-14
+C-10920,Crescentstone Academy Partners,Small Business,Houston,Texas,South,2019-09-12
+C-10921,Steven Jones,Consumer,Indianapolis,Indiana,Midwest,2024-04-01
+C-10922,Thomas Walker,Consumer,New York,New York,Northeast,2024-08-31
+C-10923,Melissa Jones,Consumer,Orlando,Florida,South,2020-11-24
+C-10924,Sarah Martin,Consumer,Columbus,Ohio,Midwest,2017-12-26
+C-10925,Jessica Wright,Consumer,Los Angeles,California,West,2018-08-15
+C-10926,Noah Williams,Consumer,San Francisco,California,West,2020-01-02
+C-10927,William Hernandez,Consumer,San Francisco,California,West,2024-05-05
+C-10928,Priya Rodriguez,Consumer,Indianapolis,Indiana,Midwest,2021-05-07
+C-10929,Wei Perez,Consumer,Detroit,Michigan,Midwest,2025-08-17
+C-10930,Cobaltpeak Accounting Partners,Corporate,Los Angeles,California,West,2020-01-04
+C-10931,Linda Flores,Consumer,Los Angeles,California,West,2018-10-25
+C-10932,Michelle Sanchez,Consumer,Houston,Texas,South,2024-05-11
+C-10933,Richard Rodriguez,Consumer,Seattle,Washington,West,2018-09-15
+C-10934,Samuel Moore,Consumer,Boston,Massachusetts,Northeast,2020-01-15
+C-10935,Susan Wilson,Consumer,San Diego,California,West,2024-09-29
+C-10936,Silverpath Engineering Partners,Small Business,Buffalo,New York,Northeast,2025-05-14
+C-10937,Crescentpeak Engineering Co.,Corporate,Philadelphia,Pennsylvania,Northeast,2022-07-02
+C-10938,Priya Johnson,Consumer,Dallas,Texas,South,2019-02-15
+C-10939,Redwoodgate Accounting Group,Small Business,New York,New York,Northeast,2025-04-01
+C-10940,Carlos Williams,Consumer,New York,New York,Northeast,2022-06-05
+C-10941,Mary Sanchez,Consumer,New York,New York,Northeast,2022-06-04
+C-10942,Daniel Martin,Consumer,Indianapolis,Indiana,Midwest,2020-12-04
+C-10943,Jessica Thomas,Consumer,Los Angeles,California,West,2019-03-22
+C-10944,Redwoodfield Health Clinic Partners,Small Business,New York,New York,Northeast,2021-04-11
+C-10945,Sterlingbridge Builders Group,Small Business,Miami,Florida,South,2021-10-17
+C-10946,Riverpoint Dental Group Group,Small Business,San Francisco,California,West,2025-11-30
+C-10947,Nancy Taylor,Consumer,Philadelphia,Pennsylvania,Northeast,2019-03-29
+C-10948,Oakvalley Design Studio Co.,Small Business,Boston,Massachusetts,Northeast,2020-11-11
+C-10949,Barbara Hill,Consumer,San Diego,California,West,2021-09-27
+C-10950,Barbara Kim,Consumer,San Francisco,California,West,2023-02-06
+C-10951,Steven Okafor,Consumer,Dallas,Texas,South,2020-11-20
+C-10952,Granitevalley Academy Partners,Small Business,San Francisco,California,West,2020-05-04
+C-10953,Oakpoint Design Studio Group,Corporate,Buffalo,New York,Northeast,2018-06-28
+C-10954,Richard Brown,Consumer,Minneapolis,Minnesota,Midwest,2023-01-20
+C-10955,Grace Ramirez,Consumer,Nashville,Tennessee,South,2018-12-13
+C-10956,Copperbridge Design Studio Co.,Small Business,Chicago,Illinois,Midwest,2024-09-16
+C-10957,Crescentpath Architects Group,Small Business,Los Angeles,California,West,2019-02-12
+C-10958,Emily Chen,Consumer,Houston,Texas,South,2019-04-30
+C-10959,Mapleworks Realty Partners,Small Business,Los Angeles,California,West,2018-09-20
+C-10960,Northbridge Academy Partners,Small Business,Houston,Texas,South,2020-03-19
+C-10961,Maplepoint Engineering LLC,Small Business,Cleveland,Ohio,Midwest,2020-10-02
+C-10962,Sarah Kim,Consumer,Newark,New Jersey,Northeast,2023-12-26
+C-10963,Oakvalley Architects Group,Corporate,Pittsburgh,Pennsylvania,Northeast,2024-06-09
+C-10964,Joseph Anderson,Consumer,Los Angeles,California,West,2021-11-27
+C-10965,Harborgate Architects Partners,Small Business,Boston,Massachusetts,Northeast,2018-02-17
+C-10966,Kevin Gonzalez,Consumer,New York,New York,Northeast,2025-02-07
+C-10967,John King,Consumer,Philadelphia,Pennsylvania,Northeast,2018-02-01
+C-10968,Hannah Perez,Consumer,Philadelphia,Pennsylvania,Northeast,2020-02-12
+C-10969,William King,Consumer,San Francisco,California,West,2021-02-09
+C-10970,Patricia Hill,Consumer,Minneapolis,Minnesota,Midwest,2021-02-10
+C-10971,Joseph Novak,Consumer,Phoenix,Arizona,West,2025-06-27
+C-10972,Barbara Chen,Consumer,Boston,Massachusetts,Northeast,2022-09-15
+C-10973,Omar Wright,Consumer,Miami,Florida,South,2025-06-18
+C-10974,Coppergate Accounting LLC,Small Business,Milwaukee,Wisconsin,Midwest,2025-06-10
+C-10975,Copperworks Marketing Partners,Corporate,Minneapolis,Minnesota,Midwest,2019-05-14
+C-10976,Granitefield Builders Partners,Small Business,San Diego,California,West,2021-09-25
+C-10977,Carlos Cohen,Consumer,Phoenix,Arizona,West,2021-02-19
+C-10978,Diego Moore,Consumer,San Diego,California,West,2019-02-12
+C-10979,Summitvalley Accounting Co.,Corporate,Pittsburgh,Pennsylvania,Northeast,2018-10-11
+C-10980,Noah Johnson,Consumer,Newark,New Jersey,Northeast,2018-09-27
+C-10981,Michael Wright,Consumer,Miami,Florida,South,2024-01-03
+C-10982,Lakesideworks Engineering Co.,Corporate,Chicago,Illinois,Midwest,2020-08-21
+C-10983,Brightpeak Marketing Partners,Corporate,Nashville,Tennessee,South,2019-03-08
+C-10984,Matthew Young,Consumer,Austin,Texas,South,2024-09-02
+C-10985,Maplestone Architects Co.,Small Business,Dallas,Texas,South,2017-12-11
+C-10986,Samuel Flores,Consumer,San Francisco,California,West,2022-11-06
+C-10987,Riverworks Health Clinic LLC,Small Business,Charlotte,North Carolina,South,2021-04-13
+C-10988,Kevin Taylor,Consumer,New York,New York,Northeast,2022-06-22
+C-10989,Andrew Gonzalez,Consumer,New York,New York,Northeast,2020-11-14
+C-10990,Brightvalley Law Partners Inc.,Small Business,Atlanta,Georgia,South,2023-10-28
+C-10991,Melissa Brown,Consumer,Houston,Texas,South,2020-02-01
+C-10992,Mapleridge Architects LLC,Small Business,Chicago,Illinois,Midwest,2019-11-18
+C-10993,Robert Scott,Consumer,Indianapolis,Indiana,Midwest,2025-07-25
+C-10994,Crescentworks Dental Group Co.,Corporate,Los Angeles,California,West,2018-04-04
+C-10995,Summitvalley Academy Inc.,Small Business,San Francisco,California,West,2021-02-16
+C-10996,Aisha Chen,Consumer,Austin,Texas,South,2023-04-09
+C-10997,Prairiepeak Builders LLC,Small Business,Cleveland,Ohio,Midwest,2019-02-08
+C-10998,Michael Thomas,Consumer,Chicago,Illinois,Midwest,2025-03-11
+C-10999,James Chen,Consumer,Dallas,Texas,South,2023-06-18
+C-11000,Robert Murphy,Consumer,Detroit,Michigan,Midwest,2020-11-13
+C-11001,Summitbridge Software LLC,Small Business,Austin,Texas,South,2022-06-20
+C-11002,Bluevalley Consulting Partners,Small Business,Orlando,Florida,South,2019-10-11
+C-11003,Cobaltstone Consulting LLC,Corporate,New York,New York,Northeast,2024-04-18
+C-11004,Brightridge Consulting Group,Small Business,New York,New York,Northeast,2020-06-22
+C-11005,Oakfield Architects Group,Corporate,Newark,New Jersey,Northeast,2020-01-10
+C-11006,Joshua Thompson,Consumer,Seattle,Washington,West,2018-04-04
+C-11007,Crescentpoint Builders Inc.,Corporate,Miami,Florida,South,2025-11-16
+C-11008,Nancy Robinson,Consumer,Philadelphia,Pennsylvania,Northeast,2023-07-12
+C-11009,Wei Silva,Consumer,Seattle,Washington,West,2024-07-30
+C-11010,Sarah Moore,Consumer,Houston,Texas,South,2022-08-19
+C-11011,Priya Silva,Consumer,Houston,Texas,South,2024-11-07
+C-11012,Sandra Silva,Consumer,Portland,Oregon,West,2023-01-30
+C-11013,Carlos Walker,Consumer,New York,New York,Northeast,2024-03-29
+C-11014,Fatima Murphy,Consumer,Newark,New Jersey,Northeast,2025-06-12
+C-11015,Lisa Okafor,Consumer,Austin,Texas,South,2018-03-20
+C-11016,Cobaltvalley Builders Co.,Corporate,Pittsburgh,Pennsylvania,Northeast,2023-11-10
+C-11017,Granitegate Marketing Co.,Small Business,Orlando,Florida,South,2022-09-29
+C-11018,Luis Silva,Consumer,Newark,New Jersey,Northeast,2019-08-09
+C-11019,Patricia Martinez,Consumer,Buffalo,New York,Northeast,2020-10-09
+C-11020,Elizabeth Hernandez,Consumer,Pittsburgh,Pennsylvania,Northeast,2021-11-26
+C-11021,Priya Anderson,Consumer,Indianapolis,Indiana,Midwest,2024-07-27
+C-11022,Prairieridge Academy LLC,Small Business,Philadelphia,Pennsylvania,Northeast,2020-11-18
+C-11023,Michelle Miller,Consumer,Boston,Massachusetts,Northeast,2023-04-04
+C-11024,Silverridge Architects LLC,Small Business,San Diego,California,West,2019-06-01
+C-11025,Lakesidegate Logistics Group,Small Business,Detroit,Michigan,Midwest,2023-06-02
+C-11026,Sandra Robinson,Consumer,Columbus,Ohio,Midwest,2021-05-18
+C-11027,Northridge Marketing Partners,Small Business,New York,New York,Northeast,2024-01-27
+C-11028,Joseph Cohen,Consumer,Columbus,Ohio,Midwest,2024-12-19
+C-11029,Crescentfield Builders LLC,Corporate,Chicago,Illinois,Midwest,2021-09-07
+C-11030,Redwoodpeak Marketing Inc.,Small Business,Atlanta,Georgia,South,2020-03-17
+C-11031,Northgate Software Group,Small Business,Pittsburgh,Pennsylvania,Northeast,2021-05-08
+C-11032,Northpeak Builders Group,Small Business,Seattle,Washington,West,2019-12-16
+C-11033,Pinepeak Engineering Co.,Small Business,Portland,Oregon,West,2023-01-21
+C-11034,Ironfield Dental Group Co.,Corporate,Buffalo,New York,Northeast,2022-12-25
+C-11035,Mark Gonzalez,Consumer,Boston,Massachusetts,Northeast,2023-11-24
+C-11036,Prairieworks Academy Co.,Small Business,Boston,Massachusetts,Northeast,2024-06-21
+C-11037,Sterlinggate Realty Group,Small Business,Atlanta,Georgia,South,2020-04-26
+C-11038,Matthew Rossi,Consumer,Boston,Massachusetts,Northeast,2022-08-08
+C-11039,Ironvalley Design Studio Inc.,Corporate,San Francisco,California,West,2025-01-21
+C-11040,Amanda Silva,Consumer,Los Angeles,California,West,2018-07-08
+C-11041,Amanda Wilson,Consumer,San Francisco,California,West,2025-06-08
+C-11042,Robert Garcia,Consumer,Dallas,Texas,South,2020-07-22
+C-11043,Anthony White,Consumer,Phoenix,Arizona,West,2025-11-06
+C-11044,Crescentpath Software Co.,Small Business,New York,New York,Northeast,2024-06-22
+C-11045,Fatima Wilson,Consumer,Minneapolis,Minnesota,Midwest,2024-01-25
+C-11046,Daniel Ramirez,Consumer,Detroit,Michigan,Midwest,2021-01-16
+C-11047,Luis Davis,Consumer,Denver,Colorado,West,2023-07-25
+C-11048,Emily Ramirez,Consumer,Austin,Texas,South,2019-01-10
+C-11049,Harborgate Architects LLC,Small Business,Los Angeles,California,West,2023-07-01
+C-11050,Coppervalley Dental Group Group,Corporate,Philadelphia,Pennsylvania,Northeast,2020-09-22
+C-11051,Thomas Allen,Consumer,Phoenix,Arizona,West,2022-12-17
+C-11052,Richard Flores,Consumer,Houston,Texas,South,2024-05-01
+C-11053,Anthony Haile,Consumer,Houston,Texas,South,2018-12-26
+C-11054,Beaconbridge Consulting Co.,Small Business,Phoenix,Arizona,West,2019-02-21
+C-11055,Jessica Thompson,Consumer,Cleveland,Ohio,Midwest,2025-08-28
+C-11056,James Hill,Consumer,Minneapolis,Minnesota,Midwest,2020-03-11
+C-11057,Fatima Jones,Consumer,Austin,Texas,South,2021-01-22
+C-11058,Grace Johnson,Consumer,Boston,Massachusetts,Northeast,2020-04-08
+C-11059,Diego Thompson,Consumer,Detroit,Michigan,Midwest,2020-03-21
+C-11060,Samuel Wright,Consumer,Pittsburgh,Pennsylvania,Northeast,2024-05-01
+C-11061,Lakesidefield Engineering Co.,Small Business,Buffalo,New York,Northeast,2023-11-09
+C-11062,Crescentgate Design Studio Partners,Small Business,San Diego,California,West,2018-04-06
+C-11063,Wei Rossi,Consumer,Atlanta,Georgia,South,2025-02-18
+C-11064,Bluebridge Marketing Inc.,Small Business,Columbus,Ohio,Midwest,2018-05-03
+C-11065,Lakesideridge Accounting LLC,Small Business,Minneapolis,Minnesota,Midwest,2020-12-25
+C-11066,Michelle Nguyen,Consumer,Indianapolis,Indiana,Midwest,2024-09-15
+C-11067,Carlos Davis,Consumer,Miami,Florida,South,2021-10-10
+C-11068,Michael Chen,Consumer,Portland,Oregon,West,2022-11-22
+C-11069,Harborridge Marketing LLC,Small Business,Portland,Oregon,West,2023-02-11
+C-11070,Matthew Flores,Consumer,Minneapolis,Minnesota,Midwest,2024-11-26
+C-11071,Sterlingvalley Consulting Partners,Small Business,Detroit,Michigan,Midwest,2024-06-03
+C-11072,Richard Young,Consumer,Milwaukee,Wisconsin,Midwest,2017-12-10
+C-11073,Kevin Walker,Consumer,Austin,Texas,South,2020-09-02
+C-11074,Granitevalley Logistics Co.,Corporate,Houston,Texas,South,2018-08-17
+C-11075,William Rodriguez,Consumer,Miami,Florida,South,2024-06-14
+C-11076,Silverpoint Dental Group Inc.,Small Business,Dallas,Texas,South,2022-11-22
+C-11077,Harborfield Builders Partners,Corporate,Detroit,Michigan,Midwest,2020-02-24
+C-11078,Bluestone Logistics Partners,Small Business,Columbus,Ohio,Midwest,2019-10-17
+C-11079,Barbara Rossi,Consumer,Cleveland,Ohio,Midwest,2018-10-01
+C-11080,Pinestone Design Studio LLC,Small Business,Buffalo,New York,Northeast,2025-05-12
+C-11081,Brian Harris,Consumer,Philadelphia,Pennsylvania,Northeast,2024-01-15
+C-11082,Mary Silva,Consumer,Nashville,Tennessee,South,2022-12-14
+C-11083,Redwoodgate Health Clinic Co.,Small Business,Minneapolis,Minnesota,Midwest,2022-04-25
+C-11084,Northpath Software LLC,Small Business,Newark,New Jersey,Northeast,2018-12-29
+C-11085,Brian Rossi,Consumer,Austin,Texas,South,2024-08-19
+C-11086,Thomas Torres,Consumer,Los Angeles,California,West,2024-10-18
+C-11087,Beaconpoint Software Partners,Small Business,Chicago,Illinois,Midwest,2021-10-04
+C-11088,Ironpath Realty Partners,Small Business,San Francisco,California,West,2022-08-16
+C-11089,Joshua Smith,Consumer,Portland,Oregon,West,2018-09-13
+C-11090,Redwoodfield Consulting Co.,Corporate,Atlanta,Georgia,South,2022-08-16
+C-11091,John Williams,Consumer,Orlando,Florida,South,2022-04-02
+C-11092,Jessica Taylor,Consumer,New York,New York,Northeast,2023-11-27
+C-11093,Northfield Law Partners Inc.,Small Business,Denver,Colorado,West,2024-03-27
+C-11094,Prairiepeak Health Clinic Co.,Corporate,Minneapolis,Minnesota,Midwest,2018-03-17
+C-11095,Richard Miller,Consumer,Portland,Oregon,West,2022-10-30
+C-11096,Grace Robinson,Consumer,Austin,Texas,South,2022-12-03
+C-11097,Sandra Wright,Consumer,New York,New York,Northeast,2023-05-06
+C-11098,Maplefield Health Clinic Inc.,Small Business,New York,New York,Northeast,2022-01-14
+C-11099,Noah Young,Consumer,Orlando,Florida,South,2021-01-21
+C-11100,Susan Moore,Consumer,Austin,Texas,South,2023-06-14
+C-11101,Maplebridge Dental Group Inc.,Corporate,New York,New York,Northeast,2022-01-29
+C-11102,Daniel King,Consumer,Los Angeles,California,West,2018-10-01
+C-11103,Kevin Haile,Consumer,San Francisco,California,West,2024-04-10
+C-11104,Noah Scott,Consumer,Houston,Texas,South,2022-02-14
+C-11105,Crescentpoint Engineering LLC,Small Business,Houston,Texas,South,2024-06-02
+C-11106,Michelle Lopez,Consumer,New York,New York,Northeast,2024-06-07
+C-11107,Steven Anderson,Consumer,Los Angeles,California,West,2020-05-05
+C-11108,Noah Nguyen,Consumer,Detroit,Michigan,Midwest,2024-06-15
+C-11109,Silverridge Engineering Inc.,Small Business,San Diego,California,West,2021-06-18
+C-11110,Cobaltstone Health Clinic Co.,Small Business,Cleveland,Ohio,Midwest,2022-04-12
+C-11111,Luis Murphy,Consumer,Austin,Texas,South,2022-08-30
+C-11112,Omar Young,Consumer,Chicago,Illinois,Midwest,2023-03-30
+C-11113,Cobaltpoint Engineering Group,Corporate,Philadelphia,Pennsylvania,Northeast,2024-09-11
+C-11114,William Taylor,Consumer,Los Angeles,California,West,2025-06-02
+C-11115,Mary Chen,Consumer,Houston,Texas,South,2025-08-06
+C-11116,Richard Novak,Consumer,Dallas,Texas,South,2020-09-17
+C-11117,Melissa Martin,Consumer,Denver,Colorado,West,2023-08-10
+C-11118,Melissa Perez,Consumer,Denver,Colorado,West,2023-08-13
+C-11119,Aisha King,Consumer,San Diego,California,West,2018-07-27
+C-11120,Andrew Brown,Consumer,Philadelphia,Pennsylvania,Northeast,2023-10-28
+C-11121,Patricia Rodriguez,Consumer,Atlanta,Georgia,South,2024-01-04
+C-11122,Maplevalley Academy Partners,Small Business,San Diego,California,West,2022-10-25
+C-11123,Thomas Garcia,Consumer,Cleveland,Ohio,Midwest,2025-01-03
+C-11124,Samuel Lee,Consumer,Buffalo,New York,Northeast,2021-05-14
+C-11125,Pinepoint Consulting Partners,Small Business,Los Angeles,California,West,2023-03-08
+C-11126,Ashley Hernandez,Consumer,Houston,Texas,South,2019-06-15
+C-11127,Cobaltpath Builders LLC,Small Business,Austin,Texas,South,2021-06-23
+C-11128,Thomas Clark,Consumer,Phoenix,Arizona,West,2025-07-26
+C-11129,Prairiegate Builders LLC,Small Business,Atlanta,Georgia,South,2021-10-16
+C-11130,Fatima Anderson,Consumer,Indianapolis,Indiana,Midwest,2020-06-15
+C-11131,Sarah Rodriguez,Consumer,Cleveland,Ohio,Midwest,2024-07-18
+C-11132,Luis Torres,Consumer,Indianapolis,Indiana,Midwest,2019-06-23
+C-11133,Grace Nguyen,Consumer,Boston,Massachusetts,Northeast,2021-02-11
+C-11134,Amanda Nguyen,Consumer,Los Angeles,California,West,2021-11-18
+C-11135,Mapleridge Logistics Group,Small Business,San Francisco,California,West,2022-12-17
+C-11136,Redwoodpath Accounting Co.,Small Business,Chicago,Illinois,Midwest,2018-01-15
+C-11137,Amanda Torres,Consumer,Chicago,Illinois,Midwest,2022-10-13
+C-11138,Beaconstone Marketing LLC,Corporate,San Diego,California,West,2023-04-21
+C-11139,Lakesidevalley Builders Inc.,Small Business,New York,New York,Northeast,2019-04-05
+C-11140,Oakworks Design Studio Group,Small Business,Dallas,Texas,South,2024-06-24
+C-11141,Cobaltbridge Realty LLC,Small Business,Houston,Texas,South,2019-07-14
+C-11142,Harborbridge Health Clinic LLC,Small Business,Charlotte,North Carolina,South,2022-09-29
+C-11143,Linda Lee,Consumer,Philadelphia,Pennsylvania,Northeast,2020-05-10
+C-11144,Cobaltvalley Architects Partners,Small Business,Orlando,Florida,South,2025-08-07
+C-11145,Lakesidepoint Realty Group,Corporate,Cleveland,Ohio,Midwest,2021-11-20
+C-11146,Hannah King,Consumer,Atlanta,Georgia,South,2022-05-28
+C-11147,Samuel Smith,Consumer,New York,New York,Northeast,2021-06-27
+C-11148,Sarah Davis,Consumer,Houston,Texas,South,2022-01-10
+C-11149,Oakbridge Realty Group,Corporate,Dallas,Texas,South,2018-11-23
+C-11150,Matthew Wright,Consumer,Newark,New Jersey,Northeast,2020-03-27
+C-11151,Crescentpoint Software Partners,Small Business,Boston,Massachusetts,Northeast,2018-04-27
+C-11152,Brightridge Dental Group Inc.,Small Business,Philadelphia,Pennsylvania,Northeast,2024-10-03
+C-11153,Copperbridge Marketing Partners,Corporate,Columbus,Ohio,Midwest,2023-12-02
+C-11154,Aisha Thomas,Consumer,Buffalo,New York,Northeast,2023-05-24
+C-11155,Sterlingridge Consulting Co.,Small Business,Denver,Colorado,West,2024-08-04
+C-11156,Prairiepath Realty Partners,Corporate,Minneapolis,Minnesota,Midwest,2024-05-01
+C-11157,James Lewis,Consumer,Los Angeles,California,West,2019-04-16
+C-11158,Redwoodfield Dental Group LLC,Small Business,Phoenix,Arizona,West,2022-11-16
+C-11159,William Anderson,Consumer,New York,New York,Northeast,2025-08-04
+C-11160,Crescentgate Logistics LLC,Small Business,Miami,Florida,South,2022-08-29
+C-11161,Daniel White,Consumer,San Diego,California,West,2025-10-04
+C-11162,David Taylor,Consumer,Miami,Florida,South,2023-11-05
+C-11163,Amanda Ramirez,Consumer,Indianapolis,Indiana,Midwest,2025-11-26
+C-11164,Mary Smith,Consumer,Indianapolis,Indiana,Midwest,2023-05-21
+C-11165,Robert Lee,Consumer,New York,New York,Northeast,2018-05-15
+C-11166,Lakesidepoint Engineering Co.,Small Business,Dallas,Texas,South,2024-05-29
+C-11167,Jennifer King,Consumer,Phoenix,Arizona,West,2023-04-30
+C-11168,Daniel Haile,Consumer,Denver,Colorado,West,2022-11-08
+C-11169,Redwoodpoint Accounting Partners,Small Business,New York,New York,Northeast,2024-01-15
+C-11170,Rivergate Marketing Co.,Small Business,Charlotte,North Carolina,South,2018-04-26
+C-11171,Aisha Ramirez,Consumer,Chicago,Illinois,Midwest,2020-07-29
+C-11172,Brightstone Marketing Co.,Corporate,Seattle,Washington,West,2020-10-27
+C-11173,William Gonzalez,Consumer,New York,New York,Northeast,2024-07-02
+C-11174,Ironfield Design Studio LLC,Small Business,Portland,Oregon,West,2018-07-22
+C-11175,Karen Perez,Consumer,San Francisco,California,West,2025-09-04
+C-11176,Harborbridge Architects LLC,Small Business,Boston,Massachusetts,Northeast,2022-03-04
+C-11177,Maplepoint Law Partners Inc.,Corporate,New York,New York,Northeast,2024-07-23
+C-11178,Brightbridge Engineering Co.,Small Business,San Francisco,California,West,2019-07-26
+C-11179,Lisa Jackson,Consumer,Philadelphia,Pennsylvania,Northeast,2024-07-23
+C-11180,Riverstone Consulting LLC,Small Business,Dallas,Texas,South,2019-10-01
+C-11181,Brian Nguyen,Consumer,Seattle,Washington,West,2024-09-09
+C-11182,Beaconvalley Realty Co.,Small Business,Austin,Texas,South,2019-06-11
+C-11183,Pinebridge Academy Group,Small Business,Minneapolis,Minnesota,Midwest,2018-03-03
+C-11184,Northpoint Law Partners Group,Corporate,Milwaukee,Wisconsin,Midwest,2018-06-11
+C-11185,Diego Silva,Consumer,New York,New York,Northeast,2025-03-09
+C-11186,Michelle Young,Consumer,Phoenix,Arizona,West,2020-09-26
+C-11187,Joseph Kim,Consumer,Chicago,Illinois,Midwest,2022-10-18
+C-11188,Samuel Chen,Consumer,Pittsburgh,Pennsylvania,Northeast,2022-12-02
+C-11189,Robert Jones,Consumer,Chicago,Illinois,Midwest,2024-05-25
+C-11190,Mark Allen,Consumer,Denver,Colorado,West,2019-04-17
+C-11191,Sterlinggate Engineering Co.,Small Business,Buffalo,New York,Northeast,2018-09-28
+C-11192,Steven Cohen,Consumer,San Diego,California,West,2019-08-05
+C-11193,Emily Hernandez,Consumer,Charlotte,North Carolina,South,2021-10-27
+C-11194,Matthew Allen,Consumer,San Francisco,California,West,2024-11-04
+C-11195,Crescentvalley Architects Co.,Small Business,Phoenix,Arizona,West,2020-04-25
+C-11196,Prairiepoint Dental Group Group,Small Business,San Francisco,California,West,2018-11-05
+C-11197,James Taylor,Consumer,Denver,Colorado,West,2020-01-17
+C-11198,Daniel Hill,Consumer,Boston,Massachusetts,Northeast,2023-02-21
+C-11199,Mary Young,Consumer,Los Angeles,California,West,2019-03-09
+C-11200,Emily Jones,Consumer,Dallas,Texas,South,2023-12-26
+C-11201,Susan Cohen,Consumer,Dallas,Texas,South,2019-11-23
+C-11202,Elizabeth Thomas,Consumer,Seattle,Washington,West,2023-11-27
+C-11203,Sterlingbridge Accounting Group,Corporate,Phoenix,Arizona,West,2023-12-02
+C-11204,Ashley White,Consumer,Charlotte,North Carolina,South,2019-04-14
+C-11205,Oakworks Architects Group,Small Business,Houston,Texas,South,2019-08-06
+C-11206,Sandra Williams,Consumer,Houston,Texas,South,2019-11-24
+C-11207,Prairiegate Law Partners Co.,Corporate,Cleveland,Ohio,Midwest,2020-12-31
+C-11208,Redwoodvalley Consulting LLC,Corporate,Columbus,Ohio,Midwest,2020-10-12
+C-11209,Granitefield Academy Partners,Small Business,Minneapolis,Minnesota,Midwest,2023-06-17
+C-11210,Grace Rodriguez,Consumer,Buffalo,New York,Northeast,2025-04-16
+C-11211,Priya Ramirez,Consumer,New York,New York,Northeast,2020-05-28
+C-11212,Prairiebridge Software Group,Small Business,Los Angeles,California,West,2025-06-11
+C-11213,Granitepoint Accounting Inc.,Small Business,Milwaukee,Wisconsin,Midwest,2021-02-01
+C-11214,Diego Lee,Consumer,Portland,Oregon,West,2024-06-19
+C-11215,Diego Walker,Consumer,Atlanta,Georgia,South,2019-05-24
+C-11216,Mark Davis,Consumer,New York,New York,Northeast,2024-06-27
+C-11217,Cobaltgate Consulting Partners,Small Business,Philadelphia,Pennsylvania,Northeast,2023-04-12
+C-11218,Bluevalley Dental Group Partners,Small Business,Pittsburgh,Pennsylvania,Northeast,2019-07-06
+C-11219,Brightfield Law Partners Co.,Small Business,Phoenix,Arizona,West,2019-07-03
+C-11220,Silverbridge Builders Inc.,Small Business,Newark,New Jersey,Northeast,2020-10-05
+C-11221,Wei Sanchez,Consumer,Dallas,Texas,South,2023-09-06
+C-11222,Steven Martin,Consumer,Portland,Oregon,West,2023-04-06
+C-11223,Michelle Rossi,Consumer,Phoenix,Arizona,West,2024-11-10
+C-11224,Sterlingbridge Consulting LLC,Small Business,Hartford,Connecticut,Northeast,2024-04-26
+C-11225,Richard Jackson,Consumer,New York,New York,Northeast,2024-01-09
+C-11226,Carlos Miller,Consumer,Philadelphia,Pennsylvania,Northeast,2022-02-06
+C-11227,Mary Kim,Consumer,New York,New York,Northeast,2022-06-07
+C-11228,Fatima Nguyen,Consumer,Pittsburgh,Pennsylvania,Northeast,2022-01-11
+C-11229,Emily Allen,Consumer,Austin,Texas,South,2020-03-17
+C-11230,Brian Young,Consumer,Seattle,Washington,West,2025-05-02
+C-11231,Barbara Gonzalez,Consumer,Dallas,Texas,South,2018-02-07
+C-11232,Harborfield Consulting LLC,Small Business,Atlanta,Georgia,South,2019-08-15
+C-11233,James Cohen,Consumer,Pittsburgh,Pennsylvania,Northeast,2025-01-22
+C-11234,Noah Clark,Consumer,Los Angeles,California,West,2019-11-22
+C-11235,Mei Ramirez,Consumer,Atlanta,Georgia,South,2018-03-22
+C-11236,Lakesidegate Health Clinic Inc.,Small Business,San Diego,California,West,2019-04-23
+C-11237,Steven Scott,Consumer,Denver,Colorado,West,2022-12-05
+C-11238,Redwoodpoint Law Partners Group,Small Business,Columbus,Ohio,Midwest,2022-10-11
+C-11239,Summitfield Builders Partners,Corporate,Buffalo,New York,Northeast,2018-04-24
+C-11240,Brightpath Builders LLC,Small Business,Newark,New Jersey,Northeast,2020-12-04
+C-11241,Matthew Jackson,Consumer,Indianapolis,Indiana,Midwest,2025-01-02
+C-11242,Cobaltstone Academy Group,Small Business,Denver,Colorado,West,2022-09-29
+C-11243,Brian Silva,Consumer,Cleveland,Ohio,Midwest,2018-02-07
+C-11244,Mark King,Consumer,Los Angeles,California,West,2025-06-18
+C-11245,Linda Thompson,Consumer,Dallas,Texas,South,2025-09-22
+C-11246,Emily Thomas,Consumer,Philadelphia,Pennsylvania,Northeast,2019-10-09
+C-11247,Mark Chen,Consumer,Detroit,Michigan,Midwest,2022-07-04
+C-11248,Barbara Perez,Consumer,Miami,Florida,South,2022-12-11
+C-11249,Mary Clark,Consumer,Orlando,Florida,South,2022-11-09
+C-11250,Karen Okafor,Consumer,Indianapolis,Indiana,Midwest,2020-06-26
+C-11251,Matthew Thomas,Consumer,Newark,New Jersey,Northeast,2022-09-08
+C-11252,Prairieworks Accounting Group,Corporate,Nashville,Tennessee,South,2023-03-29
+C-11253,Mark Hill,Consumer,Philadelphia,Pennsylvania,Northeast,2024-03-05
+C-11254,Granitegate Software Co.,Small Business,Portland,Oregon,West,2023-07-24
+C-11255,Amanda Cohen,Consumer,Philadelphia,Pennsylvania,Northeast,2023-08-25
+C-11256,Barbara Okafor,Consumer,Boston,Massachusetts,Northeast,2022-12-18
+C-11257,David Martinez,Consumer,Houston,Texas,South,2022-08-04
+C-11258,Brian Okafor,Consumer,Dallas,Texas,South,2021-08-22
+C-11259,Fatima Young,Consumer,Houston,Texas,South,2018-11-11
+C-11260,Steven Kim,Consumer,Indianapolis,Indiana,Midwest,2021-03-16
+C-11261,John Rossi,Consumer,Phoenix,Arizona,West,2025-03-04
+C-11262,Joshua King,Consumer,Houston,Texas,South,2019-02-27
+C-11263,Sarah Chen,Consumer,Houston,Texas,South,2025-10-14
+C-11264,Jessica Gonzalez,Consumer,Indianapolis,Indiana,Midwest,2020-04-07
+C-11265,Barbara Sanchez,Consumer,New York,New York,Northeast,2020-07-31
+C-11266,Michelle White,Consumer,Atlanta,Georgia,South,2025-11-02
+C-11267,Jennifer Allen,Consumer,Newark,New Jersey,Northeast,2020-11-15
+C-11268,Elizabeth Smith,Consumer,Miami,Florida,South,2022-11-19
+C-11269,Sandra Murphy,Consumer,New York,New York,Northeast,2021-01-16
+C-11270,Thomas Cohen,Consumer,Phoenix,Arizona,West,2023-08-27
+C-11271,Oakpoint Architects Co.,Corporate,Houston,Texas,South,2020-01-26
+C-11272,Hannah Cohen,Consumer,Seattle,Washington,West,2024-03-09
+C-11273,William Moore,Consumer,Houston,Texas,South,2025-01-08
+C-11274,Joshua Harris,Consumer,New York,New York,Northeast,2021-10-08
+C-11275,Maplegate Architects Inc.,Corporate,San Francisco,California,West,2020-10-19
+C-11276,Brightpath Academy LLC,Small Business,Miami,Florida,South,2019-12-12
+C-11277,Crescentstone Accounting Inc.,Small Business,Los Angeles,California,West,2024-02-24
+C-11278,Mapleridge Consulting LLC,Corporate,Indianapolis,Indiana,Midwest,2023-01-28
+C-11279,Sarah Thompson,Consumer,Miami,Florida,South,2021-03-10
+C-11280,Summitvalley Consulting Group,Corporate,San Diego,California,West,2021-01-01
+C-11281,Amanda King,Consumer,Miami,Florida,South,2024-10-02
+C-11282,Crescentgate Health Clinic Group,Small Business,Columbus,Ohio,Midwest,2024-02-25
+C-11283,Wei Thompson,Consumer,Miami,Florida,South,2025-11-01
+C-11284,Richard Lee,Consumer,Orlando,Florida,South,2024-05-11
+C-11285,Prairiepoint Consulting LLC,Corporate,Denver,Colorado,West,2023-12-28
+C-11286,Thomas Martinez,Consumer,Cleveland,Ohio,Midwest,2022-03-21
+C-11287,Bluepoint Academy Co.,Corporate,Indianapolis,Indiana,Midwest,2019-12-14
+C-11288,Mark Rodriguez,Consumer,Los Angeles,California,West,2020-12-27
+C-11289,Harborfield Engineering Co.,Small Business,Houston,Texas,South,2021-01-28
+C-11290,Brightstone Logistics Co.,Corporate,Nashville,Tennessee,South,2022-08-19
+C-11291,Steven Johnson,Consumer,Houston,Texas,South,2019-06-29
+C-11292,Bluepeak Design Studio Co.,Corporate,Newark,New Jersey,Northeast,2023-03-08
+C-11293,Mary Jackson,Consumer,Los Angeles,California,West,2023-09-13
+C-11294,Bluestone Academy Inc.,Small Business,Boston,Massachusetts,Northeast,2022-07-27
+C-11295,Samuel Okafor,Consumer,Pittsburgh,Pennsylvania,Northeast,2022-10-29
+C-11296,Olivia Garcia,Consumer,Atlanta,Georgia,South,2021-05-31
+C-11297,Harborfield Consulting Co.,Small Business,Los Angeles,California,West,2023-02-10
+C-11298,Aisha Harris,Consumer,Seattle,Washington,West,2018-01-21
+C-11299,Wei Nguyen,Consumer,Chicago,Illinois,Midwest,2025-11-04
+C-11300,Michelle Lee,Consumer,Boston,Massachusetts,Northeast,2024-06-10
+C-11301,Lakesideworks Engineering Group,Small Business,Denver,Colorado,West,2022-03-01
+C-11302,Omar Smith,Consumer,Philadelphia,Pennsylvania,Northeast,2023-05-27
+C-11303,Prairiebridge Design Studio Co.,Small Business,Pittsburgh,Pennsylvania,Northeast,2020-04-03
+C-11304,Silverworks Law Partners LLC,Corporate,Chicago,Illinois,Midwest,2023-01-31
+C-11305,Anthony Rodriguez,Consumer,Dallas,Texas,South,2022-12-11
+C-11306,Luis Wilson,Consumer,San Diego,California,West,2023-12-21
+C-11307,Redwoodgate Design Studio Co.,Small Business,Los Angeles,California,West,2021-06-26
+C-11308,Priya Garcia,Consumer,Charlotte,North Carolina,South,2019-08-25
+C-11309,Ashley King,Consumer,Philadelphia,Pennsylvania,Northeast,2023-08-14
+C-11310,Granitepeak Consulting LLC,Small Business,Columbus,Ohio,Midwest,2019-11-19
+C-11311,Barbara Anderson,Consumer,Houston,Texas,South,2022-11-24
+C-11312,Emily Lewis,Consumer,Boston,Massachusetts,Northeast,2023-10-10
+C-11313,Sterlingstone Design Studio LLC,Small Business,Chicago,Illinois,Midwest,2025-09-09
+C-11314,Barbara Jones,Consumer,Chicago,Illinois,Midwest,2019-04-08
+C-11315,Luis Haile,Consumer,Boston,Massachusetts,Northeast,2024-05-04
+C-11316,Ashley Nguyen,Consumer,Dallas,Texas,South,2019-08-06
+C-11317,Maplestone Realty Co.,Corporate,Charlotte,North Carolina,South,2024-05-27
+C-11318,Ironfield Marketing LLC,Small Business,New York,New York,Northeast,2022-11-16
+C-11319,David Torres,Consumer,Houston,Texas,South,2021-05-29
+C-11320,William Ramirez,Consumer,Los Angeles,California,West,2018-10-05
+C-11321,Mei Rossi,Consumer,Los Angeles,California,West,2018-05-18
+C-11322,Karen Murphy,Consumer,Los Angeles,California,West,2022-08-02
+C-11323,Emily Silva,Consumer,Milwaukee,Wisconsin,Midwest,2022-06-01
+C-11324,Copperworks Engineering Group,Corporate,San Francisco,California,West,2021-01-21
+C-11325,Karen Jones,Consumer,Hartford,Connecticut,Northeast,2020-04-23
+C-11326,Prairievalley Software Partners,Small Business,Columbus,Ohio,Midwest,2024-10-22
+C-11327,Mark Silva,Consumer,Philadelphia,Pennsylvania,Northeast,2019-11-23
+C-11328,David Smith,Consumer,Houston,Texas,South,2022-09-07
+C-11329,Patricia Ramirez,Consumer,Minneapolis,Minnesota,Midwest,2023-08-16
+C-11330,John Chen,Consumer,Hartford,Connecticut,Northeast,2024-04-11
+C-11331,Oakbridge Accounting Inc.,Small Business,Los Angeles,California,West,2023-09-14
+C-11332,Lakesidebridge Accounting LLC,Corporate,Detroit,Michigan,Midwest,2023-08-19
+C-11333,Pinegate Dental Group Partners,Small Business,Chicago,Illinois,Midwest,2023-05-30
+C-11334,Emily Wright,Consumer,Boston,Massachusetts,Northeast,2018-08-31
+C-11335,Prairievalley Dental Group Partners,Small Business,Milwaukee,Wisconsin,Midwest,2020-10-26
+C-11336,Karen Gonzalez,Consumer,Chicago,Illinois,Midwest,2025-08-27
+C-11337,Harborgate Engineering Group,Corporate,Cleveland,Ohio,Midwest,2021-03-07
+C-11338,Thomas Hernandez,Consumer,Hartford,Connecticut,Northeast,2023-08-15
+C-11339,Daniel Robinson,Consumer,Los Angeles,California,West,2024-01-11
+C-11340,Grace Lee,Consumer,Portland,Oregon,West,2025-01-26
+C-11341,Anthony Allen,Consumer,Houston,Texas,South,2018-11-05
+C-11342,Wei Martin,Consumer,Miami,Florida,South,2023-08-19
+C-11343,Bluepath Builders LLC,Corporate,San Diego,California,West,2024-12-06
+C-11344,Crescentpoint Design Studio Inc.,Small Business,Phoenix,Arizona,West,2018-02-24
+C-11345,Harborridge Dental Group Co.,Corporate,Atlanta,Georgia,South,2025-04-02
+C-11346,Melissa Williams,Consumer,Seattle,Washington,West,2023-02-20
+C-11347,Joseph Flores,Consumer,Seattle,Washington,West,2025-03-15
+C-11348,Melissa Nguyen,Consumer,Los Angeles,California,West,2023-08-13
+C-11349,Mark Garcia,Consumer,Houston,Texas,South,2019-08-21
+C-11350,Barbara Silva,Consumer,New York,New York,Northeast,2024-12-21
+C-11351,Jessica Jones,Consumer,New York,New York,Northeast,2025-04-09
+C-11352,Elizabeth Rodriguez,Consumer,Houston,Texas,South,2018-10-07
+C-11353,Thomas Silva,Consumer,Houston,Texas,South,2019-01-17
+C-11354,Barbara Brown,Consumer,Minneapolis,Minnesota,Midwest,2018-08-25
+C-11355,Lakesidefield Academy Inc.,Small Business,Austin,Texas,South,2020-11-05
+C-11356,Sandra Nguyen,Consumer,Dallas,Texas,South,2025-11-23
+C-11357,Riverpath Architects Group,Corporate,San Francisco,California,West,2019-10-08
+C-11358,Elizabeth Okafor,Consumer,Boston,Massachusetts,Northeast,2024-03-05
+C-11359,Summitstone Accounting Group,Small Business,Newark,New Jersey,Northeast,2020-10-23
+C-11360,Bluepeak Realty Group,Small Business,Los Angeles,California,West,2024-09-12
+C-11361,Summitvalley Software Partners,Small Business,San Francisco,California,West,2020-05-23
+C-11362,Beaconpeak Academy Inc.,Small Business,Phoenix,Arizona,West,2024-07-09
+C-11363,Copperpath Health Clinic Partners,Small Business,San Diego,California,West,2020-01-13
+C-11364,Sterlingworks Consulting Co.,Small Business,Seattle,Washington,West,2025-03-29
+C-11365,Lisa King,Consumer,Detroit,Michigan,Midwest,2021-05-13
+C-11366,Jessica Brown,Consumer,Minneapolis,Minnesota,Midwest,2020-11-09
+C-11367,Prairiestone Accounting Partners,Small Business,Chicago,Illinois,Midwest,2022-11-27
+C-11368,Robert Martin,Consumer,Atlanta,Georgia,South,2024-03-16
+C-11369,Matthew Lopez,Consumer,Portland,Oregon,West,2025-03-16
+C-11370,Joseph White,Consumer,Columbus,Ohio,Midwest,2020-08-05
+C-11371,Amanda White,Consumer,Austin,Texas,South,2019-01-05
+C-11372,Carlos Hill,Consumer,Chicago,Illinois,Midwest,2022-02-02
+C-11373,Crescentpeak Health Clinic Co.,Small Business,Philadelphia,Pennsylvania,Northeast,2025-06-08
+C-11374,Silverfield Accounting Co.,Small Business,Pittsburgh,Pennsylvania,Northeast,2019-09-05
+C-11375,Pinepoint Software Co.,Small Business,New York,New York,Northeast,2024-11-28
+C-11376,Brian Novak,Consumer,Denver,Colorado,West,2025-03-26
+C-11377,Omar Martin,Consumer,Minneapolis,Minnesota,Midwest,2022-11-09
+C-11378,Omar Williams,Consumer,San Francisco,California,West,2021-05-25
+C-11379,Joseph Jones,Consumer,Orlando,Florida,South,2021-10-17
+C-11380,Lakesidevalley Law Partners Group,Small Business,Pittsburgh,Pennsylvania,Northeast,2018-10-14
+C-11381,Mark Taylor,Consumer,Philadelphia,Pennsylvania,Northeast,2025-03-22
+C-11382,Ironstone Health Clinic Partners,Corporate,Los Angeles,California,West,2018-11-28
+C-11383,Patricia Johnson,Consumer,Chicago,Illinois,Midwest,2024-04-02
+C-11384,Pineworks Builders LLC,Small Business,Seattle,Washington,West,2023-12-31
+C-11385,Priya Jackson,Consumer,Boston,Massachusetts,Northeast,2024-09-08
+C-11386,Grace Rossi,Consumer,Orlando,Florida,South,2021-06-07
+C-11387,Redwoodpoint Software Group,Small Business,Los Angeles,California,West,2019-05-03
+C-11388,Mary Harris,Consumer,Hartford,Connecticut,Northeast,2022-09-03
+C-11389,Redwoodpoint Builders Co.,Small Business,Chicago,Illinois,Midwest,2023-08-28
+C-11390,Joshua Johnson,Consumer,Denver,Colorado,West,2024-05-25
+C-11391,Patricia Haile,Consumer,Chicago,Illinois,Midwest,2021-09-01
+C-11392,Joseph Davis,Consumer,Indianapolis,Indiana,Midwest,2024-12-13
+C-11393,Redwoodridge Marketing Group,Small Business,Indianapolis,Indiana,Midwest,2019-01-22
+C-11394,Sandra Thomas,Consumer,Chicago,Illinois,Midwest,2020-11-13
+C-11395,Sterlingstone Realty Partners,Corporate,Los Angeles,California,West,2019-01-05
+C-11396,Silvervalley Consulting Partners,Small Business,Los Angeles,California,West,2022-06-16
+C-11397,Ironridge Marketing Inc.,Small Business,Cleveland,Ohio,Midwest,2019-10-31
+C-11398,Mei Jones,Consumer,San Francisco,California,West,2018-05-08
+C-11399,Granitefield Engineering Partners,Small Business,Newark,New Jersey,Northeast,2022-09-15
+C-11400,Beacongate Law Partners LLC,Corporate,New York,New York,Northeast,2024-05-10

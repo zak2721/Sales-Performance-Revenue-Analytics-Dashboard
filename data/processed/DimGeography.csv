@@ -1,0 +1,30 @@
+GeographyKey,Country,Region,State,StateCode,City,Latitude,Longitude
+1,United States,Midwest,Illinois,IL,Chicago,41.8781,-87.6298
+2,United States,Midwest,Indiana,IN,Indianapolis,39.7684,-86.1581
+3,United States,Midwest,Michigan,MI,Detroit,42.3314,-83.0458
+4,United States,Midwest,Minnesota,MN,Minneapolis,44.9778,-93.2650
+5,United States,Midwest,Ohio,OH,Cleveland,41.4993,-81.6944
+6,United States,Midwest,Ohio,OH,Columbus,39.9612,-82.9988
+7,United States,Midwest,Wisconsin,WI,Milwaukee,43.0389,-87.9065
+8,United States,Northeast,Connecticut,CT,Hartford,41.7658,-72.6734
+9,United States,Northeast,Massachusetts,MA,Boston,42.3601,-71.0589
+10,United States,Northeast,New Jersey,NJ,Newark,40.7357,-74.1724
+11,United States,Northeast,New York,NY,Buffalo,42.8864,-78.8784
+12,United States,Northeast,New York,NY,New York,40.7128,-74.0060
+13,United States,Northeast,Pennsylvania,PA,Philadelphia,39.9526,-75.1652
+14,United States,Northeast,Pennsylvania,PA,Pittsburgh,40.4406,-79.9959
+15,United States,South,Florida,FL,Miami,25.7617,-80.1918
+16,United States,South,Florida,FL,Orlando,28.5383,-81.3792
+17,United States,South,Georgia,GA,Atlanta,33.7490,-84.3880
+18,United States,South,North Carolina,NC,Charlotte,35.2271,-80.8431
+19,United States,South,Tennessee,TN,Nashville,36.1627,-86.7816
+20,United States,South,Texas,TX,Austin,30.2672,-97.7431
+21,United States,South,Texas,TX,Dallas,32.7767,-96.7970
+22,United States,South,Texas,TX,Houston,29.7604,-95.3698
+23,United States,West,Arizona,AZ,Phoenix,33.4484,-112.0740
+24,United States,West,California,CA,Los Angeles,34.0522,-118.2437
+25,United States,West,California,CA,San Diego,32.7157,-117.1611
+26,United States,West,California,CA,San Francisco,37.7749,-122.4194
+27,United States,West,Colorado,CO,Denver,39.7392,-104.9903
+28,United States,West,Oregon,OR,Portland,45.5152,-122.6784
+29,United States,West,Washington,WA,Seattle,47.6062,-122.3321

@@ -1,0 +1,30 @@
+City,State,StateCode,Region,Latitude,Longitude
+New York,New York,NY,Northeast,40.7128,-74.006
+Buffalo,New York,NY,Northeast,42.8864,-78.8784
+Boston,Massachusetts,MA,Northeast,42.3601,-71.0589
+Philadelphia,Pennsylvania,PA,Northeast,39.9526,-75.1652
+Pittsburgh,Pennsylvania,PA,Northeast,40.4406,-79.9959
+Newark,New Jersey,NJ,Northeast,40.7357,-74.1724
+Hartford,Connecticut,CT,Northeast,41.7658,-72.6734
+Chicago,Illinois,IL,Midwest,41.8781,-87.6298
+Detroit,Michigan,MI,Midwest,42.3314,-83.0458
+Columbus,Ohio,OH,Midwest,39.9612,-82.9988
+Cleveland,Ohio,OH,Midwest,41.4993,-81.6944
+Minneapolis,Minnesota,MN,Midwest,44.9778,-93.265
+Indianapolis,Indiana,IN,Midwest,39.7684,-86.1581
+Milwaukee,Wisconsin,WI,Midwest,43.0389,-87.9065
+Houston,Texas,TX,South,29.7604,-95.3698
+Dallas,Texas,TX,South,32.7767,-96.797
+Austin,Texas,TX,South,30.2672,-97.7431
+Atlanta,Georgia,GA,South,33.749,-84.388
+Miami,Florida,FL,South,25.7617,-80.1918
+Orlando,Florida,FL,South,28.5383,-81.3792
+Charlotte,North Carolina,NC,South,35.2271,-80.8431
+Nashville,Tennessee,TN,South,36.1627,-86.7816
+Los Angeles,California,CA,West,34.0522,-118.2437
+San Francisco,California,CA,West,37.7749,-122.4194
+San Diego,California,CA,West,32.7157,-117.1611
+Seattle,Washington,WA,West,47.6062,-122.3321
+Portland,Oregon,OR,West,45.5152,-122.6784
+Denver,Colorado,CO,West,39.7392,-104.9903
+Phoenix,Arizona,AZ,West,33.4484,-112.074

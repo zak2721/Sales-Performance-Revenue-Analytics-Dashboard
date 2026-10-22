@@ -1,0 +1,45 @@
+{
+  "name": "Meridian Executive",
+  "dataColors": [
+    "#1F3A5F",
+    "#0F9D8A",
+    "#64748B",
+    "#5FA8D3",
+    "#94A3B8",
+    "#E08E0B",
+    "#2E5C8A",
+    "#7FC8BA"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#1E293B",
+  "tableAccent": "#1F3A5F",
+  "good": "#0F9D8A",
+  "neutral": "#E08E0B",
+  "bad": "#C0392B",
+  "maximum": "#1F3A5F",
+  "center": "#94A3B8",
+  "minimum": "#E2E8F0",
+  "textClasses": {
+    "callout": { "fontFace": "Segoe UI Semibold", "fontSize": 24, "color": "#1F3A5F" },
+    "title": { "fontFace": "Segoe UI Semibold", "fontSize": 12, "color": "#1E293B" },
+    "header": { "fontFace": "Segoe UI Semibold", "fontSize": 11, "color": "#1E293B" },
+    "label": { "fontFace": "Segoe UI", "fontSize": 9, "color": "#475569" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": false }],
+        "dropShadow": [{ "show": false }],
+        "visualHeader": [{ "show": true }],
+        "title": [{ "show": true, "fontColor": { "solid": { "color": "#1E293B" } }, "fontSize": 11, "fontFamily": "Segoe UI Semibold" }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#F4F6F9" } }, "transparency": 0 }],
+        "outspace": [{ "color": { "solid": { "color": "#E9EDF2" } } }]
+      }
+    }
+  }
+}
