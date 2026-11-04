@@ -226,4 +226,4 @@ sales-performance-bi-dashboard/
 
 ## Author
 
-[Zekarias Adefris] - Power BI Developer & Data Analyst · [LinkedIn] · [Upwork profile]
+[Zekarias Adefris] - Power BI Developer & Data Analyst · 
